@@ -1,0 +1,49 @@
+{
+ "vendor": "Upfirst",
+ "url": "https://www.upfirst.ai/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/upfirst/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$24.95 billed monthly",
+   "billing": "monthly",
+   "included": "30 calls",
+   "overage": "$1.50 per extra call",
+   "line": 125
+  },
+  {
+   "name": "Premium",
+   "price": "$59.95 billed monthly",
+   "billing": "monthly",
+   "included": "90 calls",
+   "overage": "$1 per extra call",
+   "line": 130
+  },
+  {
+   "name": "Pro",
+   "price": "$159.95 billed monthly",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "75¢ per extra call",
+   "line": 135
+  },
+  {
+   "name": "Scale",
+   "price": "$299 billed monthly",
+   "billing": "monthly",
+   "included": "600 calls",
+   "overage": "70¢ per extra call",
+   "line": 140
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Annual billing saves 20%: $20, $48, $128, $240 /mo billed annually. Enterprise (1,000+ calls) custom. Trial is 14 days or 100 calls, whichever first. Additional agents $9.95/mo each.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start using Upfirst for free for 14 days — no card required.",
+  "line": 117
+ },
+ "extracted_by": "manual-subagent"
+}

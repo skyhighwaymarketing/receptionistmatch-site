@@ -1,0 +1,33 @@
+{
+ "vendor": "Bland AI",
+ "url": "https://www.bland.ai/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/bland/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Start",
+   "price": "$0.14/min",
+   "billing": "per-minute",
+   "included": "",
+   "overage": "",
+   "line": 36
+  },
+  {
+   "name": "Build",
+   "price": "$0.12/min + $299/month platform fee",
+   "billing": "per-minute",
+   "included": "",
+   "overage": "",
+   "line": 48
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Developer voice-agent platform. Start has $0 platform fee, no card required; transfer minutes $0.05/min (Start) and $0.04/min (Build). Enterprise custom. LLM/STT/TTS included in per-minute rate.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "2 credits + an inbound number ($15/mo value).",
+  "line": 35
+ },
+ "extracted_by": "manual-subagent"
+}

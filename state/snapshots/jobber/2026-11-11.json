@@ -1,0 +1,33 @@
+{
+ "vendor": "Jobber (AI Receptionist add-on)",
+ "url": "https://www.getjobber.com/pricing/",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/jobber/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Receptionist add-on (Jobber AI)",
+   "price": "$29/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 702
+  },
+  {
+   "name": "Plus plan (includes AI-powered Receptionist), no commitment",
+   "price": "$499/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 106
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "AI Receptionist is a $29/mo add-on to a Jobber plan (Core starts at $29/mo); it is included in Plus ($499/mo no commitment for 5 users, $399/mo billed annually). Included minutes/calls not stated.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "For 14 days you get full access to all of Jobber’s features on the Grow plan",
+  "line": 726
+ },
+ "extracted_by": "manual-subagent"
+}

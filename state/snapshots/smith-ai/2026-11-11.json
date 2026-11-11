@@ -1,0 +1,41 @@
+{
+ "vendor": "Smith.ai",
+ "url": "https://smith.ai/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/smith-ai/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$300 / month",
+   "billing": "monthly",
+   "included": "30 calls",
+   "overage": "$11.50/call over 30",
+   "line": 37
+  },
+  {
+   "name": "Basic",
+   "price": "$810 / month",
+   "billing": "monthly",
+   "included": "90 calls",
+   "overage": "$10.50/call over 90",
+   "line": 44
+  },
+  {
+   "name": "Pro",
+   "price": "$2,100 / month",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "$8.50/call over 300",
+   "line": 51
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Human (live-agent) virtual receptionist plans. No free trial; 30-day money-back guarantee (up to $1,000, overage excluded). Enterprise custom. Per-call add-ons extra (e.g. book appointments $1.50).",
+ "setup_fee": {
+  "text": "No setup fees",
+  "line": 65
+ },
+ "free_trial": null,
+ "extracted_by": "manual-subagent"
+}

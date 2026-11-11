@@ -1,0 +1,13 @@
+{
+ "vendor": "Synthflow",
+ "url": "https://synthflow.ai/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/synthflow/2026-11-11.txt",
+ "published": false,
+ "plans": [],
+ "dropped_untraced": [],
+ "notes": "price on request / not published in the page's raw HTML",
+ "setup_fee": null,
+ "free_trial": null,
+ "extracted_by": "manual-subagent"
+}

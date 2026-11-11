@@ -1,0 +1,41 @@
+{
+ "vendor": "Vapi",
+ "url": "https://vapi.ai/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/vapi/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "No Success Package (usage)",
+   "price": "$0.05/min",
+   "billing": "per-minute",
+   "included": "",
+   "overage": "",
+   "line": 186
+  },
+  {
+   "name": "Core success package",
+   "price": "$29/month",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 50
+  },
+  {
+   "name": "Pro success package",
+   "price": "$999/mo minimum",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 63
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Developer platform: $0.05/min Vapi hosting, with transcriber, model, voice and telephony billed on top at cost (calculator estimates $82-$129/mo for 1,000 min). Pro is 10% of hosting fee with a $999/mo minimum. HIPAA add-on $2,000/mo.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "$5 free credits to get you started",
+  "line": 38
+ },
+ "extracted_by": "manual-subagent"
+}

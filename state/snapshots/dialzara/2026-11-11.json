@@ -1,0 +1,57 @@
+{
+ "vendor": "Dialzara",
+ "url": "https://www.dialzara.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/dialzara/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Business Lite",
+   "price": "$29/month",
+   "billing": "monthly",
+   "included": "Up to 60 minutes",
+   "overage": "$0.48/min",
+   "line": 13
+  },
+  {
+   "name": "Business Pro",
+   "price": "$99/month",
+   "billing": "monthly",
+   "included": "Up to 220 minutes",
+   "overage": "$0.45/min",
+   "line": 32
+  },
+  {
+   "name": "Business Plus",
+   "price": "$199/month",
+   "billing": "monthly",
+   "included": "Up to 500 minutes",
+   "overage": "$0.40/min",
+   "line": 52
+  },
+  {
+   "name": "Business Elite",
+   "price": "$349/month",
+   "billing": "monthly",
+   "included": "Up to 1000 minutes",
+   "overage": "$0.35/min",
+   "line": 71
+  },
+  {
+   "name": "Done for You!",
+   "price": "$1,500+ per month",
+   "billing": "monthly",
+   "included": "",
+   "overage": "Inquire for details",
+   "line": 90
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Inbound receptionist plans; no contract. Done for You is a starting price. Outbound calling plans ($750+/mo) are separate and not recorded.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "7-day free trial",
+  "line": 11
+ },
+ "extracted_by": "manual-subagent"
+}

@@ -1,0 +1,16 @@
+{
+ "vendor": "Housecall Pro (AI Team / CSR AI)",
+ "url": "https://www.housecallpro.com/pricing/",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/housecall-pro/2026-11-11.txt",
+ "published": false,
+ "plans": [],
+ "dropped_untraced": [],
+ "notes": "price on request / not published in the page's raw HTML. CSR AI is listed as an add-on with no price; base plans $59-$299/mo do not state CSR AI pricing.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Enjoy full access to all Housecall Pro features on our MAX plan for 14 days",
+  "line": 518
+ },
+ "extracted_by": "manual-subagent"
+}

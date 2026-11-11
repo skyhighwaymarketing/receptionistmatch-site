@@ -1,0 +1,41 @@
+{
+ "vendor": "Rosie",
+ "url": "https://heyrosie.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/rosie/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Professional",
+   "price": "$49 per month",
+   "billing": "monthly",
+   "included": "250 minutes per month",
+   "overage": "",
+   "line": 20
+  },
+  {
+   "name": "Scale",
+   "price": "$149 per month",
+   "billing": "monthly",
+   "included": "1,000 minutes per month",
+   "overage": "",
+   "line": 31
+  },
+  {
+   "name": "Growth",
+   "price": "$299 per month",
+   "billing": "monthly",
+   "included": "2,000 minutes per month",
+   "overage": "",
+   "line": 44
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Annual billing advertised as '2 months free' but annual prices are not shown separately in the raw text. Overage rate not stated. Website Texting add-on $50/month (25 conversations, $1 per additional).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start your 7-day free trial.",
+  "line": 13
+ },
+ "extracted_by": "manual-subagent"
+}

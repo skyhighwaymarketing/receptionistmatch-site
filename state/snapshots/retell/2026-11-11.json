@@ -1,0 +1,25 @@
+{
+ "vendor": "Retell AI",
+ "url": "https://www.retellai.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/retell/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Pay as you go",
+   "price": "$0.07-$0.31/min",
+   "billing": "per-minute",
+   "included": "",
+   "overage": "",
+   "line": 103
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Developer voice-agent platform, pay per minute depending on components; 20 free concurrent calls. Enterprise is custom pricing.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "$10 in free credits",
+  "line": 102
+ },
+ "extracted_by": "manual-subagent"
+}
