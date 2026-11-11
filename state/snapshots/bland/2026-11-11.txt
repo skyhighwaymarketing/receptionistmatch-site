@@ -1,0 +1,248 @@
+# Bland AI | https://www.bland.ai/pricing | fetched 2026-11-11 | HTTP 200 | 18 price mentions
+Skip to content
+Product
+Solutions
+Pricing
+Customers
+Resources
+Blog
+Compare platforms
+Documentation
+Changelog
+Integrations
+Careers
+Log in
+Try for free
+Book a call
+Product
+Solutions
+Pricing
+Customers
+Resources
+Blog
+Compare platforms
+Documentation
+Changelog
+Integrations
+Careers
+Book a call
+Sign up
+Log in
+Pricing
+Clear pricing across every call
+No token charges. No model-provider pass-throughs. No surprise bills.
+FOR DEVELOPERS
+Start
+2 credits + an inbound number ($15/mo value).
+$0.14
+/min
+$0 platform fee. No card required.
+Start building
+$0.05/transfer min
+10 concurrent calls
+100 calls/day
+10 knowledge bases
+FOR TEAMS
+Build
+Lower per-minute rates. Higher rate limits.
+$0.12
+/min
+$299/month platform fee
+Start building
+$0.04/transfer min
+50 concurrent calls
+2,000 calls/day
+50 knowledge bases
+FOR ORGANIZATIONS
+Enterprise
+Dedicated infrastructure with the controls regulated teams require.
+Custom
+Contracted to your volume.
+Talk to our team
+Concurrency sized to your volume
+On-prem / VPC available
+Forward deployed engineer available
+BAA, SSO, data residency
+Included in your per-minute rate
+LLM
+No token charges
+STT
+Real-time transcription
+TTS
+Premium voices
+Compare plans
+Start
+Build
+Enterprise
+Usage + scale
+Talk Time Rate
+$0.14/min
+$0.12/min
+Custom
+Transfer Time Rate
+$0.05/min
+$0.04/min
+Custom
+Daily Cap
+100 calls
+2,000 calls
+Unlimited
+Hourly Cap
+100 calls
+1,000 calls
+Unlimited
+Concurrent calls
+10 calls
+50 calls
+Custom
+Voice Limit
+1
+5
+Unlimited
+Knowledge Bases
+10
+50
+Unlimited
+Infrastructure & reliability
+Version Lock
+Uptime SLA
+99.9%
+Dedicated Orchestration Server
+—
+—
+Priority Call Queue
+—
+—
+On-Prem/VPC Deployment
+—
+—
+Available
+Custom Voice Actor
+—
+—
+Available
+Core features
+Integrations
+Conversational Pathways
+Automations
+SMS & Web Chat
+—
+—
+Appointment Scheduling Node
+—
+—
+SMS Node (in-call texts)
+—
+—
+iMessage
+—
+—
+Advanced features
+Warm Transfers
+—
+—
+Live Transfers
+—
+—
+Guardrails (Protected Calls)
+—
+—
+Alarm & Monitoring
+—
+—
+Knowledge Base Gaps
+—
+—
+Citations
+—
+—
+Outcomes
+—
+—
+Custom Dialing
+—
+—
+Custom Code Extraction
+—
+—
+Compliance & security
+BAA
+—
+—
+SSO
+—
+—
+JWT Signatures
+—
+—
+Data Residency
+—
+—
+Support
+Account & Billing Support
+Slack channel with Bland team
+—
+—
+Forward deployed engineers
+—
+—
+Frequently asked questions
+How do I get started?
+Sign up on the Start plan and you get two credits plus an inbound number valued at $15/month, with no card required.
+How does Bland's pricing compare to platforms like Vapi or Retell?
+Their advertised per-minute rate is the platform fee only. Vapi lists $0.05/min and Retell lists about $0.07/min for their voice infrastructure. You then pay separately for the LLM, speech-to-text, text-to-speech, and telephony. Adding typical provider rates (a leading LLM, Deepgram or equivalent STT, ElevenLabs or OpenAI TTS, and Twilio) brings most production stacks to roughly $0.13 to $0.30 per minute on Vapi and $0.11 to $0.25 per minute on Retell, depending on which model and voice you pick. Bland's per-minute rate covers the LLM, STT, and TTS in one number, with no token charges and no model-provider pass-throughs. Telephony is billed separately, on your own carrier or Bland's at pass-through cost.
+Can we bring our own telephony provider?
+Yes. Bland integrates with your existing Twilio account, with SIP trunks from any contact-center or telephony provider, or you can use Bland's built-in Twilio at pass-through cost. BYOT customers do not pay transfer fees. You handle carrier costs directly and Bland charges only the per-minute AI rate.
+How fast can we go live?
+Most teams deploy a first agent within a day on the self-serve plans. Enterprise deployments with custom integrations, number porting, and compliance review follow our 28-day deployment framework: scope, build, gray/red/green-team test, and go live with our forward-deployed engineering team alongside yours.
+Is Bland HIPAA, SOC 2, GDPR, and PCI compliant?
+Yes. SOC 2 Type I and Type II (independently audited), HIPAA compliant with a signed BAA, GDPR compliant with a DPA, and PCI DSS self-attested. Bland is also FedRAMP 20x Class A certified and ISO 27001 certified. Compliance documentation is available under NDA on Enterprise.
+Who runs the implementation?
+Our forward-deployed engineering team works directly with yours to build, optimize, and scale the deployment. Enterprise plans include FDE support.
+Email address Subscribe
+Product
+Overview
+Pricing
+Agent Phone Plan
+Speech
+Integrations
+Norm
+Changelog
+Solutions
+AI receptionist
+Customer service
+Outbound sales
+Lead qualification
+IVR replacement
+Industries
+Compare
+Compare platforms
+Bland vs Retell
+Bland vs Vapi
+Bland vs Synthflow
+Bland vs Thoughtly
+Bland vs Decagon
+Bland vs Sierra
+Resources
+Blog
+Documentation
+Customers
+Glossary
+Alternatives
+HIPAA voice AI
+ElevenLabs alternative
+Company
+About
+Enterprise
+Partners
+Careers
+Contact
+Legal
+Terms of service
+Privacy policy
+Cookie policy
+Your Privacy Choices
+DPA
+Subprocessors
+Trust & security
+© 2026 Bland. All rights reserved.

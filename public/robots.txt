@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://receptionistmatch.com/sitemap-index.xml

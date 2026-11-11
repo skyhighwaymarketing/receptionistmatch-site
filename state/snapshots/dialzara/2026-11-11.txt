@@ -1,0 +1,370 @@
+# Dialzara | https://www.dialzara.com/pricing | fetched 2026-11-11 | HTTP 200 | 34 price mentions
+Dialzara
+Products
+Industries
+Features
+Pricing
+Partners
+Login
+Free Trial
+AI Receptionist Pricing
+AI receptionist plans from $29/month — plus outbound voice, SMS, and website chat add-ons priced separately. No contract. Cancel anytime.
+Pricing as of 2026 · 7-day free trial
+Business Lite
+$ 29
+/month
+Up to 60 minutes
+of talk time included
+Overage: $0.48/min
+✓
+Self-editable prompt
+✓
+Message taking with custom questions
+✓
+Blind transfer to your team
+✕
+Warm transfer to your team
+✓
+3rd-party integrations via Zapier/Make
+✓
+No contract, cancel anytime
+Try Business Lite
+Business Pro
+$ 99
+/month
+Up to 220 minutes
+of talk time included
+Overage: $0.45/min
+✓
+Self-editable prompt
+✓
+Message taking with custom questions
+✓
+Blind transfer to your team
+✓
+Warm transfer to your team
+✓
+3rd-party integrations via Zapier/Make
+✓
+No contract, cancel anytime
+Try Business Pro
+Most Popular
+Business Plus
+$ 199
+/month
+Up to 500 minutes
+of talk time included
+Overage: $0.40/min
+✓
+Self-editable prompt
+✓
+Message taking with custom questions
+✓
+Blind transfer to your team
+✓
+Warm transfer to your team
+✓
+3rd-party integrations via Zapier/Make
+✓
+No contract, cancel anytime
+Try Business Plus
+Business Elite
+$ 349
+/month
+Up to 1000 minutes
+of talk time included
+Overage: $0.35/min
+✓
+Initial Prompt Setup Included
+✓
+Priority support & SLA
+✓
+Blind & warm transfer to your team
+✓
+Multi-agent / multi-location setup
+✓
+Advanced integrations & API access
+✓
+No contract, cancel anytime
+Try Business Elite
+Done for You!
+$ 1,500 +
+per month
+Our AI experts do it all for you
+✓
+Ongoing Prompt Setup & Engineering
+✓
+Priority support & SLA
+✓
+Blind & warm transfer to your team
+✓
+Multi-agent / multi-location setup
+✓
+Custom Integrations
+✓
+No contract, cancel anytime
+Inquire
+All plans include
+US-based phone number (local or toll-free options)*
+Call recordings
+Email/SMS notifications after each handled call
+Over 50 premium voices
+Call summaries of every conversation
+24/7 availability
+10 languages, including English and Spanish
+* UK, AU, NZ, and International phone numbers available upon request.
+Explore our AI phone features
+AI Receptionist
+Appointment Scheduling
+Voicemail Transcription
+Call Screening
+Call Routing
+Multilingual Support
+Usage Estimator
+Enter your monthly call count and average talk time. We'll compute total minutes, suggest an inbound plan, and estimate cost for Lite, Pro, Plus, or Elite (overage rates: $0.48, $0.45, $0.40, and $0.35 per minute). For a managed service, explore Done for You! starting at $1,500 per month. Inquire for a quote; usage alone does not determine the managed-service total.
+Monthly call count 10
+50
+500
+Average talk time (minutes) 1
+3
+15
+Estimated minutes:
+150
+Recommended plan:
+Business Pro
+Projected monthly cost :
+$ 99.00
+You can switch plans anytime.
+Prefer Done for You!?
+Our AI experts do it all for you. Starting at $1,500+ per month. Inquire for a tailored estimate, included minutes, and usage terms. This is a starting price, not a guaranteed total or a requirement for higher usage.
+Compare Inbound Plans
+Feature
+Lite
+Pro
+Plus
+Most Popular
+Elite
+Done for You!
+Monthly price
+$29
+$99
+$199
+$349
+Starting at $1,500 — inquire for a quote
+Included minutes / month
+60
+220
+500
+1,000
+Inquire for details
+Overage rate
+$0.48/min
+$0.45/min
+$0.40/min
+$0.35/min
+Inquire for details
+Call recordings & summaries
+✓
+✓
+✓
+✓
+✓
+Blind call transfers
+✓
+✓
+✓
+✓
+✓
+Warm call transfers
+—
+✓
+✓
+✓
+✓
+After-hours rules & escalation
+—
+✓
+✓
+✓
+✓
+10 languages (incl. English & Spanish)
+✓
+✓
+✓
+✓
+✓
+Calendar sync (Google/Outlook)
+—
+✓
+✓
+✓
+✓
+CRM via Make/Zapier/API
+Basic
+Standard
+Advanced
+Advanced + API
+Custom Integrations
+Knowledge base uploads
+5
+10
+Unlimited
+Unlimited
+Unlimited
+Multi-agent / multi-location
+—
+—
+✓
+✓
+✓
+Prompt setup & editing
+Self-editable prompt
+Self-editable prompt
+Self-editable prompt
+Initial Prompt Setup Included
+Ongoing Prompt Setup & Engineering
+Priority support & SLA
+Standard
+Standard
+Priority
+Priority + SLA
+Priority + SLA
+Overage rate per plan is the per-minute price you pay above the included bucket. All inbound plans are no-contract and can be canceled anytime.
+Outbound voice agents
+Outbound Calling Plans
+Outbound voice agents make proactive calls for sales outreach, follow-ups, reminders, and reactivation. Priced by contacts per month so the cost is predictable. Separate from inbound plans.
+Outbound Starter
+$ 750
+/month
+1,500
+contacts included
+✓
+1,500 contacts / month
+✓
+Shared knowledge base
+✓
+CRM + Zapier/Make sync
+✓
+Conversation analytics
+Talk to Sales
+Most Popular
+Outbound Growth
+$ 1,000
+/month
+2,000
+contacts included
+✓
+2,000 contacts / month
+✓
+Shared knowledge base
+✓
+CRM + API access
+✓
+Conversation analytics
+Talk to Sales
+Outbound Scale
+$ 1,500
+/month
+3,000
+contacts included
+✓
+3,000 contacts / month
+✓
+Shared knowledge base
+✓
+Priority support & SLA
+✓
+Advanced analytics + API
+Talk to Sales
+Outbound is contact-based, not minute-based. Need a higher volume?
+We offer custom outbound plans on request.
+Text + chat
+SMS & Website Chatbot
+Add channels customers actually use. Both products are trained on the same business context as your AI receptionist.
+AI SMS Agent
+$19
+/month + $0.05 per AI message
+SMS carrier fees passed through at $0.0083 per segment. 10DLC A2P registration handled for you.
+✓ Two-way conversations, not autoresponses
+✓ Calendar-aware appointment booking
+✓ Voice ↔ SMS handoff
+✓ CRM + Zapier/Make sync
+Learn more about the AI SMS agent
+AI Website Chatbot
+$39
+/month standalone · Free with voice plans
+Bundled with any voice plan: 100 sessions/month free, $0.15 per additional session. Standalone plan includes unlimited sessions.
+✓ One-line JavaScript install
+✓ Shared knowledge base with voice + SMS
+✓ Books appointments in-chat
+✓ 10 languages with auto-detect
+Learn more about the AI website chatbot
+For agencies & resellers
+White-label & Partner Pricing
+Run the Dialzara AI calling platform under your own brand with multi-tenant dashboards and custom per-partner pricing. Most agencies bundle inbound, outbound, SMS, and chat into a single monthly retainer for their clients.
+See partner options
+Pricing FAQs
+How are minutes calculated?
++
+What happens when I exceed included minutes?
++
+Do you support outbound calling?
++
+How much do SMS agents and the website chatbot cost?
++
+What do phone numbers cost?
++
+Do you offer white-label or partner pricing?
++
+Can the AI receptionist transfer calls to live humans on my team?
++
+Do you support English and Spanish?
++
+What integrations are available?
++
+Can I keep my existing number?
++
+How fast can I go live?
++
+Prices shown are monthly. Annual pricing available. All pricing is current as of 2026.
+No setup fees. No long-term contracts. Cancel anytime.
+01 / Social
+Follow Us
+02 / Company
+Company
+Answering Service for Small Business
+After Hours Phone Answering Service
+FAQs
+About Us
+Contact Us
+03 / Resources
+Resources
+What is an AI Receptionist?
+Schedule a Demo
+AI Receptionist Voices
+Blog
+Help Center
+Login
+04 / Products
+Products
+AI Receptionist
+Outbound Voice Agents
+AI SMS Agent
+AI Website Chatbot
+White-Label for Agencies
+Use cases
+AI Answering Service
+AI Call Routing
+AI Appointment Scheduling
+AI Voicemail Transcription
+AI Call Screening
+Multilingual AI Answering Service
+Privacy Policy
+Terms of Use
+Whitelabel Requests
+© 2026 Dialzara LLC. All Rights Reserved.
+408 S Eagle Rd Suite 53, Eagle, ID 83616
+Call us 24/7
+866-545-ZARA
+Email us
+[email protected]

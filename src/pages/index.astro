@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import { livePosts, KIND } from '../lib/posts';
+const posts = (await livePosts()).slice(0, 9);
+---
+<Base title="ReceptionistMatch: find the AI or live receptionist that fits your business" description="Independent guides to AI receptionists and live answering services for local businesses. Ranked by fit, never by commission. Prices sourced and dated.">
+<div class="wrap">
+      <section class="hero">
+        <div>
+          <span class="eyebrow"><span class="dot"></span>Independent buyer's guides</span>
+          <h1>Find the AI or live receptionist that <em>fits your business.</em></h1>
+          <p class="lede">Plain-English guides to AI receptionists and answering services for local businesses: what each one does, what it really costs, and which kind of business it suits.</p>
+          <div class="cta">
+            <a class="btn" href="/guides/">Browse the guides</a>
+            <span class="note">Prices checked and dated. No sign-up.</span>
+          </div>
+        </div>
+        <aside class="panel" aria-label="What we match on">
+          <h2>What we match on</h2>
+          <div class="q"><span>Your trade</span><span>HVAC, dental, legal, salon…</span></div>
+          <div class="q"><span>Calls a month</span><span>A few dozen to thousands</span></div>
+          <div class="q"><span>Hours covered</span><span>After hours or 24/7</span></div>
+          <div class="q"><span>AI or live people</span><span>Or a mix of both</span></div>
+          <div class="q"><span>Budget</span><span>Real monthly cost</span></div>
+          <p class="foot">Ranked by <b>fit</b>. Never by commission.</p>
+        </aside>
+      </section>
+
+<section class="guides">
+  <h2>Latest guides</h2>
+  {posts.length === 0 ? (
+    <p class="empty">The first guides are on the way: pricing, side-by-side comparisons and picks by trade.</p>
+  ) : (
+    <div class="cards">
+      {posts.map((p) => (
+        <a class="card" href={`/${p.id}/`}>
+          <span class="kind">{KIND[p.data.type]}</span>
+          <h3>{p.data.title}</h3>
+          <p>{p.data.description}</p>
+        </a>
+      ))}
+    </div>
+  )}
+</section>
+
+      <section class="method" aria-labelledby="how">
+        <h2 id="how">How we match</h2>
+        <p class="sub">Some vendors pay us when you sign up. Here is how we keep that from deciding what you read.</p>
+        <div class="grid">
+          <div class="item"><div class="num">01</div><h3>Ranked by fit, never by commission</h3><p>We rank on your trade, your call volume, the hours you need covered and your budget. What a vendor pays us never moves a ranking.</p></div>
+          <div class="item"><div class="num">02</div><h3>Payouts disclosed</h3><p>Every page says which vendors pay us and how, before the first link. Services that pay us nothing still get listed when they fit.</p></div>
+          <div class="item"><div class="num">03</div><h3>Prices from the source, dated</h3><p>Every price links to the vendor's own pricing page and shows the date we checked it. When a price changes, the page changes.</p></div>
+          <div class="item"><div class="num">04</div><h3>No pretend testing</h3><p>We tell you what we read and verified on each vendor's own pages, and where it came from. No made-up test calls, customers or numbers.</p></div>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact">
+        <div>
+          <h2 id="contact">Get in touch</h2>
+          <p>Business owners, vendors and partners: one inbox, read by a person.</p>
+        </div>
+        <a class="mail" href="mailto:hello@receptionistmatch.com">hello@receptionistmatch.com</a>
+      </section>
+</div>
+</Base>

@@ -1,0 +1,54 @@
+{
+ "vendor": "VoiceNation",
+ "url": "https://www.voicenation.com/pricing/",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/voicenation/2026-11-11.txt",
+ "published": true,
+ "dropped_untraced": [],
+ "extracted_by": "manual-bf50",
+ "plans": [
+  {
+   "name": "Live 50 minutes",
+   "price": "$165/mo",
+   "billing": "monthly",
+   "included": "50 minutes",
+   "overage": "$2.85/min",
+   "line": 78
+  },
+  {
+   "name": "Live 100 minutes",
+   "price": "$265/mo",
+   "billing": "monthly",
+   "included": "100 minutes",
+   "overage": "$2.65/min",
+   "line": 89
+  },
+  {
+   "name": "Live 200 minutes",
+   "price": "$422/mo",
+   "billing": "monthly",
+   "included": "200 minutes",
+   "overage": "$2.39/min",
+   "line": 101
+  },
+  {
+   "name": "Live 500 minutes",
+   "price": "$985/mo",
+   "billing": "monthly",
+   "included": "500 minutes",
+   "overage": "$2.09/min",
+   "line": 112
+  },
+  {
+   "name": "AI 50 calls",
+   "price": "$99/mo",
+   "billing": "monthly",
+   "included": "50 calls",
+   "overage": "$2.39/call",
+   "line": 122
+  }
+ ],
+ "setup_fee": null,
+ "free_trial": null,
+ "notes": "FAQ line 177: live plans $165/mo for 50 minutes to $985/mo for 500 minutes; AI plans $99 for 50 calls to $775 for 500 calls. 24/7, no contract."
+}

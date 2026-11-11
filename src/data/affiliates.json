@@ -1,0 +1,8 @@
+{
+  "_note": "Mirror of ~/blog-analytics/RECEPTIONISTMATCH_AFFILIATES.md for the site build. status: approved | pending | none. Ranking never reads payout.",
+  "vendors": [
+    {"name": "GoHighLevel", "host": "gohighlevel.com", "status": "approved", "payout": "40% recurring"},
+    {"name": "Answrr", "host": "tryanswrr.com", "status": "pending", "payout": "30% recurring"},
+    {"name": "My AI Front Desk", "host": "myaifrontdesk.com", "status": "pending", "payout": "30% recurring"}
+  ]
+}

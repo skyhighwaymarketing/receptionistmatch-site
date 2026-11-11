@@ -1,0 +1,25 @@
+{
+ "vendor": "My AI Front Desk",
+ "url": "https://www.myaifrontdesk.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/my-ai-front-desk/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Business-in-a-Box",
+   "price": "$99/mo",
+   "billing": "monthly",
+   "included": "200 voice minutes / month",
+   "overage": "25 credits ($0.25) per extra minute from 1,000 monthly overage credits; auto-reload $10 for 1,000 credits",
+   "line": 24
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Annual billing $79/mo (20% off). Includes 100 chatbot convos and 400 SMS. Partner / Enterprise is custom.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start 7-day free trial",
+  "line": 28
+ },
+ "extracted_by": "manual-subagent"
+}

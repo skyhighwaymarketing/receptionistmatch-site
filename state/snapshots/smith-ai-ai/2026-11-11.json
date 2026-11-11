@@ -1,0 +1,62 @@
+{
+ "vendor": "Smith.ai AI Receptionist",
+ "url": "https://smith.ai/pricing/ai-receptionist",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/smith-ai-ai/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Free",
+   "price": "$0/mo",
+   "billing": "monthly",
+   "included": "25 calls/mo",
+   "overage": "$3.00/call",
+   "line": 37
+  },
+  {
+   "name": "Pro (75 calls)",
+   "price": "$150/mo",
+   "billing": "monthly",
+   "included": "75 calls",
+   "overage": "$2.50/call",
+   "line": 53
+  },
+  {
+   "name": "Pro (150 calls)",
+   "price": "$270/mo",
+   "billing": "monthly",
+   "included": "150 calls",
+   "overage": "$2.30/call",
+   "line": 99
+  },
+  {
+   "name": "Pro (300 calls)",
+   "price": "$500/mo",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "$2.17/call",
+   "line": 100
+  },
+  {
+   "name": "Enterprise (300 calls)",
+   "price": "$500/mo",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "$2.17/call",
+   "line": 69
+  },
+  {
+   "name": "Enterprise (500 calls)",
+   "price": "$800/mo",
+   "billing": "monthly",
+   "included": "500 calls",
+   "overage": "$2.10/call",
+   "line": 102
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "AI Receptionist billed per call, not per minute. Free plan (25 calls/mo) instead of a trial. Enterprise 1000+ calls custom; 6-month plan with rollover calls on request.",
+ "setup_fee": null,
+ "free_trial": null,
+ "extracted_by": "manual-subagent"
+}

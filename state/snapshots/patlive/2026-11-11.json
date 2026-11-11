@@ -1,0 +1,57 @@
+{
+ "vendor": "PATLive",
+ "url": "https://www.patlive.com/pricing/",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/patlive/2026-11-11.txt",
+ "published": true,
+ "dropped_untraced": [],
+ "extracted_by": "manual-bf50",
+ "plans": [
+  {
+   "name": "Pay as you go",
+   "price": "$49/mo",
+   "billing": "monthly",
+   "included": "0 minutes",
+   "overage": "$2.99/min",
+   "line": 56
+  },
+  {
+   "name": "50 minutes",
+   "price": "$99/mo",
+   "billing": "monthly",
+   "included": "50 minutes (about 20 calls)",
+   "overage": "$2.29/min",
+   "line": 63
+  },
+  {
+   "name": "100 minutes",
+   "price": "$189/mo",
+   "billing": "monthly",
+   "included": "100 minutes (about 40 calls)",
+   "overage": "$2.09/min",
+   "line": 70
+  },
+  {
+   "name": "200 minutes",
+   "price": "$349/mo",
+   "billing": "monthly",
+   "included": "200 minutes (about 80 calls)",
+   "overage": "$1.99/min",
+   "line": 77
+  },
+  {
+   "name": "500 minutes",
+   "price": "$759/mo",
+   "billing": "monthly",
+   "included": "500 minutes (about 200 calls)",
+   "overage": "$1.79/min",
+   "line": 91
+  }
+ ],
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start your free trial today",
+  "line": 44
+ },
+ "notes": "No contracts. Larger plans: 1,000 min $1,499, 2,000 min $2,899, 3,000 min $4,299."
+}

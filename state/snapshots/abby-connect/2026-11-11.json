@@ -1,0 +1,52 @@
+{
+ "vendor": "Abby Connect",
+ "url": "https://www.abby.com/pricing/",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/abby-connect/2026-11-11.txt",
+ "published": true,
+ "dropped_untraced": [],
+ "extracted_by": "manual-bf50",
+ "plans": [
+  {
+   "name": "50 Abby Minutes",
+   "price": "$164/mo",
+   "billing": "monthly",
+   "included": "50 minutes",
+   "overage": "plan's minute rate",
+   "line": 89
+  },
+  {
+   "name": "100 Abby Minutes",
+   "price": "$329/mo",
+   "billing": "monthly",
+   "included": "100 minutes",
+   "overage": "plan's minute rate",
+   "line": 97
+  },
+  {
+   "name": "200 Abby Minutes",
+   "price": "$599/mo",
+   "billing": "monthly",
+   "included": "200 minutes",
+   "overage": "plan's minute rate",
+   "line": 105
+  },
+  {
+   "name": "500 Abby Minutes",
+   "price": "$1,380/mo",
+   "billing": "monthly",
+   "included": "500 minutes",
+   "overage": "plan's minute rate",
+   "line": 114
+  }
+ ],
+ "setup_fee": {
+  "text": "No Setup Fee",
+  "line": 126
+ },
+ "free_trial": {
+  "text": "Free Trial On Every Plan",
+  "line": 128
+ },
+ "notes": "Overage billed at the plan's Abby Minute rate (rate not printed)."
+}

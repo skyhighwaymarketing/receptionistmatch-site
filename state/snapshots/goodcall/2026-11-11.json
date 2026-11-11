@@ -1,0 +1,41 @@
+{
+ "vendor": "Goodcall",
+ "url": "https://www.goodcall.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/goodcall/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$79 a month",
+   "billing": "monthly",
+   "included": "100 unique customers a month (about 150 calls/month)",
+   "overage": "79¢ per extra unique customer",
+   "line": 13
+  },
+  {
+   "name": "Growth",
+   "price": "$129 a month",
+   "billing": "monthly",
+   "included": "500 unique customers a month (about 750 calls/month)",
+   "overage": "26¢ per extra unique customer",
+   "line": 28
+  },
+  {
+   "name": "Scale",
+   "price": "$299 a month",
+   "billing": "monthly",
+   "included": "2,000 unique customers a month (about 3,000 calls/month)",
+   "overage": "15¢ per extra unique customer",
+   "line": 42
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Billed per unique customer per month, no per-minute charges; local number included. Enterprise is custom (contact sales). No setup fee mentioned.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Is there a free trial? Better: a free demo agent",
+  "line": 67
+ },
+ "extracted_by": "manual-subagent"
+}

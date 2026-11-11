@@ -1,0 +1,33 @@
+{
+ "vendor": "GoHighLevel AI Employee",
+ "url": "https://www.gohighlevel.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/gohighlevel/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "AI Employee Growth Plan (add-on)",
+   "price": "$50/month per sub-account",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 119
+  },
+  {
+   "name": "AI Employee Unlimited Plan (add-on)",
+   "price": "$97/month per sub-account",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 121
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "AI Employee is an add-on to a HighLevel plan (Starter $97/month, $970/year). Voice AI carries usage-based charges not listed on this page.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start with a FREE 14-day trial on any plan below!",
+  "line": 37
+ },
+ "extracted_by": "manual-subagent"
+}

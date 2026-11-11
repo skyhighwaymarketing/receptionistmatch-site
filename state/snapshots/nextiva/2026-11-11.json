@@ -1,0 +1,30 @@
+{
+ "vendor": "Nextiva",
+ "url": "https://www.nextiva.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/nextiva/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "XBert AI Employee",
+   "price": "$99 per month",
+   "billing": "monthly",
+   "included": "Packages starting at 100 conversations/month",
+   "overage": "",
+   "line": 432
+  },
+  {
+   "name": "XBert AI on NEXT plans",
+   "price": "$1.50 per conversation",
+   "billing": "usage",
+   "included": "",
+   "overage": "",
+   "line": 296
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "XBert AI Employee (AI voice agent) from $99/month; on NEXT phone plans (from $15/user/mo annual, $23 monthly) XBert AI is $1.50 per conversation. No trial mentioned.",
+ "setup_fee": null,
+ "free_trial": null,
+ "extracted_by": "manual-subagent"
+}

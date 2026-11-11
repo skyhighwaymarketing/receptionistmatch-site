@@ -1,0 +1,46 @@
+{
+ "vendor": "Continental Message Solution",
+ "url": "https://www.continentalmessage.com/pricing/",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/continental-message/2026-11-11.txt",
+ "published": true,
+ "dropped_untraced": [],
+ "extracted_by": "manual-bf50",
+ "plans": [
+  {
+   "name": "Pay As You Go",
+   "price": "$50/28-day",
+   "billing": "28-day",
+   "included": "0 minutes",
+   "overage": "plan's additional-minute rate (ask rep)",
+   "line": 65
+  },
+  {
+   "name": "Starter",
+   "price": "$150/28-day",
+   "billing": "28-day",
+   "included": "100 minutes",
+   "overage": "plan's additional-minute rate",
+   "line": 70
+  },
+  {
+   "name": "Small Biz",
+   "price": "$300/28-day",
+   "billing": "28-day",
+   "included": "250 minutes",
+   "overage": "plan's additional-minute rate",
+   "line": 75
+  },
+  {
+   "name": "Standard",
+   "price": "$575/28-day",
+   "billing": "28-day",
+   "included": "500 minutes",
+   "overage": "plan's additional-minute rate",
+   "line": 80
+  }
+ ],
+ "setup_fee": null,
+ "free_trial": null,
+ "notes": "Billed every 28 days (13 bills a year). Month-to-month, 28-day cancellation."
+}

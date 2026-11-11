@@ -1,0 +1,49 @@
+{
+ "vendor": "Ruby",
+ "url": "https://www.ruby.com/pricing/",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/ruby/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "50 minutes",
+   "price": "$250/month",
+   "billing": "monthly",
+   "included": "50 minutes per month",
+   "overage": "",
+   "line": 167
+  },
+  {
+   "name": "100 minutes",
+   "price": "$395/month",
+   "billing": "monthly",
+   "included": "100 minutes per month",
+   "overage": "",
+   "line": 173
+  },
+  {
+   "name": "200 minutes",
+   "price": "$720/month",
+   "billing": "monthly",
+   "included": "200 minutes per month",
+   "overage": "",
+   "line": 180
+  },
+  {
+   "name": "500 minutes",
+   "price": "$1,725/month",
+   "billing": "monthly",
+   "included": "500 minutes per month",
+   "overage": "",
+   "line": 186
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Live virtual receptionist plans (optional AI enhancements at no extra cost). Overage rate not stated. Live chat plans ($143+/mo) and bundles not recorded. No free trial mentioned.",
+ "setup_fee": {
+  "text": "There are no additional or hidden fees for activation, onboarding, setup, customization",
+  "line": 221
+ },
+ "free_trial": null,
+ "extracted_by": "manual-subagent"
+}

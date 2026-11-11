@@ -1,0 +1,60 @@
+{
+ "vendor": "Answrr",
+ "url": "https://tryanswrr.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/answrr/2026-11-11.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Solo",
+   "price": "$49/month",
+   "billing": "monthly",
+   "included": "250 minutes included",
+   "overage": "$0.25/min",
+   "line": 14
+  },
+  {
+   "name": "Growth",
+   "price": "$99/month",
+   "billing": "monthly",
+   "included": "700 minutes included",
+   "overage": "$0.20/min",
+   "line": 24
+  },
+  {
+   "name": "Pro",
+   "price": "$199/month",
+   "billing": "monthly",
+   "included": "1,600 minutes included",
+   "overage": "$0.15/min",
+   "line": 33
+  },
+  {
+   "name": "Agency Reseller",
+   "price": "$247/month",
+   "billing": "monthly",
+   "included": "2,000 pooled minutes",
+   "overage": "$0.10/min",
+   "line": 44
+  },
+  {
+   "name": "Agency White-Label",
+   "price": "$497/month",
+   "billing": "monthly",
+   "included": "6,000 pooled minutes",
+   "overage": "$0.08/min",
+   "line": 53
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "All features on every plan; plans differ by minutes, top-up rate and receptionist count. Free setup call included. Trial length not stated.",
+ "setup_fee": {
+  "text": "Setup on us.",
+  "line": 11
+ },
+ "free_trial": {
+  "text": "Start free trial",
+  "line": 8
+ },
+ "extracted_by": "manual-subagent"
+}
