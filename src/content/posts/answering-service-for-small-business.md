@@ -34,7 +34,7 @@ Prices below come from each service's own pricing page, checked November 11, 202
 | Legal or medical intake with sensitive details | Live answering service |
 | After-hours overflow you just need captured | Either; AI costs less |
 
-Live people cost about **$2 to $5 a minute** at entry level. AI receptionists cost about **$0.20 to $0.50 a minute**. The full breakdown is in [AI receptionist vs answering service](/ai-receptionist-vs-answering-service/).
+Live people cost about **$2 to $5 a minute** at entry level. AI receptionists cost about **$0.20 to $0.50 a minute**. The full breakdown is in [AI receptionist vs answering service](/ai-receptionist-vs-answering-service/). If you want AI first with a person behind it, see [AI phone answering services that hand off to a human](/ai-phone-answering-service/).
 
 ## Step 2: size your plan from your call log
 
