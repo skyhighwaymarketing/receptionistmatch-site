@@ -1,0 +1,70 @@
+name: Writer (one post)
+
+# ReceptionistMatch writer robot (build plan s5). 2 posts/wk to start (0b.4: go to 3/wk only
+# once Bing indexing keeps pace). Writes only queue items the desk has gate-passed
+# (state/rm_queue.json). Skips cleanly until the ANTHROPIC_API_KEY secret exists.
+# A GITHUB_TOKEN push does not trigger deploy.yml, so this job dispatches it and waits.
+on:
+  schedule:
+    - cron: '23 14 * * 2,5'   # Tue + Fri 14:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: rm-writer
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci && pip install anthropic
+      - name: Write the next gate-passed post
+        id: write
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "::warning::ANTHROPIC_API_KEY not set; writer skipped"; exit 0; fi
+          python3 robots/writer.py
+      - name: Site gates (same as deploy CI) + honesty gate
+        if: steps.write.outputs.slug != ''
+        run: |
+          npx astro build
+          node scripts/check_raw_html.mjs
+          node scripts/check_links.mjs dist 5
+          python3 robots/honesty.py src/content/posts/*.md
+      - name: Commit, deploy, wait
+        if: steps.write.outputs.slug != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "rm-writer-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/posts state/rm_queue.json state/writer_log.jsonl
+          git commit -m "Writer: ${{ steps.write.outputs.slug }}"
+          git push
+          gh workflow run deploy.yml --ref main
+          sleep 20
+          RID=$(gh run list --workflow deploy.yml --event workflow_dispatch -L1 --json databaseId -q '.[0].databaseId')
+          gh run watch "$RID" --exit-status --interval 15
+      - name: Verify live
+        if: steps.write.outputs.slug != ''
+        run: |
+          URL="https://receptionistmatch.com/${{ steps.write.outputs.slug }}/"
+          for i in $(seq 1 12); do
+            CODE=$(curl -s -o page.html -w '%{http_code}' "$URL")
+            if [ "$CODE" = "200" ] && grep -q '<table' page.html; then echo "LIVE $URL"; exit 0; fi
+            sleep 20
+          done
+          echo "::error::$URL not live with a table after 4 min (last $CODE)"; exit 1

@@ -7,7 +7,7 @@ pricesChecked: 2026-11-11
 keyword: answering service cost
 draft: false
 ---
-**Short answer:** a live answering service costs about **$100 to $250 a month for 50 minutes**, which works out to roughly **$2 to $5 a minute**. The lowest entry plan we found is [PATLive at $99 a month for 50 minutes](https://www.patlive.com/pricing/). [Ruby](https://www.ruby.com/pricing/) is at the top of the range at $250 for 50 minutes. Busier offices pay $350 to $720 a month for 200 minutes.
+**Short answer:** a live answering service costs about **$100 to $250 a month for 50 minutes**, which works out to roughly **$2 to $5 a minute**. The lowest entry plan we found is [PATLive at $99 a month for 50 minutes](https://www.patlive.com/pricing/). [Ruby](https://www.ruby.com/pricing/) is at the top of the range at $250 for 50 minutes. Busier offices pay $349 to $720 a month for 200 minutes.
 
 These are live people answering your phone. If most of your calls are booking and simple questions, an AI receptionist costs a fraction of this; see [how much an AI receptionist costs](/ai-receptionist-cost/). Prices below come from each service's own pricing page, checked November 11, 2026.
 
