@@ -37,6 +37,21 @@ for (const f of files) {
     const disc = body.indexOf('class="disclosure"');
     if (disc < 0 || disc > aff[0].at) fail(f, 'affiliate link appears before the disclosure');
   }
+  // Named-entity first screen (WAG Hub 364 audit, 2026-11-11): generic posts don't get indexed.
+  // Every article names a dollar price and links a vendor's own page within its first ~150 words.
+  const pi = body.indexOf('class="prose"');
+  if (pi >= 0) {
+    const proseHtml = body.slice(pi);
+    let words = 0, cut = proseHtml.length;
+    for (const m of proseHtml.matchAll(/>([^<]+)</g)) {
+      words += m[1].trim().split(/\s+/).filter(Boolean).length;
+      if (words >= 150) { cut = m.index; break; }
+    }
+    const first = proseHtml.slice(0, cut);
+    if (!/\$\s?\d/.test(first.replace(/<[^>]+>/g, ' '))) fail(f, 'no dollar price in the first ~150 words');
+    if (!/<a\b[^>]*href="https?:\/\/(?!receptionistmatch\.com)[^"]+"/.test(first)) fail(f, 'no vendor link in the first ~150 words');
+    if (!/Prices checked /.test(body)) fail(f, 'no prices-checked stamp');
+  }
   for (const img of body.matchAll(/<img\b[^>]*>/g)) {
     if (!/\balt="[^"]+"/.test(img[0])) fail(f, `img without alt: ${img[0].slice(0, 80)}`);
     if (!/\bwidth=/.test(img[0]) || !/\bheight=/.test(img[0])) fail(f, `img without width/height: ${img[0].slice(0, 80)}`);

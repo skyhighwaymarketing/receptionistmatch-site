@@ -6,7 +6,7 @@ published: 2026-11-11
 pricesChecked: 2026-11-11
 draft: true
 ---
-**Short answer:** this is a render test, not a real guide.
+**Short answer:** this is a render test. Example plan: $99/mo on the [Example pricing page](https://example.com/pricing), checked November 11, 2026.
 
 | Option | Who it fits | Who it's NOT for |
 |---|---|---|
