@@ -5,7 +5,7 @@ type: vs
 published: 2026-11-11
 pricesChecked: 2026-11-11
 keyword: ai receptionist vs answering service
-draft: true
+draft: false
 ---
 **Short answer:** an AI receptionist costs about **one-tenth as much** as a live answering service. [Answrr](https://tryanswrr.com/pricing) covers 250 minutes for $49 a month; a live service like [PATLive](https://www.patlive.com/pricing/) charges $99 for 50 minutes, and [Ruby](https://www.ruby.com/pricing/) $250. Choose AI when your calls are routine. Choose live people when callers need judgment, comfort or a decision.
 

@@ -5,7 +5,7 @@ type: pricing
 published: 2026-11-11
 pricesChecked: 2026-11-11
 keyword: how much does an ai receptionist cost
-draft: true
+draft: false
 ---
 **Short answer:** most AI receptionists for a small business cost **$25 to $100 a month** for the starting plan. The cheapest we found is [Upfirst at $24.95 a month for 30 calls](https://www.upfirst.ai/pricing). [Answrr](https://tryanswrr.com/pricing) and [Rosie](https://heyrosie.com/pricing) both start at $49 a month for 250 minutes. A live answering service costs far more: [Ruby](https://www.ruby.com/pricing/) starts at $250 a month for 50 minutes.
 
