@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import { livePosts, KIND } from '../lib/posts';
+const posts = await livePosts();
+---
+<Base title="All guides" description="Every ReceptionistMatch guide: AI receptionist and answering service pricing, side-by-side comparisons, alternatives and picks by trade.">
+<div class="wrap">
+  <section class="guides" style="border-top:0;padding-top:24px">
+    <h1 style="font-size:clamp(32px,4.5vw,44px);margin:0">All guides</h1>
+    {posts.length === 0 ? <p class="empty">The first guides are on the way.</p> : (
+      <div class="cards">
+        {posts.map((p) => (
+          <a class="card" href={`/${p.id}/`}>
+            <span class="kind">{KIND[p.data.type]}</span>
+            <h3>{p.data.title}</h3>
+            <p>{p.data.description}</p>
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+</div>
+</Base>

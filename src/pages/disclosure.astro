@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import registry from '../data/affiliates.json';
+const paying = registry.vendors.filter((v) => v.status === 'approved');
+---
+<Base title="Affiliate disclosure" description="Which vendors pay ReceptionistMatch a commission, how much, and how we keep that from deciding what you read.">
+<div class="page prose">
+  <h1>Affiliate disclosure</h1>
+  <p>ReceptionistMatch is free to read. We make money when you sign up for some services through our links. You pay the same price either way.</p>
+
+  <h2>Who pays us</h2>
+  {paying.length === 0 ? <p>No vendor pays us yet.</p> : (
+    <table>
+      <thead><tr><th>Vendor</th><th>What we earn</th></tr></thead>
+      <tbody>{paying.map((v) => <tr><td>{v.name}</td><td>{v.payout} of what you pay them</td></tr>)}</tbody>
+    </table>
+  )}
+  <p>Any vendor not in that table pays us nothing. We still list it whenever it fits your business. This table updates as programs approve or end us.</p>
+
+  <h2>How we keep it from deciding the order</h2>
+  <p>Rankings and match quiz results are worked out from fit alone: your trade, call volume, hours covered, AI or live people, and budget. Payout is never an input. Affiliate links are marked as sponsored for search engines.</p>
+  <p>Questions? <a href="mailto:hello@receptionistmatch.com">hello@receptionistmatch.com</a>.</p>
+</div>
+</Base>

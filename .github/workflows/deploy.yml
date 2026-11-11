@@ -1,0 +1,58 @@
+name: Build and deploy
+
+# Static site -> GitHub Pages. Runs on every push to main (the publish robot commits one
+# Markdown post per run). Needs Settings > Pages > Source = "GitHub Actions".
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx astro build
+      - name: Raw-HTML gate (canonical, sponsored links, disclosure, banned phrases, IndexNow key)
+        run: node scripts/check_raw_html.mjs
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: IndexNow ping (Bing, Yandex, Seznam via api.indexnow.org)
+        run: |
+          KEY=$(cat src/data/indexnow_key.txt)
+          URLS=$(git diff --name-only HEAD~1 HEAD -- src/content/posts 2>/dev/null | sed -n 's#src/content/posts/\(.*\)\.md#"https://receptionistmatch.com/\1/"#p' | paste -sd, -)
+          [ -z "$URLS" ] && URLS='"https://receptionistmatch.com/"'
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            -d "{\"host\":\"receptionistmatch.com\",\"key\":\"$KEY\",\"keyLocation\":\"https://receptionistmatch.com/$KEY.txt\",\"urlList\":[$URLS]}"
