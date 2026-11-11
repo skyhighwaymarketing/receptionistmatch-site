@@ -1,0 +1,596 @@
+# My AI Front Desk | https://www.myaifrontdesk.com/pricing | fetched 2026-11-11 | HTTP 200 | 61 price mentions
+New
+Take a 60 second quiz to get a free AI lead audit. Are you losing leads to competitors?
+Scan my Website
+Product
+Pricing
+Resources
+Customer Stories
+Company
+Book a Demo
+Start for Free
+Login
+AI Receptionist Pricing
+AI Receptionist
+Pricing plus the full AI workforce.
+Answering phone calls starts at $99/mo on Business-in-a-Box, or $79/mo billed annually, and that includes 200 voice minutes plus the full Frontdesk AI workforce: web chat, 2-way SMS, an AI-native CRM, and sequence automations. No contracts, no hidden fees.
+Cancel anytime
+20+ languages
+Setup in 5 minutes
+Monthly
+Annually Save 20%
+1–10 interactions / day
+Business-in-a-Box
+For growing small businesses
+$99
+/mo
+or $79/mo billed annually
+Everything you need to run a fully automated front office. Voice, chat, SMS, CRM, and automations in one plan.
+Start 7-day free trial
+Trial included usage and any usage charges depend on your chosen plan or agreed written offer. Review trial and cancellation terms
+.
+200 voice minutes / month
+100 chatbot convos · 400 SMS
+1,000 monthly overage credits + auto-reload
+Zapier + verified outbound number
+3 notification recipients
+Most Popular
+25+ interactions / day
+Partner / Enterprise
+For scaling teams & agencies
+Custom
+Tailored for your volume
+Volume discounts, API access, custom integrations, and white-glove onboarding with a dedicated account manager.
+Book a Demo
+Everything in Business, plus:
+Volume pricing (voice from 7 credits/min)
+API access & custom integrations
+Dedicated account manager + Slack
+White-glove onboarding
+Custom data retention options
+AI receptionist cost
+How much does an AI receptionist cost?
+A Frontdesk plan that answers phone calls costs $99 per month, or $79 per month billed annually, and includes 200 voice minutes a month alongside chat, SMS, CRM, and automations.
+Partner and Enterprise pricing is custom and set by your monthly volume.
+For what the plan does on each call, from answering and qualifying the caller to booking the appointment and updating your CRM, see how the Frontdesk AI receptionist works
+.
+Frontdesk AI receptionist plans, monthly and annual prices, and the voice minutes each plan includes Plan
+Billed monthly
+Billed annually
+Voice included
+Best for
+Business-in-a-Box
+$99 /mo
+$79/mo
+200 min/mo
+growing small businesses
+Partner / Enterprise
+Custom
+scaling teams & agencies
+What the rest of the market charges
+Published AI receptionist prices start at around $14 per month and rise with the minutes included. ai-receptionist.com advertises plans from $14 per month and Allo from $18 per month. AgentZap runs from $25 to $899 per month, NextPhone from $199 to $299 per month, and Imagicle from $25 to $3,000 per month.
+Frontdesk sits at $99 per month for the plan that answers calls, and that figure also covers web chat, 2-way SMS, an AI-native CRM, ticketing, and sequence automations rather than voice alone.
+Competitor prices are each vendor's own published rate, last checked August 2026. Compare what each tier includes rather than the headline price alone, because entry tiers differ widely in the minutes they allow.
+Compare AI Workforce Plans
+Compare every AI workforce plan
+A side-by-side look at AI receptionist pricing and the full AI workforce included across all three plans.
+Features
+Business-in-a-Box
+$99 /mo
+Partner / Enterprise
+Custom
+Included Usage
+What you get each month with your plan. Use it all at no extra charge. If you need more, overage credits kick in.
+Voice (Call & Voicebot)
+Minutes your AI receptionist can spend on phone calls and voice chats on your website.
+200 min/mo
+Custom
+Outbound Calls
+Calls your AI can make for you, like appointment reminders or follow-ups. This is a hard daily cap.
+20 / day
+Custom
+Emails
+Emails your AI writes for you as part of follow-ups or sequences.
+500 drafts/mo
+Unlimited
+SMS
+Texts your AI sends to customers, like appointment links, directions, or follow-ups.
+400 msgs/mo
+Custom
+Chatbot
+Chats your AI handles on your website, each customer conversation counts as one.
+100 convos/mo
+Custom
+Sequence Automation Workflows
+Automated follow-up workflows, for example, text a new lead, then email them the next day if they don't respond.
+Unlimited
+Unlimited
+Website Forms
+Leads captured through forms on your website, each submission counts as one.
+300 subs/mo
+Custom
+Overage Credit Pool
+Extra credits you get each month in case you go over your included usage. Unused credits expire monthly.
+1,000/mo
+Volume pricing
+Auto-Reload Credits
+If you run out of credits, we automatically add more ($10 for 1,000 credits). Purchased credits never expire.
+AI Features
+Knowledge Base
+Info you give your AI so it can answer questions about your business.
+20 pages
+Custom
+Agent Actions
+Things your AI can do. Transfer a call, send a text, look something up, or push data to another app.
+2 of each
+Custom
+Notifications
+How many people on your team get alerted when something happens.
+3 recipients
+Custom
+Verified Outbound Number
+Your outbound calls and texts show your business name instead of an unknown number.
+Custom Outbound Caller ID
+Outbound calls show your own business phone number so customers see a number they recognize.
+Integrations
+Zapier
+Connect Frontdesk to thousands of other apps you already use.
+API Access
+For developers: connect Frontdesk directly to your own software or systems.
+Custom Work
+Our team builds custom features, integrations, or workflows specifically for your business.
+Account
+Viewing Seats
+Team members who can log in and view your dashboard (read-only).
+Unlimited
+Unlimited
+Editor Seats
+Team members who can change your AI's settings, knowledge base, and workflows.
+2
+Custom
+Data Retention
+How many past call logs, chats, and interactions you can look back on.
+Last 200 logs
+Custom
+Support
+Chatbot Support
+Get quick answers from our support chatbot anytime, right inside the app.
+Email Support
+Priority Support
+Your questions get answered first, with faster response times.
+Dedicated Slack Channel
+Dedicated Account Manager
+White-Glove Onboarding
+We set everything up for you: receptionist, knowledge base, workflows, and integrations.
+Ready to get started?
+Start Free Trial
+Book a Demo
+Overage Credits
+Predictable pricing beyond included usage
+When you exceed your monthly usage, credits are drawn from your pool at the rates below. Partner / Enterprise plans get significantly lower rates.
+¢
+1 credit = $0.01
+Auto-reload: $10 for 1,000 credits. Never expire.
+Get Started
+Get enterprise rates
+Feature
+Business
+Enterprise
+Voice (per minute)
+25 credits
+As low as 7 credits
+SMS (per message)
+4 credits
+Custom
+Chatbot (per conversation)
+5 credits
+Custom
+Form Submission (per lead)
+4 credits
+Custom
+Web Voicebot (per minute)
+25 credits
+As low as 7 credits
+Save Every Month
+Replace your entire tech stack
+Stop paying for disconnected tools. Get one AI workforce that does it all, and actually connects.
+Typical tech stack
+$ 1,531 /mo
+→
+Frontdesk
+$99 /mo
+Save $ 1,432 /month
+Feature
+Replaces
+Why it's better
+Typical cost
+Frontdesk
+Feature
+AI Phone & Voice
+Replaces
+Dialpad, RingCentral, Grasshopper
+Why it's better
+First AI voice product (2023). Answers, qualifies & books with no humans needed.
+Typical cost
+$175 /mo
+Frontdesk
+Feature
+AI-Native CRM
+Replaces
+HubSpot, Salesforce, Pipedrive
+Why it's better
+AI auto-updates from every call, chat & text. Zero manual entry, ever.
+Typical cost
+$450 /mo
+Frontdesk
+Feature
+AI Chatbot
+Replaces
+Intercom, Drift, Zendesk Chat
+Why it's better
+Same AI brain as phone & SMS. Creates tickets, books appointments, updates CRM.
+Typical cost
+$150 /mo
+Frontdesk
+Feature
+2-Way SMS Marketing
+Replaces
+Twilio, SimpleTexting, SlickText
+Why it's better
+AI holds real conversations with full customer context, not just blasts.
+Typical cost
+$149 /mo
+Frontdesk
+Feature
+Booking & Appointments
+Replaces
+Calendly, Acuity, Square
+Why it's better
+AI handles complex services, rescheduling & no-show follow-ups automatically.
+Typical cost
+$48 /mo
+Frontdesk
+Feature
+Workflow Automations
+Replaces
+ActiveCampaign, HubSpot, Klaviyo
+Why it's better
+Triggers from live AI conversations, not just form fills or manual rules.
+Typical cost
+$349 /mo
+Frontdesk
+Feature
+Ticketing & Support
+Replaces
+Zendesk, Freshdesk, Help Scout
+Why it's better
+AI creates, routes & resolves tickets from calls before you even know about them.
+Typical cost
+$115 /mo
+Frontdesk
+Feature
+Call Tracking
+Replaces
+CallRail, CallTrackingMetrics
+Why it's better
+AI extracts intent, sentiment & next steps, not just call logs.
+Typical cost
+$95 /mo
+Frontdesk
+Start Saving Today
+Thousands
+of
+Businesses
+Grow
+with
+Frontdesk
+5,000 +
+Monthly customer interactions
+Zest Properties
+“
+What would normally take us all day to call through our delinquency list was done in five minutes. ”
+Vanessa Smith, COO
+Read the story
+600 +
+Student tenants supported
+“
+It's saving us so much time, and we're not even using it to its fullest extent yet. ”
+Nick, Leasing Department
+Read the story
+1,600 +
+Calls handled monthly
+“
+The phones used to ring all day long. Now we can go an hour without hearing a landline ring. ”
+Todd Dusenberry, Owner
+Read the story
+6,500
+Agents supported 24/7
+“
+6,500 agents get consistent coverage. After-hours and peak periods no longer mean unanswered lines. ”
+Samson Properties Team
+Read the story
+55 hrs
+Weekly calls eliminated
+“
+We eliminated 37-55 hours of phone calls a week and gave that time back to the team. ”
+Burkai Earl, Co-Owner
+Read the story
+1,600 +
+Calls handled monthly
+“
+Our customers get instant answers about products, pricing, and availability even when our showroom is closed. ”
+United Porté team
+Read the story
+35 %
+Leads captured after hours
+“
+We were missing calls after 5 PM every day. Now every inquiry gets a response. ”
+Artisan Homes Team
+Read the story
+~ 75 %
+Lower call handling cost
+Z&A Management
+“
+We cut our cost by about 75% to achieve the same revenue, if not grow it even higher. ”
+Aaron Neilsen, CEO
+Read the story
+40 +/week
+Admin hours saved
+“
+It changed our front desk. Our team can finally focus on higher-value work. ”
+Tiffany Hurd, Operations Manager
+Read the story
+$ 30 K+
+Generated in 5 days of outbound calls
+“
+We generated $30K+ in 5 days just making outbound calls with AI Frontdesk. The thing pays for itself in a week. ”
+Trade Recalls Team
+Read the story
+100 %
+Order calls answered (up from 0%)
+Freak Brothers Pizza
+“
+We literally never answered the phone. Now Frontdesk answers every single call. ”
+Freak Brothers Team, Co-Owner
+Read the story
+100 +
+Calls handled per day
+“
+AI Frontdesk gives every caller an immediate answer and creates the feeling that someone is always available. ”
+Karen Delacruz, Marketing Coordinator
+Read the story
+View all stories
+The
+AI
+Receptionist
+that
+Broke
+the
+Internet
+Don't take our word for it. See why thousands of operators have been sharing Frontdesk's AI Receptionists .
+Customer story
+Now agents instead of calling again and again until someone picks up, their call is getting answered right away.
+Adrienne Torres
+|
+Operations Manager, Samson Properties Read the full story ↗
+FAQ
+AI receptionist pricing questions, answered
+Everything you need to know about AI receptionist pricing, the AI workforce included in every plan, usage credits, billing, and upgrades.
+Contact support
+How much does an AI receptionist cost?
+A Frontdesk plan that answers phone calls costs $99 per month on Business-in-a-Box, or $79 per month billed annually, and includes 200 voice minutes alongside chat, SMS, CRM, and automations. Partner and Enterprise pricing is custom and set by monthly volume.
+How much does an AI receptionist cost per month?
+Frontdesk bills $99 per month for Business-in-a-Box, with no contract and no per-seat or per-call fees. Paying annually takes 20% off, which brings it to $79 per month billed upfront. Business-in-a-Box also carries a pool of 1,000 overage credits each month, and auto-reload adds 1,000 more for $10 if you run out.
+How much do virtual receptionists cost?
+Published prices for AI virtual receptionists start at around $14 per month and rise with the minutes included. ai-receptionist.com advertises plans from $14 per month, Allo from $18 per month, AgentZap from $25 per month, and NextPhone between $199 and $299 per month. Frontdesk charges $99 per month for Business-in-a-Box, the plan that answers phone calls, or $79 per month billed annually.
+What is the cheapest AI receptionist?
+The cheapest advertised plans in this category sit under $20 per month, with ai-receptionist.com from $14 per month and Allo from $18 per month. Entry tiers are limited by their minute allowance, so compare what each plan includes rather than the headline price alone. The lowest Frontdesk plan that answers calls is Business-in-a-Box at $99 per month, which includes 200 voice minutes plus chat, SMS, CRM, and automations rather than voice alone.
+Is there a free AI receptionist?
+Frontdesk does not offer a permanently free plan. Paid plans start at $99 per month for Business-in-a-Box, which is the entry point for answering calls and includes 200 voice minutes plus chat, SMS, CRM, and automations. If you are comparing against a free tier elsewhere, check how many minutes or calls it actually includes.
+Is an AI receptionist worth it?
+It depends on how many calls you currently miss and what one booked customer is worth to you. Business-in-a-Box costs a fixed $99 per month and covers nights, weekends, and holidays, so the comparison to run is that figure against the revenue sitting in calls that currently go to voicemail. A business with low call volume and full phone coverage during opening hours gets less from it than one whose phone rings outside staffed hours.
+What does an AI receptionist cost for a small business?
+Business-in-a-Box at $99 per month is the plan built for small businesses, or $79 per month billed annually. It covers 1 to 10 interactions per day and includes 200 voice minutes, 100 chat conversations, 400 SMS messages, 500 email drafts, and 300 website form submissions each month. Businesses running more than 25 interactions a day move to Partner or Enterprise pricing, which is quoted on volume.
+What happens if I use more than my included voice minutes?
+Business-in-a-Box includes 200 voice minutes a month; after that, each extra minute draws 25 credits ($0.25) from the plan's monthly pool of 1,000 overage credits, which covers about 40 more minutes. Unused pool credits expire at the end of the month. If the pool runs out, auto-reload adds 1,000 credits for $10, and purchased credits never expire. Partner and Enterprise plans pay a lower per-minute rate.
+Which Frontdesk plan includes API access and integrations?
+Every plan connects to calendars, CRMs and thousands of other apps through Zapier, including Business-in-a-Box at $99 per month. Direct API access, custom work, priority support and a dedicated account manager are part of Partner and Enterprise, which are priced on volume. There are no separate Starter or Pro tiers.
+Get Started
+Launch fast, scale with confidence
+Create your account for free. Choose the plan that fits your business and usage.
+Get Started
+Book a Demo
+Trial included usage and any usage charges depend on your chosen plan or agreed written offer. Review trial and cancellation terms
+.
+Go live in minutes
+Cancel anytime
+Business Plan
+$99 /mo
+or $79/mo billed annually
+Includes voice, chat, SMS, CRM, and automations
+Choose Business
+Ready to go live
+Create your account for free.
+Launch Frontdesk in minutes, capture more leads, and automate repetitive front-office workflows from day one.
+Start for Free
+Book a Demo ↗
+Trial included usage and any usage charges depend on your chosen plan or agreed written offer. Review trial and cancellation terms
+.
+No credit card required
+·
+Go live in under 5 minutes
+·
+Cancel anytime
+Product
+Lead capture
+AI Phone Receptionist
+AI Web Chatbot
+AI Email Agent
+SMS Texting Agent
+AI Website Builder and SEO Autoblogger
+Website Forms
+PBX Call Capture
+In-Person Meeting Capture
+AI Avatar
+Intelligence
+AI CRM
+Smart Tickets
+AI Calendar
+Smart Notifications
+Dashboards & Reporting
+Automations
+Automated Outbound Calls
+Automated Outbound SMS
+Automation Sequences
+Email Drip Campaigns
+AI and Code Automations
+Show all 19
+Property management
+AI for Multifamily
+Resident Journey Automation
+Property Management Use Cases
+AI Leasing Agent
+AI Tour No-Show Recovery
+AI Maintenance Intake
+AI Rent Delinquency
+AI Lease Renewal
+Yardi AI Integration
+RealPage AI Integration
+AppFolio AI Integration
+Entrata AI Integration
+Buildium AI Integration
+EliseAI Alternative
+Funnel Leasing Alternative
+Knock CRM Alternative
+LeaseHawk Alternative
+AppFolio Leasing AI
+Yardi AI Leasing Agent
+AI for Property Managers
+Multifamily AI Tools
+Multifamily ROI Calculator
+Multifamily AI Prompt Library
+Multifamily AI Reports
+Show all 24
+Industries
+AI for Multifamily
+AI for Retail & Ecommerce
+AI for Therapy Practices
+Property Management AI
+Real Estate Brokerage AI
+Accounting & Finance AI
+Legal AI
+Automotive AI
+Retail & ecommerce
+AI for Retail & Ecommerce
+AI Store Receptionist
+AI Order Status Lookup
+AI Abandoned Cart Recovery
+AI Returns Management
+AI for Amazon Sellers
+Shopify AI Integration
+WooCommerce AI Integration
+Klaviyo AI Integration
+Retail AI Tools
+Retail ROI Calculator
+Retail AI Prompt Library
+Retail AI Reports
+Show all 21
+Therapy practices
+AI for Therapy Practices
+AI for ABA Therapy
+AI for Speech Therapy
+AI for Mental Health
+AI No-Show Recovery
+AI Insurance Verification
+Therapy AI Tools
+Therapy ROI Calculator
+Therapy AI Prompt Library
+Therapy AI Reports
+Resources
+Virtual Receptionist
+CRM Reimagined for the AI Age
+Free Lead Leak Audit
+(opens in new tab)
+Free Mystery Shop
+Help Center
+Compare Alternatives
+Resources
+Features
+Customer Journeys
+Use Case Library
+Blog
+Insights
+Sitemap
+Articles
+(opens in new tab)
+2026 Centralization Report
+Integrations
+(opens in new tab)
+Show all 16
+Free AI tools
+AI Receptionist
+AI Phone Receptionist
+Free AI SMS Texting Agent
+Free AI Chatbot
+Free AI Voicebot
+Free AI Forms
+Free AI CRM
+Free AI Ticketing System
+Free AI Calendar Tool
+Free AI Notifications
+Free AI Data Dashboards
+Free AI Outbound Calls
+Free AI Outbound SMS
+PBX Call Capture
+In-Person Meeting Capture
+Show all 15
+CRM
+CRM Glossary
+What Is a CRM?
+What Is an AI CRM?
+Sales Pipeline
+Lead Scoring
+Lead Enrichment
+Speed to Lead
+Pipeline Velocity
+Sales Cadence
+System of Record
+CRM Migration
+Conversation Intelligence
+Call Summary
+Software & alternatives
+AI CRM
+Best CRM For Your Business
+HubSpot Alternative
+Salesforce Alternative
+Pipedrive Alternative
+Zoho CRM Alternative
+monday CRM Alternative
+GoHighLevel Alternative
+Keap Alternative
+Close CRM Alternative
+ActiveCampaign Alternative
+Copper CRM Alternative
+Freshsales Alternative
+Attio Alternative
+Show all 27
+Company
+Start for Free
+(opens in new tab)
+Pricing
+Book a Demo
+(opens in new tab)
+Notable press
+As Featured On Business Insider
+(opens in new tab)
+HubSpot
+(opens in new tab)
+Pipedrive
+(opens in new tab)
+Zapier
+(opens in new tab)
+© 2026 AI Front Desk, Inc. All rights reserved.
+Terms & Conditions
+Privacy Policy
+Audit
+Acceptable Use Policy

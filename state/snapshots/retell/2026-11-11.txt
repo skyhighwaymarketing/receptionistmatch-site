@@ -1,0 +1,847 @@
+# Retell AI | https://www.retellai.com/pricing | fetched 2026-11-11 | HTTP 200 | 187 price mentions
+Retell Hits $100M! Celebrate with us and unlock a special offer.
+NEW
+Product
+Build
+Call Transfer
+Switch between human and AI
+Book Appointments
+Check availability and book
+Knowledge Base
+AI uses existing knowledge
+Navigate IVR
+Handle keypad menus
+Deploy
+Batch Call
+Run high volume campaigns
+Branded Call ID
+Your business name as a caller ID
+Verified Phone Numbers
+Prevent spam flags
+Monitor
+Post Call Analysis
+Uncover what's working
+AI Quality Assurance
+Improve reliability at scale
+Introducing GPT-Live-1
+See release notes
+Solutions
+Industries
+Healthcare
+Financial Services
+Insurance
+Logistics
+Retail & Consumer Goods
+Travel & Hospitality
+Debt Collection
+Use cases
+Overview
+AI Dispatch Service
+Lead Qualification
+AI Receptionist
+AI Customer Service
+AI Answering Service
+Hire a certified Retell solution partner
+See Customer Stories
+Hear from our customers
+See customer stories
+Developers
+Resources
+Documentation
+Status
+Glossary
+Learn
+Integrations
+Overview
+Make
+Twilio
+Vonage
+Go High Level
+n8n
+Hubspot
+Resources
+News
+Blog
+Changelog
+Community
+Events
+Customer Stories
+Retell University
+Company
+About Us
+Careers We’re hiring
+Newsroom
+Brand Assets
+Trust Center
+Partners
+Solution Partner Program
+Solution Partner Directory
+App Partner Directory
+Creator Partners
+Pricing
+Contact Sales
+Login
+Contact Sales
+Try For Free
+Product
+Solutions
+Developers
+Resources
+Pricing
+Login
+Product
+Solutions
+Developers
+Resources
+True pay as you go.
+Only pay for the minutes you use.
+Most voice AI platforms require annual contracts before you write a single line of code. Retell starts at $0, pay only for what you use.
+Overview
+Built to scale with you
+From quick-start simplicity to enterprise-grade security, compliance, and support. Retell meets you wherever you are.
+Pay as you go
+Go live in minutes with $10 in free credits. Full platform access, no commitments. Just build, test, and pay as you scale.
+$0.07-$0.31
+/ min for AI Voice Agents
+$0.002+
+/ msg for AI Chat Agents
+Sign up for free
+Key Features Include
+Full Platform Access
+Pre-built Agent Templates
+Call Analytics and Transcripts
+Simulation Testing
+Webhooks and API Access
+20 Free Concurrent Calls
+Community and Email Support
+Enterprise Plan
+Purpose-built for organizations that demand higher reliability, tighter compliance, and dedicated support, with volume pricing that scales as you grow.
+Custom Pricing
+for AI Voice Agents
+Custom Pricing
+for AI Chat Agents
+Contact sales
+Everything from pay as you go, plus
+Dedicated Implementation Support (add-on)
+Custom MSA/DPA terms
+Role-based Access Control
+Dedicated Stable Server (add-on)
+Custom SSO
+High Cap on Concurrent Calls
+24/7 Omnichannel Support with Dedicated Portal
+Pay as you go estimate
+Estimate Your Cost
+Adjust key parameters to see an approximate monthly cost for your Retell AI voice agents. Quickly understand which plan fits best.
+Monthly calls
+Enter your expected monthly call volume in minutes to estimate costs.
+Enter Amount
+Choose your options
+LLM
+GPT 5.5
+GPT 5.4
+GPT 5.2
+GPT 5.1
+GPT 5
+GPT 5 nano
+GPT 5 mini
+GPT 4.1
+GPT 4.1 mini
+GPT 4.1 nano
+Claude 4.5 sonnet
+Claude 4.6 sonnet
+Claude 4.5 haiku
+Gemini 3.5 Flash
+Gemini 3.0 Flash
+Gemini 2.5 Flash
+Gemini 2.5 Flash Lite
+Custom LLM
+Text To Speech
+Retell Platform Voices
+Minimax Voices
+Fish Voices
+Elevenlabs Voices
+Cartesia Voices
+OpenAI Voices
+Telephony
+Custom Telephony
+Retell Twilio/Telnyx
+Call Agent Add-ons
+Knowledge Base
+x
+Advanced Denoising
+x
+Safety Guardrails
+x
+PII Removal
+x
+AI Quality Assurance
+x
++ Add Feature
+Knowledge Base
+Advanced Denoising
+Safety Guardrails
+PII Removal
+AI Quality Assurance
+Cost Per Minute
+$
+0.11
+LLM Cost
+$
+0.04
+/min
+Retell Voice Infra
+$
+0.055
+/min
+TTS Cost
+$
+0.015
+/min
+Telephony Cost
+$
+0.00
+/min
+Add-ons
+$
+0.00
+/min
+Total
+per month
+$
+0.11
+For pay as you go plan
+View More Pricing Details
+Comparison
+Compare Plans
+Items
+Pay-as-you-go
+Sign up for free
+Enterprise
+Contact Sales
+Voice AI
+Pay-as-you-go
+Enterprise
+Price
+$0.07-$0.31/minute
+Custom Pricing
+Concurrent calls
+20 included, more available on demand
+No Cap on Concurrent Calls
+Infrastructure
+Pay-as-you-go
+Enterprise
+Server
+Shared
+Dedicated stable server (add-on)
+Built-in Fallback System
+Compliance
+Pay-as-you-go
+Enterprise
+Built-in Safety Guardrails
+Personal Info Redaction (PII)
+Opt-out Recording & Transcription
+Custom Data Retention
+HIPAA / BAA
+SSO
+Custom MSA
+Custom DPA
+Custom BAA
+Role-based Access Control
+Support
+Pay-as-you-go
+Enterprise
+Community and Email Support
+24/7 Support with Dedicated Portal
+Dedicated Implementation Support
+Named Account Manager
+Comparison
+Detailed Component Pricing
+Call agent Pricing
+Default Speech-to-Speech
+Conversation Voice Engine
+Notes
+Pricing
+Retell Voice Infra
+$0.055/minute
+Text-to-speech
+Notes
+Pricing
+Retell Platform Voices
+$0.015/minute
+Minimax Voices
+$0.015/minute
+Fish Voices
+$0.015/minute
+ElevenLabs Flash
+$0.040/minute
+ElevenLabs Multilingual v2
+$0.06/minute
+ElevenLabs v3
+$0.10/minute
+ElevenLabs v3 Conversational
+$0.08/minute
+ElevenLabs v4
+$0.10/minute
+ElevenLabs v4 Turbo
+$0.08/minute
+Cartesia Voices
+$0.015/minute
+OpenAI Voices
+$0.015/minute
+Inworld Voices
+$0.015/minute
+LLM
+Standard
+Fast Tier
+GPT 5.6 Terra
+Recommended
+$0.064/minute
+$0.128/minute
+Claude 5 Sonnet
+Recommended
+$0.064/minute
+GPT 5.5
+Recommended
+$0.16/minute
+$0.32/minute
+GPT 5.4
+Recommended
+$0.080/minute
+$0.16/minute
+GPT 6.1 Sol
+$0.064/minute
+$0.128/minute
+GPT 6.1 Sol (Ultrafast)
+$0.384/minute
+GPT 6.1 Terra
+$0.032/minute
+$0.064/minute
+GPT 6 Astra
+$0.32/minute
+$0.64/minute
+GPT 6 Sol
+$0.064/minute
+$0.128/minute
+GPT 6 Luna
+$0.0032/minute
+$0.0064/minute
+GPT 5.6 Sol
+$0.128/minute
+$0.256/minute
+GPT 5.6 Luna
+$0.0064/minute
+$0.0128/minute
+GPT 5.4 mini
+$0.024/minute
+$0.048/minute
+GPT 5.4 nano
+$0.0064/minute
+GPT 5.2
+$0.056/minute
+$0.112/minute
+GPT 5.1
+$0.04/minute
+$0.08/minute
+GPT 5
+$0.04/minute
+$0.08/minute
+GPT 5 mini
+$0.008/minute
+$0.016/minute
+GPT 5 nano
+$0.0016/minute
+GPT 4.1
+$0.045/minute
+$0.0675/minute
+GPT 4.1 mini
+$0.0128/minute
+$0.0192/minute
+GPT 4.1 nano
+$0.0032/minute
+$0.0048/minute
+Claude 5.5 Opus
+$0.128/minute
+Claude 5.5 Sonnet
+$0.064/minute
+Claude 5.5 Haiku
+$0.0032/minute
+Claude 5 Opus
+$0.16/minute
+Claude 4.6 sonnet
+$0.08/minute
+Claude 4.5 haiku
+$0.025/minute
+Claude 4.5 sonnet
+$0.08/minute
+Gemini 4 Argon
+$0.128/minute
+Gemini 3.8 Flash
+$0.048/minute
+Gemini 3.7 Flash
+$0.048/minute
+Gemini 3.6 Flash
+$0.024/minute
+Gemini 3.5 Flash Lite
+$0.0096/minute
+Gemini 3.5 Flash
+$0.048/minute
+Gemini 3.1 Flash Lite
+$0.008/minute
+Gemini 3.0 Flash
+$0.016/minute
+Telephony
+Pricing
+Call Rates
+No Charge for Sip Trunking/Custom Telephony
+Select Country Country
+United States (Twilio) United States (Twilio Toll Free) India (Twilio) Australia (Twilio) Germany (Twilio) Spain (Twilio) United Kingdom (Twilio) Mexico (Twilio) France (Twilio) Japan (Twilio) Canada (Twilio) Italy (Twilio) Indonesia (Twilio) Philippines (Twilio) Malaysia (Twilio) Thailand (Twilio) United States (Telnyx) India(Telnyx) Canada(Telnyx)
+$
+0.015
+/min
+Call Agent Add-ons
+Notes
+Extras
+Knowledge Base
++$0.005/minute
+Batch Call
++$0.005/dial
+Branded Call
++$0.10/outbound call
+Advanced Denoising
++$0.005/min
+Safety Guardrails
++$0.005/min
+PII Removal
++$0.01/min
+AI Quality Assurance
+First 100 minutes free
+$0.10/min
+SMS
+$0.01/Msg
+Chat Agent Pricing
+Notes
+Pricing
+GPT 5.6 Terra
+Recommended
+$0.0208/AI msg
+Claude 5 Sonnet
+Recommended
+$0.02/AI msg
+GPT 5.5
+Recommended
+$0.05/AI msg
+GPT 5.4
+Recommended
+$0.025/AI msg
+GPT 6.1 Sol
+$0.02/AI msg
+GPT 6.1 Terra
+$0.01/AI msg
+GPT 6 Astra
+$0.10/AI msg
+GPT 6 Sol
+$0.02/AI msg
+GPT 6 Luna
+$0.001/AI msg
+GPT 5.6 Sol
+$0.04/AI msg
+GPT 5.6 Luna
+$0.002/AI msg
+GPT 5.4 mini
+$0.0075/AI msg
+GPT 5.4 nano
+$0.002/AI msg
+GPT 5.2
+$0.0175/AI msg
+GPT 5.1
+$0.0125/AI msg
+GPT 5
+$0.0125/AI msg
+GPT 5 mini
+$0.0025/AI msg
+GPT 5 nano
+$0.0005/AI msg
+GPT 4.1
+$0.015/AI msg
+GPT 4.1 mini
+$0.004/AI msg
+GPT 4.1 nano
+$0.001/AI msg
+Claude 5.5 Opus
+$0.04/AI msg
+Claude 5.5 Sonnet
+$0.02/AI msg
+Claude 5.5 Haiku
+$0.001/AI msg
+Claude 5 Opus
+$0.05/AI msg
+Claude 4.6 Sonnet
+$0.03/AI msg
+Claude 4.5 haiku
+$0.007/AI msg
+Claude 4.5 sonnet
+$0.03/AI msg
+Gemini 4 Argon
+$0.04/AI msg
+Gemini 3.8 Flash
+$0.015/AI msg
+Gemini 3.7 Flash
+$0.015/AI msg
+Gemini 3.6 Flash
+$0.0075/AI msg
+Gemini 3.5 Flash Lite
+$0.003/AI msg
+Gemini 3.5 Flash
+$0.015/AI msg
+Gemini 3.1 Flash Lite
+$0.0025/AI msg
+Gemini 3.0 Flash
+$0.005/AI msg
+Chat agent Add-ons
+Notes
+Pricing
+SMS
+$0.01/Msg
+Monthly Subscription Items
+Notes
+Pricing
+Retell Phone Numbers
+No Charge for custom phone numbers
+$2.00/month
+Retell SMS
+No charge for custom telephony SMS
+$20.00/month
+Concurrency (Active Calls)
+Free for first 20 concurrency (active calls)
+$8.00/Concurrency/month
+Knowledge Base
+$80/month free value (10 KBs)
+$8.00/Knowledge Base/month (prorated)
+Verified Phone Number
+$10.00/Phone number/month
+Speech-to-speech LLM
+Notes
+Pricing
+GPT Realtime 1.5
+$0.345/minute
+GPT Realtime
+$0.345/minute
+GPT Realtime mini
+$0.07/minute
+GPT Realtime 2.1
+$0.38/minute
+GPT Realtime 2
+$0.38/minute
+GPT Realtime 2.1 mini
+$0.07/minute
+Grok Voice 3.0
+$0.135/minute
+GPT-Live 1
++ backend LLM price per minute
+$0.05/minute
+Chat Agent Pricing
+Notes
+Pricing
+GPT 5.6 Terra
+Recommended
+$0.0208/AI msg
+Claude 5 Sonnet
+Recommended
+$0.02/AI msg
+GPT 5.5
+Recommended
+$0.05/AI msg
+GPT 5.4
+Recommended
+$0.025/AI msg
+GPT 6.1 Sol
+$0.02/AI msg
+GPT 6.1 Terra
+$0.01/AI msg
+GPT 6 Astra
+$0.10/AI msg
+GPT 6 Sol
+$0.02/AI msg
+GPT 6 Luna
+$0.001/AI msg
+GPT 5.6 Sol
+$0.04/AI msg
+GPT 5.6 Luna
+$0.002/AI msg
+GPT 5.4 mini
+$0.0075/AI msg
+GPT 5.4 nano
+$0.002/AI msg
+GPT 5.2
+$0.0175/AI msg
+GPT 5.1
+$0.0125/AI msg
+GPT 5
+$0.0125/AI msg
+GPT 5 mini
+$0.0025/AI msg
+GPT 5 nano
+$0.0005/AI msg
+GPT 4.1
+$0.015/AI msg
+GPT 4.1 mini
+$0.004/AI msg
+GPT 4.1 nano
+$0.001/AI msg
+Claude 5.5 Opus
+$0.04/AI msg
+Claude 5.5 Sonnet
+$0.02/AI msg
+Claude 5.5 Haiku
+$0.001/AI msg
+Claude 5 Opus
+$0.05/AI msg
+Claude 4.6 Sonnet
+$0.03/AI msg
+Claude 4.5 haiku
+$0.007/AI msg
+Claude 4.5 sonnet
+$0.03/AI msg
+Gemini 4 Argon
+$0.04/AI msg
+Gemini 3.8 Flash
+$0.015/AI msg
+Gemini 3.7 Flash
+$0.015/AI msg
+Gemini 3.6 Flash
+$0.0075/AI msg
+Gemini 3.5 Flash Lite
+$0.003/AI msg
+Gemini 3.5 Flash
+$0.015/AI msg
+Gemini 3.1 Flash Lite
+$0.0025/AI msg
+Gemini 3.0 Flash
+$0.005/AI msg
+Chat agent Add-ons
+Notes
+Pricing
+SMS
+$0.01/Msg
+Monthly Subscriptions Items
+Notes
+Pricing
+Retell Phone Numbers
+No Charge for custom phone numbers
+$2.00/month
+Retell SMS
+No charge for custom telephony SMS
+$20.00/month
+Concurrency (Active Calls)
+Free for first 20 concurrency (active calls)
+$8.00/Concurrency/month
+Knowledge Base
+$8.00/Knowledge Base/month
+Free for first 10 knowledge bases
+Verified Phone Number
+$10.00/Phone number/month
+One-time $10 fee
+Advantages
+The go-to Voice AI platform speaks for itself
+Most platforms force a tradeoff between speed and security. We built Retell so you never have to choose. Full access, fair pricing, enterprise-grade security from day one.
+All-In Features
+No platform fees, no feature gating. Every plan gets full access to the entire platform.
+Usage-Based Billing
+You pay only for what you consume. No minimums, no contracts, no surprises.
+Launch in Minutes
+Go from signup to live agent in minutes. Pre-built templates and simulation testing get you to production fast.
+Enterprise Ready
+SOC 2 certified, HIPAA-ready, with SSO and custom compliance terms. Built for teams that can't compromise on security.
+FAQ
+Common Questions
+How do you calculate the minutes?
+Each call is tracked to the nearest second. At the end of each billing cycle, we charge based on your total accumulated minutes. No rounding up per call, no inflated bills.
+Does billing continue after a transfer?
+Once the call is transferred, the AI voice agent fee stops. Only the telephony fee continues for the remainder of the transferred call.
+Am I charged during silence or hold time?
+Yes. Billing covers the entire duration of the call because the speech-to-text engine remains active and listening throughout, even during silence.
+How do I access invoices and add company details?
+Invoices are available in the Billing tab after each billing cycle. Make sure to add your company information before the billing date so it appears on your invoice.
+Do I get charged for failed calls or voicemails?
+You are only charged for connected calls. If a call fails to connect, you won't be billed. For calls that reach voicemail, billing applies only for the duration the AI agent is active on the line.
+How do concurrent call limits work?
+Every account includes 20 concurrent calls for free. Need more? Additional capacity is $8 per concurrent call per month. Add or remove anytime as your volume changes. Enterprise plans offer custom concurrency starting at 50+ calls.
+Time to hire your AI call center
+Revolutionize your call operation with Retell.
+Try For Free
+Contact Sales
+Built
+to scale,
+human by
+design
+Subscribe to our newsletter for our product updates.
+Submit
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+Start Free Trial
+See what makes Retell’s AI voice platform unique from how it works to what it can do for your team.
+Try For Free
+Contact Sales
+Product
+Build
+Call Transfer
+Book Appointments
+Knowledge Base
+Navigate IVR
+Deploy
+Batch Call
+Branded Call ID
+Verified Phone Numbers
+Monitor
+Post Call Analysis
+AI Quality Assurance
+Solutions
+Company Sizes
+Enterprise & Mid-Market
+Startup
+Industries
+Overview
+Healthcare
+Financial Services
+Insurance
+Logistics
+Retail & Consumer Goods
+Travel & Hospitality
+Debt Collection
+Use Cases
+Overview
+AI Receptionist
+Lead Qualification
+AI Dispatch Service
+AI Auto Dialer
+AI Answering Service
+AI IVR
+AI Appointment Setter
+AI Telemarketing
+Resources
+Product & Support
+Documentation
+Model Benchmark
+Pricing
+Changelog
+Blog
+Customer Stories
+Events
+Area Code
+Glossary
+Retell University
+Status Page
+AI Instructions
+Compare Products
+Competitors Overview
+VS
+Bland
+VS
+Vapi
+VS
+Synthflow
+VS
+Thoughtly
+VS
+Decagon
+VS
+Sierra
+Partners
+Solution Partner Program
+Solution Partner Directory
+App Partner Directory
+Creator Partners
+Products
+Build
+Call Transfer
+Book Appointments
+Knowledge Base
+Navigate IVR
+Deploy
+Batch Call
+Branded Call ID
+Verified Phone Numbers
+Monitor
+Post Call Analysis
+AI Quality Assurance
+Solutions
+Industries
+Overview
+Healthcare
+Financial Services
+Insurance
+Logistics
+Retail & Consumer Goods
+Travel & Hospitality
+Debt Collection
+Use Cases
+Overview
+AI Receptionist
+Lead Qualification
+AI Dispatch Service
+AI Auto Dialer
+AI Answering Service
+AI IVR
+AI Appointment Setter
+AI Telemarketing
+Resources
+Product & Support
+Documentation
+Model Benchmark
+Pricing
+Changelog
+Blog
+Customer Stories
+Events
+Area Code
+Glossary
+Learn
+Retell University
+Status Page
+AI Instructions
+Compare Products
+Competitors Overview
+VS
+Bland
+VS
+Vapi
+VS
+Synthflow
+VS
+Thoughtly
+VS
+Decagon
+VS
+Sierra
+Partners
+Solution Partner Program
+Solution Partner Directory
+App Partner Directory
+Creator Partners
+Request an AI Summary
+Learn more about how Retell is improving customer experience at leading enterprises.
+Company
+About Us
+Careers
+Newsroom
+Social Media
+LinkedIn
+X
+Youtube
+Community
+Discord
+© 2026 Retell AI
+Trust Center
+Privacy Policy
+HIPAA
+Terms Of Service
+Add Retell AI as a preferred source on Google
+Something went wrong. Please try again, or email support@retellai.com if it keeps happening.
+Check your inbox to confirm your subscription.
+Email
+I agree to receive the Retell newsletter and accept the data privacy statement.
+Subscribe
+You can unsubscribe at any time using the link in any email. This site is protected by reCAPTCHA and the Google Privacy Policy
+and Terms of Service
+apply.
+We use Brevo as our marketing platform. By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with Brevo's Privacy Policy.

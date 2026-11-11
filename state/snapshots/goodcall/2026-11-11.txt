@@ -1,0 +1,102 @@
+# Goodcall | https://www.goodcall.com/pricing | fetched 2026-11-11 | HTTP 200 | 6 price mentions
+Skip to content
+How it works
+Pricing
+Log in
+Talk to Gabi
+How it works
+Pricing
+Log in
+No per-minute charges. A bill you can predict.
+Talk as long as you need, as often as your customers call. None of it changes your bill. You pay one price for each customer your AI phone agent serves, and the only thing we count is how many different people it helped.
+Start free with a demo agent. Add a number when you're ready.
+Starter
+$79
+a month
+For a solo operator who misses calls while on the job.
+100
+unique customers a month
+then 79¢ each. About 150 calls/month.
+What you get
+5 workers
+1 external tool
+Base AI usage, about 100 test runs
+1 team member
+30-day call history
+Get started
+Growth
+Most popular
+$129
+a month
+For a busy shop booking work by phone every day.
+500
+unique customers a month
+then 26¢ each. About 750 calls/month.
+Everything in Starter, plus
+10 workers
+5 external tools
+5× AI usage, about 500 test runs
+5 team members
+90-day call history
+Get started
+Scale
+$299
+a month
+For several locations or a team handling calls all day.
+2,000
+unique customers a month
+then 15¢ each. About 3,000 calls/month.
+Everything in Growth, plus
+20 workers
+15 external tools
+20× AI usage, about 2,000 test runs
+10 team members
+Unlimited call history
+Get started
+Enterprise More than 2,000 customers a month, several connected systems, or a franchise group. Volume pricing, onboarding and an SLA.
+Contact sales
+Questions
+What counts as a unique customer? One phone number, once a month. If the same person calls back five times in March, that is one customer. Two different people is two. Spam and wrong numbers don't count at all.
+Are there charges for minutes, calls, or tokens? No. We never meter minutes. A thirty-second wrong number and a nine-minute booking cost exactly the same, nothing extra. That's the whole point of billing per customer.
+What happens if I go over? Nothing breaks. Extra customers bill at your plan's own rate: 79¢ on Starter, 26¢ on Growth, 15¢ on Scale. There's no penalty rate, and we tell you when a bigger plan would be cheaper than staying where you are.
+How does this compare to an answering service? A live answering service runs about $1.50 to $1.90 a minute. Even at four-minute calls, Starter works out to about 13¢ a minute, around a twelfth of the cost, and it answers every hour of every day. The longer your calls run, the cheaper we get, the opposite of metered billing.
+Do I have to pay for a phone number? No. Every plan includes a local number, and you can keep your existing one instead by forwarding it to us.
+What counts as an external tool? Anything you connect or build: an API, an MCP server, or a code block you write yourself. Each one counts once no matter how many workers use it. Transfers, hang-ups and call handling never count.
+What is a worker? One specialist inside your agent: a booker, a message taker, a knowledge expert. Your operator and greeter never count against the limit, so the number on the plan is the workers you add yourself.
+What are agent-powered edits? Describe the change you want in plain English and Gabi rewrites your agent: new questions, new steps, a different greeting. No forms, no rebuild, unlimited on every plan.
+What is AI usage? Test calls we run against your agent so you can check it behaves before it answers a real customer. Starter gets a base allowance, Growth 5× that, Scale 20×. Talking to Gabi is never metered, only the test runs count, and you can top up $5 at a time.
+Is there a free trial? Better: a free demo agent. Build it, test it, hear it answer, and only pay when you connect a number. Nothing is locked while you're trying it out.
+Phone numbers, teams, and connected tools
+Keep your business number with call forwarding, choose who receives transfers, and control your team's access. Read the operational answers
+or learn about Zapier for existing Goodcall agents
+.
+Start with Gabi.
+Talk to Gabi
+Built with ❤
+by humans and AI agents in California, Egypt, GPUland, Virginia and Washington
+X
+LinkedIn
+Facebook
+TikTok
+YouTube
+Product
+Pricing
+How it works
+FAQ
+AI phone Zapier integration
+Enterprise Voice Agent
+Resources
+SMB customer case studies
+Voice AI
+Answering service AI
+Appointment scheduling
+Business productivity tools
+Local AI phone number
+Blog
+Company
+Support
+About us
+News
+Privacy policy
+Terms of service
+© Goodcall 2026. All rights reserved.

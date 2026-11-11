@@ -1,0 +1,47 @@
+name: Vendor price snapshot
+
+# Grounding for every price claim (build plan section 2). Weekly price re-check (section 5 robot):
+# fetch each pricing page, store a dated text snapshot, extract plans with a line-number trace check,
+# and commit state/snapshots/. Needs repo secret ANTHROPIC_API_KEY for the extract step.
+on:
+  schedule:
+    - cron: '7 14 * * 0'   # Sun 14:07 UTC
+  workflow_dispatch:
+    inputs:
+      vendors:
+        description: 'Space-separated vendor slugs (blank = all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vendor-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install anthropic
+      - name: Fetch pricing pages
+        run: python3 robots/vendor_pages.py snapshot ${{ inputs.vendors }}
+      - name: Extract plans (trace-checked)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "::warning::ANTHROPIC_API_KEY not set; snapshots only"; exit 0; fi
+          python3 robots/vendor_pages.py extract ${{ inputs.vendors }}
+      - name: Commit snapshots
+        run: |
+          git config user.name "rm-price-robot"
+          git config user.email "rm-price-robot@users.noreply.github.com"
+          git add state/snapshots
+          git diff --cached --quiet && { echo "no changes"; exit 0; }
+          git commit -m "Vendor price snapshot $(date -u +%F)"
+          git push

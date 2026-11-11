@@ -1,0 +1,167 @@
+{
+ "_note": "Grounding for every price/feature claim (build plan section 2). kind: ai | live | hybrid. affiliate: approved | pending | none (mirror of RECEPTIONISTMATCH_AFFILIATES.md). Ranking and the match quiz never read payout. Snapshots: robots/vendor_pages.py -> state/snapshots/<slug>/<date>.{txt,json}.",
+ "vendors": [
+  {
+   "slug": "my-ai-front-desk",
+   "name": "My AI Front Desk",
+   "host": "myaifrontdesk.com",
+   "pricingUrl": "https://www.myaifrontdesk.com/pricing",
+   "kind": "ai",
+   "affiliate": "pending",
+   "payout": "30% recurring"
+  },
+  {
+   "slug": "answrr",
+   "name": "Answrr",
+   "host": "tryanswrr.com",
+   "pricingUrl": "https://tryanswrr.com/pricing",
+   "kind": "ai",
+   "affiliate": "pending",
+   "payout": "30% recurring"
+  },
+  {
+   "slug": "gohighlevel",
+   "name": "GoHighLevel AI Employee",
+   "host": "gohighlevel.com",
+   "pricingUrl": "https://www.gohighlevel.com/pricing",
+   "kind": "ai",
+   "affiliate": "approved",
+   "payout": "40% recurring"
+  },
+  {
+   "slug": "smith-ai",
+   "name": "Smith.ai",
+   "host": "smith.ai",
+   "pricingUrl": "https://smith.ai/pricing",
+   "kind": "hybrid",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "smith-ai-ai",
+   "name": "Smith.ai AI Receptionist",
+   "host": "smith.ai",
+   "pricingUrl": "https://smith.ai/pricing/ai-receptionist",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "ruby",
+   "name": "Ruby",
+   "host": "ruby.com",
+   "pricingUrl": "https://www.ruby.com/pricing/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "rosie",
+   "name": "Rosie",
+   "host": "heyrosie.com",
+   "pricingUrl": "https://heyrosie.com/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "goodcall",
+   "name": "Goodcall",
+   "host": "goodcall.com",
+   "pricingUrl": "https://www.goodcall.com/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "upfirst",
+   "name": "Upfirst",
+   "host": "upfirst.ai",
+   "pricingUrl": "https://www.upfirst.ai/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "synthflow",
+   "name": "Synthflow",
+   "host": "synthflow.ai",
+   "pricingUrl": "https://synthflow.ai/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "dialzara",
+   "name": "Dialzara",
+   "host": "dialzara.com",
+   "pricingUrl": "https://www.dialzara.com/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "ringcentral",
+   "name": "RingCentral AI Receptionist",
+   "host": "ringcentral.com",
+   "pricingUrl": "https://www.ringcentral.com/ai-receptionist.html",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "nextiva",
+   "name": "Nextiva",
+   "host": "nextiva.com",
+   "pricingUrl": "https://www.nextiva.com/pricing",
+   "kind": "hybrid",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "jobber",
+   "name": "Jobber (AI Receptionist add-on)",
+   "host": "getjobber.com",
+   "pricingUrl": "https://www.getjobber.com/pricing/",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "housecall-pro",
+   "name": "Housecall Pro (AI Team / CSR AI)",
+   "host": "housecallpro.com",
+   "pricingUrl": "https://www.housecallpro.com/pricing/",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "retell",
+   "name": "Retell AI",
+   "host": "retellai.com",
+   "pricingUrl": "https://www.retellai.com/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "vapi",
+   "name": "Vapi",
+   "host": "vapi.ai",
+   "pricingUrl": "https://vapi.ai/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "bland",
+   "name": "Bland AI",
+   "host": "bland.ai",
+   "pricingUrl": "https://www.bland.ai/pricing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null
+  }
+ ]
+}
