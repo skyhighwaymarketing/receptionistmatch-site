@@ -162,6 +162,51 @@
    "kind": "ai",
    "affiliate": "none",
    "payout": null
+  },
+  {
+   "slug": "abby-connect",
+   "name": "Abby Connect",
+   "host": "abby.com",
+   "pricingUrl": "https://www.abby.com/pricing/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "patlive",
+   "name": "PATLive",
+   "host": "patlive.com",
+   "pricingUrl": "https://www.patlive.com/pricing/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "voicenation",
+   "name": "VoiceNation",
+   "host": "voicenation.com",
+   "pricingUrl": "https://www.voicenation.com/pricing/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "posh",
+   "name": "Posh",
+   "host": "posh.com",
+   "pricingUrl": "https://www.posh.com/pricing",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "continental-message",
+   "name": "Continental Message Solution",
+   "host": "continentalmessage.com",
+   "pricingUrl": "https://www.continentalmessage.com/pricing/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null
   }
  ]
 }

@@ -55,7 +55,7 @@ Live receptionists charge for a person's time, so the gap is large.
 | [Smith.ai](https://smith.ai/pricing) | Live people | $300/mo | 30 calls ($11.50 per extra call) |
 | [Answrr](https://tryanswrr.com/pricing) | AI | $49/mo | 250 minutes |
 
-At the entry level, a live service costs about **five to ten times more per minute or call**. What you get for it is judgment: a person can calm an upset caller, handle an odd request, or decide a call is urgent. If most of your calls are booking, pricing questions and messages, an AI receptionist covers them for a fraction of the cost.
+At the entry level, a live service costs about **five to ten times more per minute or call**. What you get for it is judgment: a person can calm an upset caller, handle an odd request, or decide a call is urgent. If most of your calls are booking, pricing questions and messages, an AI receptionist covers them for a fraction of the cost. For the full side-by-side, see [AI receptionist vs answering service](/ai-receptionist-vs-answering-service/), and for every live plan size, [answering service cost](/answering-service-cost/).
 
 ## Developer platforms: cheap per minute, but you build it
 
@@ -81,6 +81,6 @@ At the entry level, a live service costs about **five to ten times more per minu
 | Under 30 calls a month, mostly after hours | Upfirst Starter ($24.95) or Smith.ai's free AI plan (25 calls) |
 | A steady 5 to 15 calls a day | Answrr or Rosie at $49 for 250 minutes |
 | You already run Jobber | The $29 Jobber receptionist add-on |
-| Callers need a real person (legal intake, upset customers) | Ruby or Smith.ai live, from $250 to $300 a month |
+| Callers need a real person (legal intake, upset customers) | A live service; see our [answering service guide for small businesses](/answering-service-for-small-business/) |
 
 **Who this page is NOT for:** call centers and businesses handling thousands of calls a month. At that size every vendor here quotes enterprise pricing, and you should get three quotes.

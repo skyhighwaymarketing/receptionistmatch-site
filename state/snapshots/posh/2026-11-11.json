@@ -1,0 +1,57 @@
+{
+ "vendor": "Posh",
+ "url": "https://www.posh.com/pricing",
+ "checked": "2026-11-11",
+ "source": "state/snapshots/posh/2026-11-11.txt",
+ "published": true,
+ "dropped_untraced": [],
+ "extracted_by": "manual-bf50",
+ "plans": [
+  {
+   "name": "Pay per minute",
+   "price": "$65.00/mo",
+   "billing": "monthly",
+   "included": "0 minutes",
+   "overage": "$2.30/min",
+   "line": 71
+  },
+  {
+   "name": "Vogue",
+   "price": "$130.00/mo",
+   "billing": "monthly",
+   "included": "50 minutes",
+   "overage": "$2.20/min",
+   "line": 77
+  },
+  {
+   "name": "Elegant",
+   "price": "$215.00/mo",
+   "billing": "monthly",
+   "included": "100 minutes",
+   "overage": "$2.15/min",
+   "line": 83
+  },
+  {
+   "name": "Luxurious",
+   "price": "$420.00/mo",
+   "billing": "monthly",
+   "included": "200 minutes",
+   "overage": "$2.10/min",
+   "line": 89
+  },
+  {
+   "name": "Lavish",
+   "price": "$975.00/mo",
+   "billing": "monthly",
+   "included": "500 minutes",
+   "overage": "$1.95/min",
+   "line": 101
+  }
+ ],
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Get A Free Trial",
+  "line": 56
+ },
+ "notes": "Prestigious 350 min $700; Exclusive 1,000 min $1,900."
+}
