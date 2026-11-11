@@ -46,6 +46,6 @@ Prices come from each vendor's own pricing page, checked November 11, 2026.
 
 ## The middle option: both
 
-Some vendors sell both. [Smith.ai](https://smith.ai/pricing/ai-receptionist) has an AI receptionist from $0 for 25 calls and $150 for 75 calls, next to its live plans from $300 for 30 calls. [VoiceNation](https://www.voicenation.com/pricing/) sells AI plans from $99 for 50 calls alongside live plans from $165 for 50 minutes. One way to use this: let AI take routine calls and send hard ones to a person.
+Some vendors sell both. [Smith.ai](https://smith.ai/pricing/ai-receptionist) has an AI receptionist from $0 for 25 calls and $150 for 75 calls, next to its live plans from $300 for 30 calls. [VoiceNation](https://www.voicenation.com/pricing/) sells AI plans from $99 for 50 calls alongside live plans from $165 for 50 minutes. One way to use this: let AI take routine calls and send hard ones to a person. Here is [which AI phone answering services can hand a call to a live person](/ai-phone-answering-service/).
 
 For a full walk-through of picking a provider, see our [answering service guide for small businesses](/answering-service-for-small-business/).
