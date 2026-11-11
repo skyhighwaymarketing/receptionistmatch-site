@@ -12,6 +12,9 @@ const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
   e.isDirectory() ? walk(p) : p.endsWith('.html') && files.push(p);
 });
 walk(DIST);
+// Sitemap URLs (0c gate 3: one self-canonical that equals the sitemap URL).
+const sitemapUrls = new Set(fs.readdirSync(DIST).filter((n) => /^sitemap-\d+\.xml$/.test(n))
+  .flatMap((n) => [...fs.readFileSync(path.join(DIST, n), 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1])));
 
 let bad = 0;
 const fail = (f, msg) => { bad++; console.log(`FAIL ${path.relative(DIST, f)}: ${msg}`); };
@@ -24,7 +27,9 @@ for (const f of files) {
     else {
       const want = 'https://receptionistmatch.com/' + path.relative(DIST, path.dirname(f)).split(path.sep).filter(Boolean).map((s) => s + '/').join('');
       if (canon[0] !== want) fail(f, `canonical ${canon[0]} != ${want}`);
+      if (!sitemapUrls.has(canon[0])) fail(f, `canonical ${canon[0]} not in the sitemap`);
     }
+    if (/<meta[^>]+name="robots"[^>]+noindex/i.test(html)) fail(f, 'noindex on an indexable page');
   }
   if (!/<h1[\s>]/.test(html)) fail(f, 'no <h1> in raw HTML');
   const body = html.slice(html.indexOf('<body'));
@@ -51,6 +56,16 @@ for (const f of files) {
     if (!/\$\s?\d/.test(first.replace(/<[^>]+>/g, ' '))) fail(f, 'no dollar price in the first ~150 words');
     if (!/<a\b[^>]*href="https?:\/\/(?!receptionistmatch\.com)[^"]+"/.test(first)) fail(f, 'no vendor link in the first ~150 words');
     if (!/Prices checked /.test(body)) fail(f, 'no prices-checked stamp');
+    // Lookup table above the fold (0c gate 2): pricing / vs / trade pages lead with a raw-HTML table.
+    const type = (body.match(/<article[^>]*data-type="([^"]+)"/) || [])[1];
+    if (['pricing', 'vs', 'trade'].includes(type)) {
+      let w = 0, fold = proseHtml.length;
+      for (const m of proseHtml.matchAll(/>([^<]+)</g)) {
+        w += m[1].trim().split(/\s+/).filter(Boolean).length;
+        if (w >= 400) { fold = m.index; break; }
+      }
+      if (!/<table[\s>]/.test(proseHtml.slice(0, fold))) fail(f, `${type} page has no <table> in its first ~400 words`);
+    }
   }
   for (const img of body.matchAll(/<img\b[^>]*>/g)) {
     if (!/\balt="[^"]+"/.test(img[0])) fail(f, `img without alt: ${img[0].slice(0, 80)}`);
@@ -59,6 +74,9 @@ for (const f of files) {
 }
 const keyFiles = fs.readdirSync(DIST).filter((n) => /^[0-9a-f]{32}\.txt$/.test(n));
 if (keyFiles.length !== 1) { bad++; console.log(`FAIL IndexNow key file at root: found ${keyFiles.length}`); }
+const robots = fs.existsSync(path.join(DIST, 'robots.txt')) ? fs.readFileSync(path.join(DIST, 'robots.txt'), 'utf8') : '';
+if (robots && (/<html/i.test(robots) || !/^Sitemap: https:\/\/receptionistmatch\.com\/sitemap-index\.xml$/m.test(robots))) { bad++; console.log('FAIL robots.txt is not plain text with the Sitemap line'); }
+if (/^Disallow:\s*\/\s*$/m.test(robots)) { bad++; console.log('FAIL robots.txt disallows the whole site'); }
 for (const need of ['sitemap-index.xml', 'robots.txt', 'CNAME', '404.html']) if (!fs.existsSync(path.join(DIST, need))) { bad++; console.log(`FAIL missing ${need}`); }
 console.log(bad ? `${bad} problem(s) in ${files.length} pages` : `OK: ${files.length} pages pass the raw-HTML gate`);
 process.exit(bad ? 1 : 0);

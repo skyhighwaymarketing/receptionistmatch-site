@@ -30,6 +30,8 @@ jobs:
       - run: npx astro build
       - name: Raw-HTML gate (canonical, sponsored links, disclosure, banned phrases, IndexNow key)
         run: node scripts/check_raw_html.mjs
+      - name: Inbound-link gate (every article linked from >= 5 other pages)
+        run: node scripts/check_links.mjs dist 5
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
