@@ -16,7 +16,7 @@ WRITER_MIN_TOKENS = 16000
 
 
 def writer_tool_call(client, **kw):
-    """client.messages.create for a single structured tool call on the writer model."""
+    """Streamed client.messages call for a single structured tool call on the writer model."""
     choice = kw.pop("tool_choice", None) or {}
     name = choice.get("name") or kw["tools"][0]["name"]
     kw.update(model=WRITER_MODEL, thinking=WRITER_THINKING, output_config=WRITER_EFFORT,
@@ -25,7 +25,10 @@ def writer_tool_call(client, **kw):
         {"role": "user", "content": f"Answer only by calling the {name} tool, exactly once."}]
     resp = None
     for attempt in (1, 2):
-        resp = client.messages.create(**kw)
+        # Stream: the SDK refuses non-streaming calls whose max_tokens could run past 10 min
+        # (24000 does; first live run 2026-11-12 died on that ValueError before any API call).
+        with client.messages.stream(**kw) as stream:
+            resp = stream.get_final_message()
         if any(b.type == "tool_use" and b.name == name for b in resp.content):
             return resp
         print(f"  {name}: no tool call on attempt {attempt} (stop_reason {resp.stop_reason})"
