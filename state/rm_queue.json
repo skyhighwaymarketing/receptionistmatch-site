@@ -16,7 +16,7 @@
    "slug": "hvac-answering-service",
    "keyword": "hvac answering service",
    "type": "trade",
-   "status": "ready",
+   "status": "published",
    "gate": "passed",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): retargeted from 'ai receptionist for hvac' (Google 50) to 'hvac answering service' Google 480 KD0; Bing below floor. Top 10 = local answering services + AI vendor pages (perceptionist, continentalmessage x2, getnextphone, aivoiceagency...), no neutral price table. 0b.3 met: Jobber + Housecall Pro add-ons, on-call transfer, peak-season billing units.",
    "angle": "HVAC answering service, AI and live. If you already run Jobber or Housecall Pro, compare their built-in AI receptionist add-ons with standalone AI receptionists and with live answering services (PATLive, VoiceNation, Continental) for emergency no-heat/no-cool calls. Peak-season math (July call spikes) by billing unit: per call, per minute, per unique caller. Who needs a live person for emergencies.",
@@ -32,7 +32,8 @@
     "smith-ai-ai",
     "patlive",
     "voicenation"
-   ]
+   ],
+   "published": "2026-11-12"
   },
   {
    "slug": "after-hours-answering-service",

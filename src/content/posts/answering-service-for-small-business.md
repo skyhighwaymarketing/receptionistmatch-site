@@ -58,5 +58,5 @@ Bigger plans generally cost less per minute. See the full price table in [answer
 ## Who each type is NOT for
 
 - **Live answering is NOT for** an owner on a tight budget whose calls are mostly simple. You pay for a person's minutes even when the question is "are you open Saturday?"
-- **An AI receptionist is NOT for** a business where a wrong answer is costly, such as emergency triage or legal intake, unless it hands those calls to a person.
+- **An AI receptionist is NOT for** a business where a wrong answer is costly, such as emergency triage or legal intake, unless it hands those calls to a person. For no-heat and no-cool calls in particular, see our [HVAC answering service guide](/hvac-answering-service/).
 - **Neither is for** a business that needs someone physically at the front desk.

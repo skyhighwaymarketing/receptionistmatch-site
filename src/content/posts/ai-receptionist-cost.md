@@ -65,7 +65,7 @@ At the entry level, a live service costs about **five to ten times more per minu
 
 ## Prices these vendors don't publish
 
-[RingCentral's AI Receptionist](https://www.ringcentral.com/ai-receptionist.html), [Synthflow](https://synthflow.ai/pricing) and [Housecall Pro's CSR AI](https://www.housecallpro.com/pricing/) don't show a receptionist price in their pricing page's text. Expect a sales call to get a number.
+[RingCentral's AI Receptionist](https://www.ringcentral.com/ai-receptionist.html), [Synthflow](https://synthflow.ai/pricing) and [Housecall Pro's CSR AI](https://www.housecallpro.com/pricing/) don't show a receptionist price in their pricing page's text. Expect a sales call to get a number. If you run an HVAC shop on Jobber or Housecall Pro, our [HVAC answering service guide](/hvac-answering-service/) compares those add-ons with standalone AI and live answering.
 
 ## Costs that catch people out
 

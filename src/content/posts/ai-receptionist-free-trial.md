@@ -62,7 +62,7 @@ Seven days is enough if you plan it.
 2. **Day 1: forward only what you miss.** Send after-hours and unanswered calls to the trial number. Upfirst lets you choose every call, overflow only, or after hours. Keep answering what you can.
 3. **Day 2: call it yourself five times.** Ask your real questions: price for a common job, your service area, Saturday hours, a booking. Write down every wrong answer and fix it.
 4. **Day 3: run an after-hours test.** Call at 10 p.m. from a number it doesn't know. Did the message reach you, and how fast?
-5. **Day 4: test the hard call.** Pretend it's an emergency, like a burst pipe or a tooth that won't stop bleeding. Check whether it transfers, takes a message, or makes something up. Transfers are missing from some cheap plans; see [which services hand calls to a person](/ai-phone-answering-service/).
+5. **Day 4: test the hard call.** Pretend it's an emergency, like a burst pipe or a tooth that won't stop bleeding. Check whether it transfers, takes a message, or makes something up. HVAC owners can see which plans reach an on-call tech or a live person in our [HVAC answering service guide](/hvac-answering-service/). Transfers are missing from some cheap plans; see [which services hand calls to a person](/ai-phone-answering-service/).
 6. **Days 5 to 6: read every summary.** Compare the call log against your baseline. Count callbacks you'd have lost.
 7. **Day 7: decide before it bills.** Put a cancel reminder in your phone on day 1. Check which unit the paid plan counts: calls, minutes or unique callers.
 
