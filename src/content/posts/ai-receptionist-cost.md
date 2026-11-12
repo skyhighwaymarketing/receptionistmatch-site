@@ -73,7 +73,7 @@ At the entry level, a live service costs about **five to ten times more per minu
 - **Add-ons on top of a base plan.** Jobber, GoHighLevel and Nextiva's per-conversation option all need a software plan first. Count both.
 - **Overage rates.** Dialzara's $0.48 a minute on its $29 plan is almost twice Answrr's $0.25. If you go over every month, move up a plan.
 - **Transfers that need a higher plan.** Rosie's call transfers start on its $149 plan, and Dialzara's warm transfers on its $99 plan. See [which AI phone answering services hand calls to a person](/ai-phone-answering-service/).
-- **Annual billing.** My AI Front Desk drops to $79 a month and Upfirst to $20 a month if you pay for the year. Only lock in once the trial proves it works for your calls.
+- **Annual billing.** My AI Front Desk drops to $79 a month and Upfirst to $20 a month if you pay for the year. Only lock in once the trial proves it works for your calls. Here is every vendor's [AI receptionist free trial](/ai-receptionist-free-trial/), with call caps and what happens when it ends.
 
 ## Which price range fits you
 

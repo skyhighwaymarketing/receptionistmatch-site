@@ -31,7 +31,7 @@ A transfer to your phone only helps if someone answers it. If you're on a roof o
 
 **Smith.ai** runs its AI first, and the pricing page says a complex call "can be transferred to a live North America-based receptionist." Plans count calls: free for 25 a month, $150 for 75, $270 for 150, $500 for 300. Extra calls cost $2.10 to $3.00 each, depending on the plan.
 
-**Abby Connect** bills everything in "Abby Minutes." A minute of AI answering uses half an Abby Minute and a minute of a human uses a full one, and a person can step in on the same call. Plans run $164 for 50 Abby Minutes to $1,380 for 500. There's no setup fee and a free trial on every plan.
+**Abby Connect** bills everything in "Abby Minutes." A minute of AI answering uses half an Abby Minute and a minute of a human uses a full one, and a person can step in on the same call. Plans run $164 for 50 Abby Minutes to $1,380 for 500. There's no setup fee and a free trial on every plan. To compare trial length, caps and card requirements across vendors, see our [AI receptionist free trial lookup](/ai-receptionist-free-trial/).
 
 **Not for you if** your calls are simple and you just want them answered cheaply. A plan that only transfers to you costs a fraction of these.
 

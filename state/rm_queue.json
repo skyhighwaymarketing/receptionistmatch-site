@@ -1,21 +1,65 @@
 {
  "_note": "Writer queue (robots/writer.py). The robot writes only status=ready + gate=passed. The desk passes the gate by hand (0c.1): log Bing 13-wk volume + top-10 owners in ~/blog-analytics/state/rm_top10_owners_*.md, then set gate=passed. vendors = snapshot slugs to ground on (blank = all). One post per search; check existing slugs first.",
  "items": [
-  {"slug": "ai-receptionist-free-trial", "keyword": "ai receptionist free trial", "type": "pricing", "status": "ready", "gate": "passed",
+  {
+   "slug": "ai-receptionist-free-trial",
+   "keyword": "ai receptionist free trial",
+   "type": "pricing",
+   "status": "published",
+   "gate": "passed",
    "gate_note": "2026-11-11 BF51: Bing below floor (0); top 10 = vendor blogs (myaifrontdesk x4, justcall, abby, nextiva, fasthosts UK) + getvoip; no neutral trial-terms table.",
    "angle": "Lookup table of every vendor's free trial or free plan: length, call/minute cap, card required, setup fee, what happens when it ends. Name the ones with no trial. Who should use a trial and how to test one in a week (missed-call log, after-hours test).",
-   "vendors": []},
-  {"slug": "ai-receptionist-for-hvac", "keyword": "ai receptionist for hvac", "type": "trade", "status": "ready", "gate": "passed",
+   "vendors": [],
+   "published": "2026-11-12"
+  },
+  {
+   "slug": "ai-receptionist-for-hvac",
+   "keyword": "ai receptionist for hvac",
+   "type": "trade",
+   "status": "ready",
+   "gate": "passed",
    "gate_note": "2026-11-11 BF51: Bing below floor (0); top 10 = vendor pages (myaifrontdesk x10, cloudtalk, hyperleap, evs7, solvea, beside). Rule 0b.3 met: trade-specific facts = Jobber and Housecall Pro receptionist add-ons, transfers to on-call tech, unique-caller vs per-call billing in peak season.",
    "angle": "HVAC-specific: if you already run Jobber or Housecall Pro, compare their built-in AI receptionist add-ons with standalone AI receptionists and with a live answering service for emergency no-heat/no-cool calls. Peak-season math (July call spikes) by billing unit. Who needs a live person for emergencies.",
-   "vendors": ["jobber", "housecall-pro", "goodcall", "upfirst", "rosie", "dialzara", "answrr", "my-ai-front-desk", "smith-ai-ai", "patlive", "voicenation"]},
-  {"slug": "answering-service-pay-as-you-go", "keyword": "answering service pay as you go", "type": "pricing", "status": "ready", "gate": "pending",
+   "vendors": [
+    "jobber",
+    "housecall-pro",
+    "goodcall",
+    "upfirst",
+    "rosie",
+    "dialzara",
+    "answrr",
+    "my-ai-front-desk",
+    "smith-ai-ai",
+    "patlive",
+    "voicenation"
+   ]
+  },
+  {
+   "slug": "answering-service-pay-as-you-go",
+   "keyword": "answering service pay as you go",
+   "type": "pricing",
+   "status": "ready",
+   "gate": "pending",
    "gate_note": "Bing below floor (0). Top-10 owners not checked yet.",
    "angle": "Pay-per-minute / pay-per-call and no-minimum plans only (PATLive pay as you go, AI per-minute rates). For businesses with under 20 calls a month.",
-   "vendors": []},
-  {"slug": "virtual-receptionist-cost", "keyword": "virtual receptionist cost", "type": "pricing", "status": "ready", "gate": "pending",
+   "vendors": []
+  },
+  {
+   "slug": "virtual-receptionist-cost",
+   "keyword": "virtual receptionist cost",
+   "type": "pricing",
+   "status": "ready",
+   "gate": "pending",
    "gate_note": "Parent 'virtual receptionist' Bing 156/13wk; 'virtual receptionist cost' 0. Check overlap with answering-service-cost before passing.",
    "angle": "Live remote receptionist services (Ruby, Smith.ai live, Abby, Posh) priced per call vs per minute, and where an AI receptionist replaces them.",
-   "vendors": ["ruby", "smith-ai", "abby-connect", "posh", "patlive", "smith-ai-ai"]}
+   "vendors": [
+    "ruby",
+    "smith-ai",
+    "abby-connect",
+    "posh",
+    "patlive",
+    "smith-ai-ai"
+   ]
+  }
  ]
 }
