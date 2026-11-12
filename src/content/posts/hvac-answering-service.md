@@ -44,16 +44,16 @@ Here is a worked example, not a statistic. Say your phone takes 80 calls in a mi
 What this shows:
 
 - **Per unique caller** handles callbacks best. On Goodcall, a homeowner who calls five times in July counts once.
-- **Per minute** punishes long calls. A panicked no-cool call runs long, and live minutes cost dollars, not cents.
+- **Per minute** punishes long calls. If your emergency calls run long, you pay for every minute, and live minutes cost dollars, not cents.
 - **Per call** sits in between. Upfirst doesn't bill spam or calls under 15 seconds.
 
-Change plans before the heat hits. PATLive and Upfirst let you upgrade or downgrade anytime. Smith.ai bills a new plan from the next month. VoiceNation needs 30 days' notice to cancel.
+Change plans before the heat hits. PATLive and Upfirst let you upgrade or downgrade anytime. Smith.ai bills a new plan from the next month. VoiceNation's page only covers canceling: 30 days' notice, effective from your next billing date.
 
 ## If you already run Jobber or Housecall Pro
 
 **Jobber Receptionist** answers calls and texts 24/7 and books jobs into your Jobber calendar. It's a $29 add-on on a Jobber plan (Core is $49 a month with no commitment) and included in Plus at $499 a month. The pricing page doesn't say how many calls it covers or whether it can hand a caller to a person.
 
-**Housecall Pro CSR AI** "answers calls and books jobs 24/7." The pricing page doesn't show its price. Plans start at $79 a month for Basic, with a 14-day trial and no card. Book a demo to get a number.
+**Housecall Pro CSR AI** "answers calls and books jobs 24/7." The pricing page doesn't show its price. Plans start at $79 a month for Basic, billed monthly, with a 14-day trial and no card. Book a demo to get a number.
 
 **Not for you if** you need a guaranteed path to a human on emergency calls. Neither page says how that works. Ask before you rely on it.
 
@@ -94,6 +94,6 @@ If your on-call phone always gets answered, an AI receptionist with transfers is
 1. **Pull last July's call log.** Count calls, minutes and repeat callers. That tells you which billing unit is cheapest.
 2. **Count the after-hours emergencies.** If there are only a few, a live plan for nights only may be enough.
 3. **Test it in the shoulder season.** Use a trial in spring, not mid-heatwave. Here's every [AI receptionist free trial](/ai-receptionist-free-trial/).
-4. **Size up in June, down in September.** Check each vendor's plan-change terms first.
+4. **Size up in June, down in September.** Check each vendor's plan-change terms first. Smith.ai starts a new plan the next month, so ask a month early.
 
 For full price tables, see [how much an AI receptionist costs](/ai-receptionist-cost/).
