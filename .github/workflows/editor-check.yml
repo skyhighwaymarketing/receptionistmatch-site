@@ -1,0 +1,31 @@
+name: Editor check (read-only)
+
+# Runs the writer's editor pass on an already-published post and prints every change it would
+# make. Writes nothing and commits nothing. Runs on dispatch (pick a slug) and on PRs that
+# touch the writer, so editor changes get a live test before they reach the Tue/Fri cron.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: published post slug
+        default: hvac-answering-service
+  pull_request:
+    paths: ['robots/writer.py', 'robots/writer_model.py']
+
+permissions:
+  contents: read
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install anthropic
+      - name: Editor pass (no write)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLUG: ${{ inputs.slug || 'hvac-answering-service' }}
+        run: python3 robots/writer.py --edit-only "$SLUG"

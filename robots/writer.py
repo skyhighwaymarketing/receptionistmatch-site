@@ -3,7 +3,8 @@
 Picks the first queue item in state/rm_queue.json with status "ready" and gate "passed"
 (the desk passes the topic gate by hand: Bing volume + top-10 owners logged, 0c.1), grounds
 it in the vendor pricing-page snapshots, writes Markdown with Claude Opus 5.5 (effort medium),
-then runs the deterministic honesty gate (robots/honesty.py): one revision pass on problems,
+then an editor pass (a second Opus 5.5 call: non-price claims vs the snapshots, math, logic,
+voice; fails closed), then the deterministic honesty gate (robots/honesty.py): one revision pass on problems,
 then strip-not-abort, then abort if anything is left. Inserts contextual links to the new page
 into >= 3 existing guides (exact-match anchors only). The workflow builds, runs the CI gates,
 commits, deploys and verifies the live URL.
@@ -11,7 +12,9 @@ commits, deploys and verifies the live URL.
 Usage:
   python3 robots/writer.py              # write the next ready item
   python3 robots/writer.py --dry-run    # print the pick + prompt size, no API call, no writes
-  python3 robots/writer.py --fixture f.json  # use a saved tool output instead of the API (tests)
+  python3 robots/writer.py --fixture f.json  # use a saved tool output instead of the API (tests; skips editor)
+  python3 robots/writer.py --fixture f.json --edit-fixture e.json  # also test the editor merge offline
+  python3 robots/writer.py --edit-only <slug> [--write]  # run the editor on a published post
 Exit codes: 0 wrote a post (or nothing ready), 2 aborted by a gate.
 """
 import datetime as dt
@@ -154,6 +157,77 @@ def call_model(prompt, fixture=None, revise=None):
     raise SystemExit("writer returned no publish_post call")
 
 
+EDIT_TOOL = {
+    "name": "edit_post",
+    "description": "Return the edited post and a list of every change you made.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "changes": {
+                "type": "array",
+                "description": "every change, in order; empty if the draft needed none",
+                "items": {"type": "object", "properties": {
+                    "kind": {"type": "string", "enum": ["unsupported_claim", "wrong_vendor", "math", "logic", "voice", "other"]},
+                    "before": {"type": "string", "description": "the original text (short quote)"},
+                    "after": {"type": "string", "description": "the replacement, or empty if cut"},
+                    "why": {"type": "string", "description": "one line; for claims, what the snapshot says or that it is silent"}},
+                    "required": ["kind", "before", "after", "why"]}},
+            "title": {"type": "string", "description": "<= 60 characters"},
+            "description": {"type": "string", "description": "meta description, 80-160 characters"},
+            "body_markdown": {"type": "string", "description": "the FULL edited body in Markdown, no frontmatter, no H1"},
+        },
+        "required": ["changes", "title", "description", "body_markdown"],
+    },
+}
+
+EDITOR_BRIEF = """You are the editor for ReceptionistMatch. A writer drafted the post below. Your job is to make it
+true, correct and tight before it goes live. A code gate already checks every dollar figure against the
+snapshots, so you focus on what code cannot check. Work through the draft line by line:
+
+1. CLAIMS. Every statement about a vendor (features, plan limits, transfers, trials, contracts, cancellation,
+   billing rules, who it is for) must be supported by THAT vendor's snapshot text below. If a claim is not
+   supported, rewrite it to what the snapshot does say, or to "the pricing page doesn't say", or cut it.
+   A claim credited to the wrong vendor is a "wrong_vendor" change. Do not add facts from memory.
+2. MATH. Recompute every total, per-unit figure and worked example from the snapshot plans. Fix any that are
+   wrong; computed numbers keep "about" right before them.
+3. LOGIC. Recommendations, "Not for you if" lines and the How-to-pick steps must follow from the numbers and
+   facts on the page. Remove advice that contradicts the tables.
+4. VOICE. Apply the brand rules: plain, blunt, short sentences, second person, no hype, no banned words,
+   no em dashes, no exclamation points. Tighten padding. Do not rewrite sentences that are already fine.
+
+Keep: the structure (H2 sections, tables), the opening answer line with its vendor link and price, the
+"Prices come from..." line, every link that is still accurate, and 600-1,100 words. Never add a new dollar
+figure that is not in the snapshots. Never add links. Log every change you make in `changes`."""
+
+
+def edit_post(prompt, draft, fixture=None):
+    """Editor pass: a second Opus 5.5 call that fact-checks non-price claims, math, logic and voice."""
+    if fixture:
+        return json.load(open(fixture))
+    import anthropic
+    from writer_model import writer_tool_call
+    msgs = [{"role": "user", "content": prompt + "\n\n" + EDITOR_BRIEF + "\n\nDRAFT TO EDIT:\n"
+             + json.dumps({k: draft[k] for k in ("title", "description", "body_markdown")}, ensure_ascii=False)}]
+    resp = writer_tool_call(anthropic.Anthropic(), tools=[EDIT_TOOL], messages=msgs, max_tokens=24000,
+                            tool_choice={"type": "tool", "name": "edit_post"})
+    for b in resp.content:
+        if b.type == "tool_use" and b.name == "edit_post":
+            return b.input
+    raise SystemExit("editor returned no edit_post call")
+
+
+def apply_edit(draft, edited):
+    """Merge the editor's output into the draft. Returns (post, why_rejected or None)."""
+    body = (edited.get("body_markdown") or "").strip()
+    before, after = len(draft["body_markdown"].split()), len(body.split())
+    if after < 0.6 * before or after < 450:
+        return draft, f"edited body {after} words vs draft {before}; looks truncated"
+    out = dict(draft)
+    out.update(title=edited.get("title") or draft["title"],
+               description=edited.get("description") or draft["description"], body_markdown=body)
+    return out, None
+
+
 def assemble(item, out, checked):
     fm = ["---", f'title: "{out["title"].strip()}"', f'description: "{out["description"].strip()}"',
           f"type: {item['type']}", f"published: {dt.date.today().isoformat()}", f"pricesChecked: {checked}",
@@ -181,9 +255,42 @@ def apply_links(item, insertions):
     return done, notes
 
 
+def edit_only(slug, write=False):
+    """Run the editor on an existing post (review tool). Prints the change list; --write saves it
+    only if the honesty gate still passes."""
+    f = os.path.join(POSTS, slug + ".md")
+    fm, body, _ = honesty.split_frontmatter(open(f).read())
+    queue = json.load(open(QUEUE))
+    item = next(i for i in queue["items"] if i["slug"] == slug)
+    ground, checked = grounding(item)
+    posts = [p for p in existing_posts() if p["slug"] != slug]
+    draft = {"title": fm.get("title", ""), "description": fm.get("description", ""), "body_markdown": body}
+    edited = edit_post(build_prompt(item, ground, checked, posts), draft)
+    out, rejected = apply_edit(draft, edited)
+    for c in edited.get("changes", []):
+        print(f"[{c['kind']}] {c['before']!r}\n   -> {c['after']!r}\n   why: {c['why']}")
+    if rejected:
+        print("REJECTED:", rejected)
+        return 2
+    text = open(f).read()
+    head = text[:text.index("\n---", 3) + 4]
+    head = re.sub(r'^title: ".*"$', f'title: "{out["title"].strip()}"', head, flags=re.M)
+    head = re.sub(r'^description: ".*"$', f'description: "{out["description"].strip()}"', head, flags=re.M)
+    md = head + "\n" + out["body_markdown"].strip() + "\n"
+    problems = honesty.check(md)
+    print(f"{len(edited.get('changes', []))} changes; honesty gate: {problems or 'pass'}")
+    if write and not problems:
+        open(f, "w").write(md)
+        print("written", f)
+    return 2 if problems else 0
+
+
 def main():
     dry = "--dry-run" in sys.argv
     fixture = sys.argv[sys.argv.index("--fixture") + 1] if "--fixture" in sys.argv else None
+    edit_fixture = sys.argv[sys.argv.index("--edit-fixture") + 1] if "--edit-fixture" in sys.argv else None
+    if "--edit-only" in sys.argv:
+        return edit_only(sys.argv[sys.argv.index("--edit-only") + 1], "--write" in sys.argv)
     queue = json.load(open(QUEUE))
     item = pick(queue)
     if not item:
@@ -196,6 +303,16 @@ def main():
         return 0
 
     out = call_model(prompt, fixture)
+    edits = []
+    if not fixture or edit_fixture:
+        edited = edit_post(prompt, out, edit_fixture)
+        out, rejected = apply_edit(out, edited)
+        if rejected:
+            log({"slug": item["slug"], "result": "ABORT", "why": "editor: " + rejected})
+            return 2
+        edits = edited.get("changes", [])
+        print(f"editor: {len(edits)} changes " + json.dumps(
+            {k: sum(e.get("kind") == k for e in edits) for k in {e.get("kind") for e in edits}}))
     md = assemble(item, out, checked)
     problems = honesty.check(md)
     if problems and not fixture:
@@ -233,7 +350,7 @@ def main():
         json.dump(queue, fh, indent=1, ensure_ascii=False)
         fh.write("\n")
     log({"slug": item["slug"], "result": "WROTE", "title": out["title"], "words": len(md.split()),
-         "stripped": dropped, "estimates": warnings, "linked_from": sorted(links), "link_notes": notes})
+         "stripped": dropped, "estimates": warnings, "editor_changes": edits, "linked_from": sorted(links), "link_notes": notes})
     with open(os.environ.get("GITHUB_OUTPUT", os.devnull), "a") as fh:
         fh.write(f"slug={item['slug']}\ntitle={out['title']}\n")
     return 0
