@@ -13,13 +13,13 @@
    "published": "2026-11-12"
   },
   {
-   "slug": "ai-receptionist-for-hvac",
-   "keyword": "ai receptionist for hvac",
+   "slug": "hvac-answering-service",
+   "keyword": "hvac answering service",
    "type": "trade",
    "status": "ready",
    "gate": "passed",
-   "gate_note": "2026-11-11 BF51: Bing below floor (0); top 10 = vendor pages (myaifrontdesk x10, cloudtalk, hyperleap, evs7, solvea, beside). Rule 0b.3 met: trade-specific facts = Jobber and Housecall Pro receptionist add-ons, transfers to on-call tech, unique-caller vs per-call billing in peak season.",
-   "angle": "HVAC-specific: if you already run Jobber or Housecall Pro, compare their built-in AI receptionist add-ons with standalone AI receptionists and with a live answering service for emergency no-heat/no-cool calls. Peak-season math (July call spikes) by billing unit. Who needs a live person for emergencies.",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): retargeted from 'ai receptionist for hvac' (Google 50) to 'hvac answering service' Google 480 KD0; Bing below floor. Top 10 = local answering services + AI vendor pages (perceptionist, continentalmessage x2, getnextphone, aivoiceagency...), no neutral price table. 0b.3 met: Jobber + Housecall Pro add-ons, on-call transfer, peak-season billing units.",
+   "angle": "HVAC answering service, AI and live. If you already run Jobber or Housecall Pro, compare their built-in AI receptionist add-ons with standalone AI receptionists and with live answering services (PATLive, VoiceNation, Continental) for emergency no-heat/no-cool calls. Peak-season math (July call spikes) by billing unit: per call, per minute, per unique caller. Who needs a live person for emergencies.",
    "vendors": [
     "jobber",
     "housecall-pro",
@@ -35,12 +35,115 @@
    ]
   },
   {
+   "slug": "after-hours-answering-service",
+   "keyword": "after hours answering service",
+   "type": "pricing",
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 1,000 KD0 (CPC $144); Bing below floor. Top 10 = local answering services (answercalifornia, answerfirst, absentanswer...) + ringly blog; no neutral comparison. 18 vendor snapshots carry after-hours/24-7 terms.",
+   "angle": "After-hours only: which AI receptionists and live services cover nights, weekends and holidays, how they bill for after-hours-only use (overflow/after-hours forwarding, minimums), and what happens on an emergency call at 2 a.m. (transfer, page the on-call, message only). Lookup table first. Who should keep a live person for nights.",
+   "vendors": []
+  },
+  {
+   "slug": "bilingual-answering-service",
+   "keyword": "bilingual answering service",
+   "type": "pricing",
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 480 KD0 (CPC $193) + 'spanish answering service' 170; Bing below floor. Top 10 = vendor blogs (ruby, posh, answermti, getnextphone, nexa, answerforce...) + LinkedIn; no neutral table. Facts: PATLive no bilingual fees, Smith.ai dedicated Spanish line $1.00/call, Dialzara 10 languages, Upfirst 35+ languages, VoiceNation/Ruby/Posh/Abby bilingual.",
+   "angle": "Spanish and other-language call answering: which services answer in Spanish with a live person vs AI, the extra cost (none, per call, plan tier), how many languages each AI supports, and whether the transcript comes back in English. Lookup table first.",
+   "vendors": [
+    "patlive",
+    "smith-ai",
+    "smith-ai-ai",
+    "dialzara",
+    "upfirst",
+    "voicenation",
+    "ruby",
+    "posh",
+    "abby-connect",
+    "rosie",
+    "my-ai-front-desk",
+    "ringcentral"
+   ]
+  },
+  {
+   "slug": "cheap-answering-service",
+   "keyword": "cheap answering service",
+   "type": "pricing",
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 140 KD5 + 'pay per call answering service' 50 (absorbs the killed pay-as-you-go item); Bing below floor. Top 10 = reddit r/smallbusiness, receptionhq, answeringservice.com, specialtyansweringservice, helplama, fitsmallbusiness. Must not restate answering-service-cost: rank by lowest real entry price + pay-per-use options.",
+   "angle": "Cheapest real options ranked by lowest monthly entry price, then pay-per-call / per-minute / no-minimum plans for businesses under ~20 calls a month. Show what the cheap tier leaves out (transfers, after-hours, overage rate). Link to answering-service-cost and ai-receptionist-cost for full plans.",
+   "vendors": []
+  },
+  {
+   "slug": "legal-answering-service",
+   "keyword": "legal answering service",
+   "type": "trade",
+   "status": "hold",
+   "gate": "pending",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 720 KD13 + 'answering service for law firm' 390 KD17 (CPC $214-294, best money topic). HOLD 0b.3: facts thin (Smith.ai Clio + intake, Ruby legal, Upfirst intake). Unlock: snapshot legal pages (answeringlegal.com, lexreception.com, smith.ai legal, ruby.com/industries/legal).",
+   "angle": "",
+   "vendors": []
+  },
+  {
+   "slug": "answering-service-for-property-management",
+   "keyword": "answering service for property management",
+   "type": "trade",
+   "status": "hold",
+   "gate": "pending",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 880 KD0. HOLD 0b.3: snapshot mentions are nav menus only. Unlock: snapshot property-management pages (upfirst, my-ai-front-desk, answerhero, mapcommunications).",
+   "angle": "",
+   "vendors": []
+  },
+  {
+   "slug": "answering-service-for-plumbers",
+   "keyword": "answering service for plumbers",
+   "type": "trade",
+   "status": "hold",
+   "gate": "pending",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 480 KD0. HOLD 0b.2/0b.3: same Jobber/Housecall Pro vendor set as HVAC = trade-name swap. Revisit with plumbing-specific facts after HVAC indexes.",
+   "angle": "",
+   "vendors": []
+  },
+  {
+   "slug": "dental-answering-service",
+   "keyword": "dental answering service",
+   "type": "trade",
+   "status": "hold",
+   "gate": "pending",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 110+110 KD0. HOLD 0b.3: needs dental PMS integrations + HIPAA BAA facts; only 4 vendors mention dental.",
+   "angle": "",
+   "vendors": []
+  },
+  {
+   "slug": "real-estate-answering-service",
+   "keyword": "real estate answering service",
+   "type": "pricing",
+   "status": "hold",
+   "gate": "pending",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 140 KD0. HOLD: overlaps property management; decide one page after both have facts.",
+   "angle": "",
+   "vendors": []
+  },
+  {
+   "slug": "best-ai-receptionist",
+   "keyword": "best ai receptionist",
+   "type": "pricing",
+   "status": "hold",
+   "gate": "pending",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 320 KD29. HOLD: top 10 = vendor 'best of' blogs; overlaps ai-receptionist-cost. Revisit as a use-case picker once 8+ pages are live.",
+   "angle": "",
+   "vendors": []
+  },
+  {
    "slug": "answering-service-pay-as-you-go",
    "keyword": "answering service pay as you go",
    "type": "pricing",
-   "status": "ready",
-   "gate": "pending",
-   "gate_note": "Bing below floor (0). Top-10 owners not checked yet.",
+   "status": "killed",
+   "gate": "failed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 0, Bing 0. Merged into cheap-answering-service (pay-per-call angle).",
    "angle": "Pay-per-minute / pay-per-call and no-minimum plans only (PATLive pay as you go, AI per-minute rates). For businesses with under 20 calls a month.",
    "vendors": []
   },
@@ -48,9 +151,9 @@
    "slug": "virtual-receptionist-cost",
    "keyword": "virtual receptionist cost",
    "type": "pricing",
-   "status": "ready",
-   "gate": "pending",
-   "gate_note": "Parent 'virtual receptionist' Bing 156/13wk; 'virtual receptionist cost' 0. Check overlap with answering-service-cost before passing.",
+   "status": "killed",
+   "gate": "failed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 50 KD13, Bing 0; overlaps answering-service-cost (same vendors, same question). Killed per rule 0b.2.",
    "angle": "Live remote receptionist services (Ruby, Smith.ai live, Abby, Posh) priced per call vs per minute, and where an AI receptionist replaces them.",
    "vendors": [
     "ruby",
