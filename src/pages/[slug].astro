@@ -14,14 +14,14 @@ const url = new URL(`/${post.id}/`, Astro.site).href;
 const article = {
   '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description,
   datePublished: d.published.toISOString(), dateModified: (d.updated ?? d.published).toISOString(),
-  mainEntityOfPage: url, author: { '@type': 'Organization', name: 'ReceptionistMatch', url: 'https://receptionistmatch.com/about/' },
+  mainEntityOfPage: url, image: new URL(`/og/${post.id}.png`, Astro.site).href, author: { '@type': 'Organization', name: 'ReceptionistMatch', url: 'https://receptionistmatch.com/about/' },
   publisher: { '@type': 'Organization', name: 'ReceptionistMatch', url: 'https://receptionistmatch.com/' },
 };
 const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
   { '@type': 'ListItem', position: 1, name: 'Guides', item: 'https://receptionistmatch.com/guides/' },
   { '@type': 'ListItem', position: 2, name: d.title, item: url } ] };
 ---
-<Base title={d.title} description={d.description} ogType="article" jsonld={[article, crumbs]}>
+<Base title={d.title} description={d.description} ogType="article" image={`/og/${post.id}.png`} jsonld={[article, crumbs]}>
 <article class="article" data-type={d.type}>
   <span class="kind">{KIND[d.type]}</span>
   <h1>{d.title}</h1>
