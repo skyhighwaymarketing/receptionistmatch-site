@@ -1,12 +1,12 @@
 ---
 import '../styles/global.css';
-interface Props { title: string; description: string; jsonld?: object[]; ogType?: string; noindex?: boolean }
-const { title, description, jsonld = [], ogType = 'website', noindex = false } = Astro.props;
+interface Props { title: string; description: string; jsonld?: object[]; ogType?: string; noindex?: boolean; image?: string }
+const { title, description, jsonld = [], ogType = 'website', noindex = false, image = '/og-default.png' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 // Brand suffix only when the whole title still fits Google's ~60-character display (build plan 0b.6).
 const suffixed = `${title} | ReceptionistMatch`;
 const fullTitle = title.includes('ReceptionistMatch') || suffixed.length > 60 ? title : suffixed;
-const ogImage = new URL('/og-default.png', Astro.site).href;
+const ogImage = new URL(image, Astro.site).href;
 const org = { '@context': 'https://schema.org', '@type': 'Organization', name: 'ReceptionistMatch', url: 'https://receptionistmatch.com/', email: 'hello@receptionistmatch.com' };
 ---
 <!doctype html>
@@ -34,7 +34,7 @@ const org = { '@context': 'https://schema.org', '@type': 'Organization', name: '
 <meta property="og:image" content={ogImage}>
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="ReceptionistMatch: find the AI or live receptionist that fits your business.">
+<meta property="og:image:alt" content={image === '/og-default.png' ? 'ReceptionistMatch: find the AI or live receptionist that fits your business.' : title}>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content={ogImage}>
 <meta name="theme-color" content="#0E1726">
