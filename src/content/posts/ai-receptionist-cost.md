@@ -39,7 +39,7 @@ Starting prices hide the real bill. If your phone rings 15 to 20 times a day, yo
 |---|---|---|
 | [Answrr](https://tryanswrr.com/pricing) | Growth plan, 700 minutes | $99 |
 | [Rosie](https://heyrosie.com/pricing) | Scale plan, 1,000 minutes | $149 |
-| [My AI Front Desk](https://www.myaifrontdesk.com/pricing) | 200 minutes + 300 extra at $0.25 | $174 |
+| [My AI Front Desk](https://www.myaifrontdesk.com/pricing) | 200 minutes + 300 extra at $0.25 | about $174 |
 | [Dialzara](https://www.dialzara.com/pricing) | Business Plus, 500 minutes | $199 |
 | [Ruby](https://www.ruby.com/pricing/) (live people) | 500-minute plan | $1,725 |
 

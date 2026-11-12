@@ -7,7 +7,7 @@ pricesChecked: 2026-11-11
 keyword: answering service for small business
 draft: false
 ---
-**Short answer:** most small businesses need one of two things. **A live answering service** (real people) starts around $99 to $165 a month for 50 minutes: [PATLive](https://www.patlive.com/pricing/) at $99, [Posh](https://www.posh.com/pricing) at $130, [Abby Connect](https://www.abby.com/pricing/) at $164. **An AI receptionist** starts around $25 to $50 a month for far more calls: [Answrr](https://tryanswrr.com/pricing) at $49 for 250 minutes. Pick live people if your callers need judgment. Pick AI if most calls are booking, hours and pricing questions.
+**Short answer:** most small businesses need one of two things. **A live answering service** (real people) starts around $99 to $165 a month for 50 minutes: [PATLive](https://www.patlive.com/pricing/) at $99, [Posh](https://www.posh.com/pricing) at $130, [Abby Connect](https://www.abby.com/pricing/) at $164, [VoiceNation](https://www.voicenation.com/pricing/) at $165. **An AI receptionist** starts around $25 to $50 a month for far more calls: [Answrr](https://tryanswrr.com/pricing) at $49 for 250 minutes. Pick live people if your callers need judgment. Pick AI if most calls are booking, hours and pricing questions.
 
 Prices below come from each service's own pricing page, checked November 11, 2026.
 

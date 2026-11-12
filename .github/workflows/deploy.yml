@@ -32,6 +32,8 @@ jobs:
         run: node scripts/check_raw_html.mjs
       - name: Inbound-link gate (every article linked from >= 5 other pages)
         run: node scripts/check_links.mjs dist 5
+      - name: Honesty gate (every $ traces to a vendor pricing-page snapshot)
+        run: python3 robots/honesty.py src/content/posts/*.md
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
