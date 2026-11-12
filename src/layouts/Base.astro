@@ -3,7 +3,10 @@ import '../styles/global.css';
 interface Props { title: string; description: string; jsonld?: object[]; ogType?: string; noindex?: boolean }
 const { title, description, jsonld = [], ogType = 'website', noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const fullTitle = title.includes('ReceptionistMatch') ? title : `${title} | ReceptionistMatch`;
+// Brand suffix only when the whole title still fits Google's ~60-character display (build plan 0b.6).
+const suffixed = `${title} | ReceptionistMatch`;
+const fullTitle = title.includes('ReceptionistMatch') || suffixed.length > 60 ? title : suffixed;
+const ogImage = new URL('/og-default.png', Astro.site).href;
 const org = { '@context': 'https://schema.org', '@type': 'Organization', name: 'ReceptionistMatch', url: 'https://receptionistmatch.com/', email: 'hello@receptionistmatch.com' };
 ---
 <!doctype html>
@@ -28,7 +31,12 @@ const org = { '@context': 'https://schema.org', '@type': 'Organization', name: '
 <meta property="og:url" content={canonical}>
 <meta property="og:type" content={ogType}>
 <meta property="og:site_name" content="ReceptionistMatch">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content={ogImage}>
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ReceptionistMatch: find the AI or live receptionist that fits your business.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content={ogImage}>
 <meta name="theme-color" content="#0E1726">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="sitemap" href="/sitemap-index.xml">
