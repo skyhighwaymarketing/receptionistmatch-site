@@ -66,7 +66,7 @@ def _grounding():
                         nums.add(_num(x))
         names = {v["name"].lower(), v["host"].split(".")[0].lower()}
         first = v["name"].split()[0].lower().rstrip(".")
-        if len(first) > 3 and first not in {"the", "ai"}:
+        if len(first) > 3 and first not in {"the", "ai", "answering"}:  # "Answering Legal" -> not every "answering service"
             names.add(first)
         g[v["slug"]] = {"v": v, "date": date, "nums": nums, "derived": derived, "names": names}
     return g
