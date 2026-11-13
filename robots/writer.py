@@ -92,7 +92,8 @@ def pick(queue):
 
 
 def grounding(item):
-    slugs = item.get("vendors") or [v["slug"] for v in honesty.VENDORS]
+    # Industry pages (vendors.json "industry") only ground posts that name them (BF53 2026-11-12).
+    slugs = item.get("vendors") or [v["slug"] for v in honesty.VENDORS if not v.get("industry")]
     parts, dates = [], []
     for s in slugs:
         v = honesty.G[s]["v"]

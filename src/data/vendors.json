@@ -1,5 +1,5 @@
 {
- "_note": "Grounding for every price/feature claim (build plan section 2). kind: ai | live | hybrid. affiliate: approved | pending | none (mirror of RECEPTIONISTMATCH_AFFILIATES.md). Ranking and the match quiz never read payout. Snapshots: robots/vendor_pages.py -> state/snapshots/<slug>/<date>.{txt,json}.",
+ "_note": "Grounding for every price/feature claim (build plan section 2). kind: ai | live | hybrid. affiliate: approved | pending | none (mirror of RECEPTIONISTMATCH_AFFILIATES.md). Ranking and the match quiz never read payout. Snapshots: robots/vendor_pages.py -> state/snapshots/<slug>/<date>.{txt,json}. Industry pages (BF53 2026-11-12) ride as their own entries (like smith-ai-ai) so trade posts can ground on them; pricingUrl is then the industry page. Entries with \"industry\" are left out of the default (vendors: []) grounding; a trade post lists them by slug.",
  "vendors": [
   {
    "slug": "my-ai-front-desk",
@@ -207,6 +207,105 @@
    "kind": "live",
    "affiliate": "none",
    "payout": null
+  },
+  {
+   "slug": "answering-legal",
+   "name": "Answering Legal",
+   "host": "answeringlegal.com",
+   "pricingUrl": "https://www.answeringlegal.com/answering-service-pricing-plans",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "legal"
+  },
+  {
+   "slug": "lex-reception",
+   "name": "LEX Reception",
+   "host": "lexreception.com",
+   "pricingUrl": "https://www.lexreception.com/plans",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "legal"
+  },
+  {
+   "slug": "lex-reception-intake",
+   "name": "LEX Reception legal intake",
+   "host": "lexreception.com",
+   "pricingUrl": "https://www.lexreception.com/services/legal-intake",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "legal"
+  },
+  {
+   "slug": "smith-ai-legal",
+   "name": "Smith.ai for law firms",
+   "host": "smith.ai",
+   "pricingUrl": "https://smith.ai/industries/legal-law-firms-answering-service",
+   "kind": "hybrid",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "legal"
+  },
+  {
+   "slug": "ruby-legal",
+   "name": "Ruby for law firms",
+   "host": "ruby.com",
+   "pricingUrl": "https://www.ruby.com/industries/legal/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "legal"
+  },
+  {
+   "slug": "answerhero",
+   "name": "AnswerHero",
+   "host": "answerhero.com",
+   "pricingUrl": "https://answerhero.com/pricing-plans/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null
+  },
+  {
+   "slug": "answerhero-legal",
+   "name": "AnswerHero legal intake",
+   "host": "answerhero.com",
+   "pricingUrl": "https://answerhero.com/industries/legal/legal-intake-services/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "legal"
+  },
+  {
+   "slug": "answerhero-pm",
+   "name": "AnswerHero for property management",
+   "host": "answerhero.com",
+   "pricingUrl": "https://answerhero.com/industries/real-estate/property-management/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "property-management"
+  },
+  {
+   "slug": "upfirst-pm",
+   "name": "Upfirst for property management",
+   "host": "upfirst.ai",
+   "pricingUrl": "https://upfirst.ai/industries/property-management",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "property-management"
+  },
+  {
+   "slug": "my-ai-front-desk-pm",
+   "name": "My AI Front Desk for property management",
+   "host": "myaifrontdesk.com",
+   "pricingUrl": "https://www.myaifrontdesk.com/property-management",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "property-management"
   }
  ]
 }
