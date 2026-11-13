@@ -1,0 +1,160 @@
+{
+ "vendor": "AnswerHero",
+ "url": "https://answerhero.com/pricing-plans/",
+ "checked": "2026-11-13",
+ "source": "state/snapshots/answerhero/2026-11-13.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Human Only - STARTER",
+   "price": "$79",
+   "billing": "monthly",
+   "included": "50 MINUTES",
+   "overage": "$1.89 add minutes",
+   "line": 234
+  },
+  {
+   "name": "Human Only - POPULAR",
+   "price": "$149",
+   "billing": "monthly",
+   "included": "100 MINUTES",
+   "overage": "$1.59 add minutes",
+   "line": 246
+  },
+  {
+   "name": "Human Only - PRO",
+   "price": "$279",
+   "billing": "monthly",
+   "included": "250 MINUTE",
+   "overage": "$1.35 add minutes",
+   "line": 259
+  },
+  {
+   "name": "Human Only - BUSINESS",
+   "price": "$499",
+   "billing": "monthly",
+   "included": "500 MINUTES",
+   "overage": "$1.25 add minutes",
+   "line": 271
+  },
+  {
+   "name": "Human Only - EXECUTIVE",
+   "price": "$949",
+   "billing": "monthly",
+   "included": "1000 MINUTES",
+   "overage": "$1.19 add minutes",
+   "line": 283
+  },
+  {
+   "name": "Human Only - PREMIER",
+   "price": "$1395",
+   "billing": "monthly",
+   "included": "1500 MINUTES",
+   "overage": "$1.16 add minutes",
+   "line": 295
+  },
+  {
+   "name": "Human Only - ENTERPRISE",
+   "price": "$1,795",
+   "billing": "monthly",
+   "included": "2000 MINUTES",
+   "overage": "$1.12 add minutes",
+   "line": 307
+  },
+  {
+   "name": "Human Only - ENTERPRISE +",
+   "price": "CUSTOM",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 319
+  },
+  {
+   "name": "Human Only - ECONOMY",
+   "price": "$39",
+   "billing": "monthly",
+   "included": "10 MINUTES",
+   "overage": "$1.99 add minutes",
+   "line": 324
+  },
+  {
+   "name": "AI Only - AI ANSWERING SERVICE",
+   "price": "$19",
+   "billing": "monthly",
+   "included": "",
+   "overage": "$0.79 add minutes",
+   "line": 337
+  },
+  {
+   "name": "Hybrid - STARTER",
+   "price": "$90",
+   "billing": "monthly",
+   "included": "50 MINUTES",
+   "overage": "$1.89 per AI minute; $1.89 human add minutes",
+   "line": 351
+  },
+  {
+   "name": "Hybrid - POPULAR",
+   "price": "$160",
+   "billing": "monthly",
+   "included": "100 MINUTES",
+   "overage": "$0.79 per AI minute; $1.59 add human minutes",
+   "line": 365
+  },
+  {
+   "name": "Hybrid - PRO",
+   "price": "$290",
+   "billing": "monthly",
+   "included": "250 MINUTE",
+   "overage": "$0.79 per AI minute; $1.35 add human minutes",
+   "line": 380
+  },
+  {
+   "name": "Hybrid - BUSINESS",
+   "price": "$510",
+   "billing": "monthly",
+   "included": "500 MINUTES",
+   "overage": "$0.79 per AI minute; $1.35 add human minutes",
+   "line": 394
+  },
+  {
+   "name": "Hybrid - EXECUTIVE",
+   "price": "$960",
+   "billing": "monthly",
+   "included": "1000 MINUTES",
+   "overage": "$0.79 per AI minute; $1.19 add human minutes",
+   "line": 408
+  },
+  {
+   "name": "Hybrid - PREMIER",
+   "price": "$1,406",
+   "billing": "monthly",
+   "included": "1500 MINUTES",
+   "overage": "$0.79 per AI minute; $1.16 add human minutes",
+   "line": 422
+  },
+  {
+   "name": "Hybrid - ENTERPRISE",
+   "price": "$1,806",
+   "billing": "monthly",
+   "included": "2000 MINUTES",
+   "overage": "$0.79 per AI minute; $1.12 add human minutes",
+   "line": 436
+  },
+  {
+   "name": "Hybrid - ENTERPRISE +",
+   "price": "CUSTOM",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 450
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Plan names for POPULAR tiers are taken from the \"POPULAR\" label (lines 245/364); no other name given. AI Only plan shows \"MINUTES\" (line 339) with no included quantity stated. Hybrid STARTER lists \"$1.89 per AI minute\" (line 355) vs $0.79 on other hybrid tiers; Hybrid BUSINESS human overage $1.35 (line 399) equals PRO, unlike human-only BUSINESS $1.25 \u2014 recorded verbatim. \"250 MINUTE\" singular verbatim (lines 262, 383). Call transfer/patch charge $0.06 per minute (line 510). Billing per minute, rounded up to nearest 1/4 minute (line 518). No contracts; 30 days' notice before end of billing cycle to cancel (line 512). No weekend/holiday fees (lines 478, 508). Enterprise + is custom\u2014schedule consultation (lines 321, 452). Different phone number (888) 635-3509 cited on line 456 vs Sales 888-974-2567.",
+ "setup_fee": {
+  "text": "No Setup Fees",
+  "line": 239
+ },
+ "free_trial": null
+}

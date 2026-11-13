@@ -1,0 +1,40 @@
+{
+ "vendor": "My AI Front Desk for property management",
+ "url": "https://www.myaifrontdesk.com/property-management",
+ "checked": "2026-11-13",
+ "source": "state/snapshots/my-ai-front-desk-pm/2026-11-13.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Plans that answer phone calls (entry tier, name not stated)",
+   "price": "$99 per month",
+   "billing": "monthly",
+   "included": "200 voice minutes included",
+   "overage": "",
+   "line": 497
+  },
+  {
+   "name": "Plans that answer phone calls (entry tier, name not stated)",
+   "price": "$79 per month billed annually",
+   "billing": "annual",
+   "included": "200 voice minutes included",
+   "overage": "",
+   "line": 497
+  },
+  {
+   "name": "Enterprise",
+   "price": "custom pricing",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 497
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The snapshot has no pricing table. All prices come from the FAQ answer on line 497. That answer says plans \"start at\" $99/mo, or $79/mo billed annually, with 200 voice minutes. It never names the plan at that price, and it doesn't say whether that plan is Business-in-a-Box. It says \"Higher plans add more minutes, advanced integrations, and concurrent calls\" but gives no names or prices for them. No overage rate is stated. Line 505 repeats the 7-day free trial for Business-in-a-Box. Line 55 says \"No credit card required\" and line 44 shows a \"Start for Free\" button. Line 511 describes the Partner/Enterprise plan (for 25+ interactions/day, with volume discounts, API access and a dedicated account manager) but gives no price beyond custom pricing. No setup fee is mentioned.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Business-in-a-Box starts with a 7-day free trial and has no contract.",
+  "line": 497
+ }
+}
