@@ -36,6 +36,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then echo "::warning::ANTHROPIC_API_KEY not set; writer skipped"; exit 0; fi
+          if [ "${{ github.event_name }}" = "schedule" ] && python3 -c "import json,datetime,sys; q=json.load(open('state/rm_queue.json')); q=q.get('items',q) if isinstance(q,dict) else q; sys.exit(0 if any(i.get('published')==datetime.date.today().isoformat() for i in q) else 1)"; then
+            echo "::notice::a post already published today (manual run); scheduled run skipped"; exit 0
+          fi
           python3 robots/writer.py
       - name: Site gates (same as deploy CI) + honesty gate
         if: steps.write.outputs.slug != ''
