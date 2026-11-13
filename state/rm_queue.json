@@ -1,5 +1,5 @@
 {
- "_note": "Writer queue (robots/writer.py). The robot writes only status=ready + gate=passed. The desk passes the gate by hand (0c.1): log Bing 13-wk volume + top-10 owners in ~/blog-analytics/state/rm_top10_owners_*.md, then set gate=passed. vendors = snapshot slugs to ground on (blank = all). One post per search; check existing slugs first.",
+ "_note": "Writer queue (robots/writer.py). The robot writes only status=ready + gate=passed. The desk passes the gate by hand (0c.1): log Bing 13-wk volume + top-10 owners in ~/blog-analytics/state/rm_top10_owners_*.md, then set gate=passed. vendors = snapshot slugs to ground on (blank = all). One post per search; check existing slugs first. MONEY GATE (2026-11-13): the writer skips a ready item unless a vendor it grounds on has affiliate approved/pending in vendors.json. Ready items are ordered by earning power.",
  "items": [
   {
    "slug": "ai-receptionist-free-trial",
@@ -46,6 +46,16 @@
    "vendors": []
   },
   {
+   "slug": "cheap-answering-service",
+   "keyword": "cheap answering service",
+   "type": "pricing",
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 140 KD5 + 'pay per call answering service' 50 (absorbs the killed pay-as-you-go item); Bing below floor. Top 10 = reddit r/smallbusiness, receptionhq, answeringservice.com, specialtyansweringservice, helplama, fitsmallbusiness. Must not restate answering-service-cost: rank by lowest real entry price + pay-per-use options.",
+   "angle": "Cheapest real options ranked by lowest monthly entry price, then pay-per-call / per-minute / no-minimum plans for businesses under ~20 calls a month. Show what the cheap tier leaves out (transfers, after-hours, overage rate). Link to answering-service-cost and ai-receptionist-cost for full plans.",
+   "vendors": []
+  },
+  {
    "slug": "bilingual-answering-service",
    "keyword": "bilingual answering service",
    "type": "pricing",
@@ -69,37 +79,6 @@
    ]
   },
   {
-   "slug": "cheap-answering-service",
-   "keyword": "cheap answering service",
-   "type": "pricing",
-   "status": "ready",
-   "gate": "passed",
-   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 140 KD5 + 'pay per call answering service' 50 (absorbs the killed pay-as-you-go item); Bing below floor. Top 10 = reddit r/smallbusiness, receptionhq, answeringservice.com, specialtyansweringservice, helplama, fitsmallbusiness. Must not restate answering-service-cost: rank by lowest real entry price + pay-per-use options.",
-   "angle": "Cheapest real options ranked by lowest monthly entry price, then pay-per-call / per-minute / no-minimum plans for businesses under ~20 calls a month. Show what the cheap tier leaves out (transfers, after-hours, overage rate). Link to answering-service-cost and ai-receptionist-cost for full plans.",
-   "vendors": []
-  },
-  {
-   "slug": "legal-answering-service",
-   "keyword": "legal answering service",
-   "type": "trade",
-   "status": "ready",
-   "gate": "passed",
-   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 720 KD13 + 'answering service for law firm' 390 KD17 (CPC $214-294, best money topic). HOLD 0b.3: facts thin (Smith.ai Clio + intake, Ruby legal, Upfirst intake). Unlock: snapshot legal pages (answeringlegal.com, lexreception.com, smith.ai legal, ruby.com/industries/legal). | 2026-11-13 BF53: GATE PASSED (0b.3 met): legal pages snapshotted 11/13 (rcm-site#12): Smith.ai legal (screening, books consults, 24/7), Ruby legal (intake, scheduling, bilingual), LEX + LEX intake (human intake, EN/ES, per-minute round-up), AnswerHero legal (24/7, bilingual); Answering Legal + LEX publish no prices.",
-   "angle": "Legal answering services and intake for law firms, AI and live. What real legal intake means (screening callers against the firm's own qualifying questions, gathering case details, booking consultations), 24/7 and after-hours coverage, English and Spanish intake, and how billing works where the page says so (LEX rounds each call up to the minute). Say plainly which legal specialists publish no prices (Answering Legal, LEX Reception: plans on request). Price table only from vendors with published pricing pages. Who it is NOT for: firms that only need a voicemail-to-email line.",
-   "vendors": [
-    "smith-ai-legal",
-    "ruby-legal",
-    "lex-reception",
-    "lex-reception-intake",
-    "answerhero-legal",
-    "answering-legal",
-    "smith-ai",
-    "smith-ai-ai",
-    "ruby",
-    "answerhero"
-   ]
-  },
-  {
    "slug": "answering-service-for-property-management",
    "keyword": "answering service for property management",
    "type": "trade",
@@ -116,6 +95,27 @@
     "answerhero",
     "ruby",
     "smith-ai"
+   ]
+  },
+  {
+   "slug": "legal-answering-service",
+   "keyword": "legal answering service",
+   "type": "trade",
+   "status": "hold",
+   "gate": "pending",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 720 KD13 + 'answering service for law firm' 390 KD17 (CPC $214-294, best money topic). HOLD 0b.3: facts thin (Smith.ai Clio + intake, Ruby legal, Upfirst intake). Unlock: snapshot legal pages (answeringlegal.com, lexreception.com, smith.ai legal, ruby.com/industries/legal). | 2026-11-13 BF53: GATE PASSED (0b.3 met): legal pages snapshotted 11/13 (rcm-site#12): Smith.ai legal (screening, books consults, 24/7), Ruby legal (intake, scheduling, bilingual), LEX + LEX intake (human intake, EN/ES, per-minute round-up), AnswerHero legal (24/7, bilingual); Answering Legal + LEX publish no prices. | 2026-11-13 BF53: back on HOLD by the MONEY GATE (Michael 'Yes, do all three'): none of its vendors (Smith.ai, Ruby, LEX, AnswerHero, Answering Legal) has an affiliate program with us. Facts are ready (angle + vendors kept); release when a legal vendor's partner program is approved or pending, and add it to vendors.json affiliate.",
+   "angle": "Legal answering services and intake for law firms, AI and live. What real legal intake means (screening callers against the firm's own qualifying questions, gathering case details, booking consultations), 24/7 and after-hours coverage, English and Spanish intake, and how billing works where the page says so (LEX rounds each call up to the minute). Say plainly which legal specialists publish no prices (Answering Legal, LEX Reception: plans on request). Price table only from vendors with published pricing pages. Who it is NOT for: firms that only need a voicemail-to-email line.",
+   "vendors": [
+    "smith-ai-legal",
+    "ruby-legal",
+    "lex-reception",
+    "lex-reception-intake",
+    "answerhero-legal",
+    "answering-legal",
+    "smith-ai",
+    "smith-ai-ai",
+    "ruby",
+    "answerhero"
    ]
   },
   {

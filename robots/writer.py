@@ -83,17 +83,31 @@ def log(event):
     print(json.dumps(event))
 
 
+def item_vendors(item):
+    # Industry pages (vendors.json "industry") only ground posts that name them (BF53 2026-11-12).
+    return item.get("vendors") or [v["slug"] for v in honesty.VENDORS if not v.get("industry")]
+
+
+def earners(item):
+    """Vendors this post grounds on that pay us or have a pending application (vendors.json "affiliate")."""
+    return [s for s in item_vendors(item) if s in honesty.G and honesty.G[s]["v"].get("affiliate") in ("approved", "pending")]
+
+
 def pick(queue):
+    # Money gate (Michael 2026-11-13, "Yes, do all three"): no post is written unless at least one vendor
+    # it grounds on can pay us (approved or pending). Payout still never decides the ranking INSIDE a post.
     for item in queue["items"]:
         if item.get("status") == "ready" and item.get("gate") == "passed" \
                 and not os.path.exists(os.path.join(POSTS, item["slug"] + ".md")):
+            if not earners(item):
+                print(f"money gate: skip {item['slug']} (no vendor in its grounding has an affiliate program)")
+                continue
             return item
     return None
 
 
 def grounding(item):
-    # Industry pages (vendors.json "industry") only ground posts that name them (BF53 2026-11-12).
-    slugs = item.get("vendors") or [v["slug"] for v in honesty.VENDORS if not v.get("industry")]
+    slugs = item_vendors(item)
     parts, dates = [], []
     for s in slugs:
         v = honesty.G[s]["v"]
