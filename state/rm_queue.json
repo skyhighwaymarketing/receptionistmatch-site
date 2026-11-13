@@ -82,21 +82,41 @@
    "slug": "legal-answering-service",
    "keyword": "legal answering service",
    "type": "trade",
-   "status": "hold",
-   "gate": "pending",
-   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 720 KD13 + 'answering service for law firm' 390 KD17 (CPC $214-294, best money topic). HOLD 0b.3: facts thin (Smith.ai Clio + intake, Ruby legal, Upfirst intake). Unlock: snapshot legal pages (answeringlegal.com, lexreception.com, smith.ai legal, ruby.com/industries/legal).",
-   "angle": "",
-   "vendors": []
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 720 KD13 + 'answering service for law firm' 390 KD17 (CPC $214-294, best money topic). HOLD 0b.3: facts thin (Smith.ai Clio + intake, Ruby legal, Upfirst intake). Unlock: snapshot legal pages (answeringlegal.com, lexreception.com, smith.ai legal, ruby.com/industries/legal). | 2026-11-13 BF53: GATE PASSED (0b.3 met): legal pages snapshotted 11/13 (rcm-site#12): Smith.ai legal (screening, books consults, 24/7), Ruby legal (intake, scheduling, bilingual), LEX + LEX intake (human intake, EN/ES, per-minute round-up), AnswerHero legal (24/7, bilingual); Answering Legal + LEX publish no prices.",
+   "angle": "Legal answering services and intake for law firms, AI and live. What real legal intake means (screening callers against the firm's own qualifying questions, gathering case details, booking consultations), 24/7 and after-hours coverage, English and Spanish intake, and how billing works where the page says so (LEX rounds each call up to the minute). Say plainly which legal specialists publish no prices (Answering Legal, LEX Reception: plans on request). Price table only from vendors with published pricing pages. Who it is NOT for: firms that only need a voicemail-to-email line.",
+   "vendors": [
+    "smith-ai-legal",
+    "ruby-legal",
+    "lex-reception",
+    "lex-reception-intake",
+    "answerhero-legal",
+    "answering-legal",
+    "smith-ai",
+    "smith-ai-ai",
+    "ruby",
+    "answerhero"
+   ]
   },
   {
    "slug": "answering-service-for-property-management",
    "keyword": "answering service for property management",
    "type": "trade",
-   "status": "hold",
-   "gate": "pending",
-   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 880 KD0. HOLD 0b.3: snapshot mentions are nav menus only. Unlock: snapshot property-management pages (upfirst, my-ai-front-desk, answerhero, mapcommunications).",
-   "angle": "",
-   "vendors": []
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 880 KD0. HOLD 0b.3: snapshot mentions are nav menus only. Unlock: snapshot property-management pages (upfirst, my-ai-front-desk, answerhero, mapcommunications). | 2026-11-13 BF53: GATE PASSED (0b.3 met): PM pages snapshotted 11/13 (rcm-site#12): Upfirst PM (24/7 tenant calls, after-hours maintenance hotline), My AI Front Desk PM (Yardi Voyager/RentCafe work orders + leasing), AnswerHero PM (EN/ES).",
+   "angle": "Answering services for property managers: after-hours maintenance lines and emergency calls, tenant calls in Spanish, leasing and showing calls, and which AI tools open or update work orders inside property software (My AI Front Desk syncs with Yardi Voyager and RentCafe). Price table only from published pricing pages. Who it is NOT for: a landlord with a handful of units who can take the maintenance calls.",
+   "vendors": [
+    "upfirst-pm",
+    "my-ai-front-desk-pm",
+    "answerhero-pm",
+    "upfirst",
+    "my-ai-front-desk",
+    "answerhero",
+    "ruby",
+    "smith-ai"
+   ]
   },
   {
    "slug": "answering-service-for-plumbers",
