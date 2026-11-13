@@ -44,7 +44,7 @@ If you get only a handful of calls, three services sell a plan with no minutes i
 - [Posh](https://www.posh.com/pricing): $65 a month plus $2.30 a minute.
 - [Continental Message Solution](https://www.continentalmessage.com/pricing/): $50 every 28 days, at your plan's additional-minute rate.
 
-At about 20 minutes a month or more, PATLive's 50-minute plan becomes cheaper than its pay-as-you-go plan.
+At about 20 minutes a month or more, PATLive's 50-minute plan becomes cheaper than its pay-as-you-go plan. If you only need nights and weekends covered, see [after-hours answering service prices](/after-hours-answering-service/) for which services charge extra for those hours.
 
 ## Costs that catch people out
 

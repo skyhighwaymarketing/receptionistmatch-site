@@ -39,11 +39,12 @@
    "slug": "after-hours-answering-service",
    "keyword": "after hours answering service",
    "type": "pricing",
-   "status": "ready",
+   "status": "published",
    "gate": "passed",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 1,000 KD0 (CPC $144); Bing below floor. Top 10 = local answering services (answercalifornia, answerfirst, absentanswer...) + ringly blog; no neutral comparison. 18 vendor snapshots carry after-hours/24-7 terms.",
    "angle": "After-hours only: which AI receptionists and live services cover nights, weekends and holidays, how they bill for after-hours-only use (overflow/after-hours forwarding, minimums), and what happens on an emergency call at 2 a.m. (transfer, page the on-call, message only). Lookup table first. Who should keep a live person for nights.",
-   "vendors": []
+   "vendors": [],
+   "published": "2026-11-13"
   },
   {
    "slug": "cheap-answering-service",

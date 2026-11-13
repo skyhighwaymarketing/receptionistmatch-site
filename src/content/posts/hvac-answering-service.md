@@ -92,7 +92,7 @@ If your on-call phone always gets answered, an AI receptionist with transfers is
 ## How to pick
 
 1. **Pull last July's call log.** Count calls, minutes and repeat callers. That tells you which billing unit is cheapest.
-2. **Count the after-hours emergencies.** If there are only a few, a live plan for nights only may be enough.
+2. **Count the after-hours emergencies.** If there are only a few, a live plan for nights only may be enough. Our [after-hours answering service guide](/after-hours-answering-service/) compares what nights-only coverage costs and who handles a 2 a.m. emergency call.
 3. **Test it in the shoulder season.** Use a trial in spring, not mid-heatwave. Here's every [AI receptionist free trial](/ai-receptionist-free-trial/).
 4. **Size up in June, down in September.** Check each vendor's plan-change terms first. Smith.ai starts a new plan the next month, so ask a month early.
 
