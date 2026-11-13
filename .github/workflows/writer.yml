@@ -6,7 +6,12 @@ name: Writer (one post)
 # A GITHUB_TOKEN push does not trigger deploy.yml, so this job dispatches it and waits.
 on:
   schedule:
+    # GitHub runs schedules hours late or drops them (TLD's 13:00Z cron lands 17-23Z; RM's first
+    # Fri slot never fired). Three slots per post day; the first to fire writes, the rest skip
+    # via the recent-post guard below.
     - cron: '23 14 * * 2,5'   # Tue + Fri 14:23 UTC
+    - cron: '47 17 * * 2,5'   # safety net
+    - cron: '17 21 * * 2,5'   # safety net
   workflow_dispatch:
 
 permissions:
@@ -36,8 +41,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then echo "::warning::ANTHROPIC_API_KEY not set; writer skipped"; exit 0; fi
-          if [ "${{ github.event_name }}" = "schedule" ] && python3 -c "import json,datetime,sys; q=json.load(open('state/rm_queue.json')); q=q.get('items',q) if isinstance(q,dict) else q; sys.exit(0 if any(i.get('published')==datetime.date.today().isoformat() for i in q) else 1)"; then
-            echo "::notice::a post already published today (manual run); scheduled run skipped"; exit 0
+          if [ "${{ github.event_name }}" = "schedule" ] && python3 -c "import json,datetime,sys; q=json.load(open('state/rm_queue.json')); q=q.get('items',q) if isinstance(q,dict) else q; d=datetime.date.today(); recent={d.isoformat(),(d-datetime.timedelta(days=1)).isoformat()}; sys.exit(0 if any(i.get('published') in recent for i in q) else 1)"; then
+            echo "::notice::a post already published today or yesterday; scheduled run skipped"; exit 0
           fi
           python3 robots/writer.py
       - name: Site gates (same as deploy CI) + honesty gate
