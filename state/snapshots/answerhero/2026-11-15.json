@@ -1,0 +1,160 @@
+{
+ "vendor": "AnswerHero",
+ "url": "https://answerhero.com/pricing-plans/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/answerhero/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Virtual Receptionists (Human Only) - STARTER",
+   "price": "$79",
+   "billing": "monthly",
+   "included": "50 MINUTES",
+   "overage": "$1.89 add minutes",
+   "line": 234
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - POPULAR",
+   "price": "$149",
+   "billing": "monthly",
+   "included": "100 MINUTES",
+   "overage": "$1.59 add minutes",
+   "line": 246
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - PRO",
+   "price": "$279",
+   "billing": "monthly",
+   "included": "250 MINUTE",
+   "overage": "$1.35 add minutes",
+   "line": 259
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - BUSINESS",
+   "price": "$499",
+   "billing": "monthly",
+   "included": "500 MINUTES",
+   "overage": "$1.25 add minutes",
+   "line": 271
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - EXECUTIVE",
+   "price": "$949",
+   "billing": "monthly",
+   "included": "1000 MINUTES",
+   "overage": "$1.19 add minutes",
+   "line": 283
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - PREMIER",
+   "price": "$1395",
+   "billing": "monthly",
+   "included": "1500 MINUTES",
+   "overage": "$1.16 add minutes",
+   "line": 295
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - ENTERPRISE",
+   "price": "$1,795",
+   "billing": "monthly",
+   "included": "2000 MINUTES",
+   "overage": "$1.12 add minutes",
+   "line": 307
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - ENTERPRISE +",
+   "price": "CUSTOM",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 319
+  },
+  {
+   "name": "Virtual Receptionists (Human Only) - ECONOMY",
+   "price": "$39",
+   "billing": "monthly",
+   "included": "10 MINUTES",
+   "overage": "$1.99 add minutes",
+   "line": 324
+  },
+  {
+   "name": "AI Receptionists (AI Only) - AI ANSWERING SERVICE",
+   "price": "$19",
+   "billing": "monthly",
+   "included": "",
+   "overage": "$0.79 add minutes",
+   "line": 337
+  },
+  {
+   "name": "Hybrid (Human + AI) - STARTER",
+   "price": "$90",
+   "billing": "monthly",
+   "included": "50 MINUTES",
+   "overage": "$1.89 per AI minute; $1.89 human add minutes",
+   "line": 351
+  },
+  {
+   "name": "Hybrid (Human + AI) - POPULAR",
+   "price": "$160",
+   "billing": "monthly",
+   "included": "100 MINUTES",
+   "overage": "$0.79 per AI minute; $1.59 add human minutes",
+   "line": 365
+  },
+  {
+   "name": "Hybrid (Human + AI) - PRO",
+   "price": "$290",
+   "billing": "monthly",
+   "included": "250 MINUTE",
+   "overage": "$0.79 per AI minute; $1.35 add human minutes",
+   "line": 380
+  },
+  {
+   "name": "Hybrid (Human + AI) - BUSINESS",
+   "price": "$510",
+   "billing": "monthly",
+   "included": "500 MINUTES",
+   "overage": "$0.79 per AI minute; $1.35 add human minutes",
+   "line": 394
+  },
+  {
+   "name": "Hybrid (Human + AI) - EXECUTIVE",
+   "price": "$960",
+   "billing": "monthly",
+   "included": "1000 MINUTES",
+   "overage": "$0.79 per AI minute; $1.19 add human minutes",
+   "line": 408
+  },
+  {
+   "name": "Hybrid (Human + AI) - PREMIER",
+   "price": "$1,406",
+   "billing": "monthly",
+   "included": "1500 MINUTES",
+   "overage": "$0.79 per AI minute; $1.16 add human minutes",
+   "line": 422
+  },
+  {
+   "name": "Hybrid (Human + AI) - ENTERPRISE",
+   "price": "$1,806",
+   "billing": "monthly",
+   "included": "2000 MINUTES",
+   "overage": "$0.79 per AI minute; $1.12 add human minutes",
+   "line": 436
+  },
+  {
+   "name": "Hybrid (Human + AI) - ENTERPRISE +",
+   "price": "CUSTOM",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 450
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The AI-only plan (line 337) shows 'MINUTES' at line 339 but gives no number, so its included minutes are not stated. The Hybrid STARTER plan lists '$1.89 per AI minute' (line 355), while every other hybrid plan lists $0.79 per AI minute. This may be a page error; it is recorded as written. Hybrid BUSINESS lists $1.35 for added human minutes (line 399), the same as PRO, while the human-only BUSINESS plan lists $1.25. The FAQ says there is no setup fee (line 506). Call transfers cost '$0.06' per minute (line 510). Billing is per minute, 'rounded up to the nearest 1/4 of a minute' (line 518). There are no contracts, but you must give notice '30 days before the end of your billing cycle' to cancel (line 512). There are no holiday or weekend fees (lines 478, 508). The page doesn't mention a free trial. Line 456 lists a different phone number, (888) 635-3509, from the sales line 888-974-2567.",
+ "setup_fee": {
+  "text": "No Setup Fees",
+  "line": 239
+ },
+ "free_trial": null
+}

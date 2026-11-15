@@ -1,0 +1,77 @@
+{
+ "vendor": "VoiceNation",
+ "url": "https://www.voicenation.com/pricing/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/voicenation/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "People Answering - 50 minutes",
+   "price": "$165/mo",
+   "billing": "monthly",
+   "included": "50 minutes",
+   "overage": "Extra minutes $2.85",
+   "line": 78
+  },
+  {
+   "name": "People Answering - 100 minutes",
+   "price": "$265/mo",
+   "billing": "monthly",
+   "included": "100 minutes",
+   "overage": "Extra minutes $2.65",
+   "line": 89
+  },
+  {
+   "name": "People Answering - 200 minutes",
+   "price": "$422/mo",
+   "billing": "monthly",
+   "included": "200 minutes",
+   "overage": "Extra minutes $2.39",
+   "line": 101
+  },
+  {
+   "name": "People Answering - 500 minutes",
+   "price": "$985/mo",
+   "billing": "monthly",
+   "included": "500 minutes",
+   "overage": "Extra minutes $2.09",
+   "line": 112
+  },
+  {
+   "name": "AI Answering - 50 calls",
+   "price": "$99/mo",
+   "billing": "monthly",
+   "included": "50 calls",
+   "overage": "Extra calls $2.39",
+   "line": 122
+  },
+  {
+   "name": "AI Answering - 100 calls",
+   "price": "$199/mo",
+   "billing": "monthly",
+   "included": "100 calls",
+   "overage": "Extra calls $2.19",
+   "line": 132
+  },
+  {
+   "name": "AI Answering - 250 calls",
+   "price": "$435/mo",
+   "billing": "monthly",
+   "included": "250 calls",
+   "overage": "Extra calls $1.89",
+   "line": 141
+  },
+  {
+   "name": "AI Answering - 500 calls",
+   "price": "$775/mo",
+   "billing": "monthly",
+   "included": "500 calls",
+   "overage": "Extra calls $1.69",
+   "line": 150
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The snapshot is labeled VoiceNation, but the page itself is branded Moneypenny (for example, lines 16, 60, 176 and 241). Every price has the label \"Original price:\" in front of it (lines 77, 88, 100, 111, 121, 131, 140, 149). This suggests a discounted price may appear on the live page, but no discounted price is in the snapshot, so the listed prices are recorded as given. The page says there is no contract (line 71) and that cancelling takes 30 days' notice, effective from the next billing date (line 183). The page does not mention a setup fee or a free trial. Line 167 lists a \"Free forwarding number\" as included.",
+ "setup_fee": null,
+ "free_trial": null
+}

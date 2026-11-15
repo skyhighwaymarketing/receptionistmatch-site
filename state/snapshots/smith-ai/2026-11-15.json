@@ -1,0 +1,48 @@
+{
+ "vendor": "Smith.ai",
+ "url": "https://smith.ai/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/smith-ai/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$300 / month",
+   "billing": "monthly",
+   "included": "30 calls",
+   "overage": "$11.50/call over 30",
+   "line": 37
+  },
+  {
+   "name": "Basic",
+   "price": "$810 / month",
+   "billing": "monthly",
+   "included": "90 calls",
+   "overage": "$10.50/call over 90",
+   "line": 44
+  },
+  {
+   "name": "Pro",
+   "price": "$2,100 / month",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "$8.50/call over 300",
+   "line": 51
+  },
+  {
+   "name": "Enterprise",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 57
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "These are the Human-first (Virtual Front Desk) plans. The AI-first and Hybrid tabs (lines 29-30) are named, but no prices are shown for them. The plan details appear twice on the page; the second copy is at lines 356-370. Free transfer destinations: Starter 1 (line 39-40), Basic 2 (46-47), Pro 10 (53-54). Enterprise says 'Ask about enterprise pricing' and 'Price adjusted based on your needs' (lines 58, 60). The page names no free trial. It offers a 30-day money-back guarantee instead (line 61). The guarantee FAQ contradicts itself: it says 'If you decide Smith.ai isn't for you in the first two weeks, we'll refund your initial plan' (line 197) but also 'send us an email within 30 days' (line 198). Refunds are capped at $1,000 and don't cover overage (line 199). There is a 10% discount for subscribing for 12 months (line 216). The service is month-to-month with no long-term contract (line 201). Spam calls aren't charged (lines 68, 206). The first CRM integration is free, then $0.50/call per additional CRM (lines 72-75). Per-call add-ons (lines 92-149) include Book appointments $1.50, SMS/Slack notifications $0.50 (+$0.25 per additional ping), Teams notifications $0.50, Text & email follow-up $0.50, Conflict checks $0.50, Call recording & transcription $0.25, Dedicated Spanish line $1.00, Accept collect calls $0.50, Accept payments $1.00, Third-party intake $1.00, Complex call routing $1.50, Custom calendaring $1.00, Extended intake $1.50, and Custom extended intake $0.25 per question. Monthly add-ons (lines 150-162): Business caller ID for outbound $10.00, Additional transfer destinations $15.00, Inbound call tracking numbers $5.00 per number. A blog link titled 'The Smith.ai Free Plan: What You Get, Free, Forever' (line 339) mentions a free plan, but the pricing table doesn't list one.",
+ "setup_fee": {
+  "text": "No setup fees",
+  "line": 65
+ },
+ "free_trial": null
+}

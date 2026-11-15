@@ -1,0 +1,48 @@
+{
+ "vendor": "Retell AI",
+ "url": "https://www.retellai.com/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/retell/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Pay as you go \u2013 AI Voice Agents",
+   "price": "$0.07-$0.31 / min",
+   "billing": "per-minute",
+   "included": "",
+   "overage": "",
+   "line": 106
+  },
+  {
+   "name": "Pay as you go \u2013 AI Chat Agents",
+   "price": "$0.002+ / msg",
+   "billing": "usage",
+   "included": "",
+   "overage": "",
+   "line": 108
+  },
+  {
+   "name": "Enterprise Plan \u2013 AI Voice Agents",
+   "price": "Custom Pricing",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 121
+  },
+  {
+   "name": "Enterprise Plan \u2013 AI Chat Agents",
+   "price": "Custom Pricing",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 123
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page does not list a plan setup fee. The only one-time fee is \"One-time $10 fee\" (line 703), which appears to go with Verified Phone Number. That item is also listed at $10.00/Phone number/month (lines 566 and 702). The same pay-as-you-go voice range \"$0.07-$0.31/minute\" also appears in the comparison table (line 227). The page lists no included minutes. Pay as you go includes 20 free concurrent calls (lines 117, 230, 560). Extra concurrency costs $8.00/Concurrency/month (lines 561, 697, 728). Concurrency Burst costs +$0.10/min (line 450). Monthly items: Retell Phone Numbers $2.00/month (lines 555, 691). Retell SMS $20.00/month (lines 558, 694). Knowledge Base $8.00/Knowledge Base/month. Conflicts on the page: (1) Knowledge Base is described as \"$80/month free value (10 KBs)\" and \"(prorated)\" at lines 563-564, but as \"Free for first 10 knowledge bases\" at lines 699-700. (2) Enterprise concurrency is \"High Cap on Concurrent Calls\" at line 132, \"No Cap on Concurrent Calls\" at line 231, and \"custom concurrency starting at 50+ calls\" at line 728. (3) The cost estimator's LLM list (lines 141-159: GPT 5.5, GPT 5.4, etc.) doesn't match the component pricing tables (GPT 6.x, Claude 5.x, Gemini 4, etc.). (4) The estimator shows a total of $0.11 labeled \"per month\" (lines 210-213), but its parts add up to a per-minute cost ($0.04 LLM + $0.055 voice infra + $0.015 TTS). (5) The Chat Agent Pricing and Monthly Subscription sections appear twice (lines 451-566 and 587-703). The component rates vary: Retell Voice Infra $0.055/minute; TTS $0.015 to $0.10/minute; telephony $0.015/min shown by default and no charge for SIP trunking/custom telephony; add-ons such as Knowledge Base +$0.005/minute, Batch Call +$0.005/dial, Branded Call +$0.10/outbound call, and AI QA $0.10/min after the first 100 free minutes.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Go live in minutes with $10 in free credits.",
+  "line": 105
+ }
+}

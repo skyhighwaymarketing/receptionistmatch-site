@@ -1,0 +1,41 @@
+{
+ "vendor": "My AI Front Desk for property management",
+ "url": "https://www.myaifrontdesk.com/property-management",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/my-ai-front-desk-pm/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Plans that answer phone calls (starting tier)",
+   "price": "$99 per month",
+   "billing": "monthly",
+   "included": "200 voice minutes included",
+   "overage": "",
+   "line": 500
+  },
+  {
+   "name": "Plans that answer phone calls (starting tier), billed annually",
+   "price": "$79 per month billed annually",
+   "billing": "annual",
+   "included": "200 voice minutes included",
+   "overage": "",
+   "line": 500
+  }
+ ],
+ "dropped_untraced": [
+  {
+   "name": "Enterprise",
+   "price": "",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 500
+  }
+ ],
+ "notes": "The only pricing on the page is in the FAQ answer on line 500. That answer doesn't name the $99/$79 tier, and it doesn't say whether this tier is Business-in-a-Box. No overage rate is given. The Enterprise plan is mentioned with \"volume pricing, custom integrations, and a dedicated account manager\" but no price. The page doesn't mention a setup fee. Other claims: \"No credit card required\" (line 55) and \"Start for Free\"/\"Try for free\" calls to action (lines 44, 53). Line 506 says setup takes less than 5 minutes, but that is not a fee.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Business-in-a-Box starts with a 7-day free trial and has no contract.",
+  "line": 500
+ }
+}

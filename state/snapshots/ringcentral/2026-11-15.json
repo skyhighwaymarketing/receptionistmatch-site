@@ -1,0 +1,12 @@
+{
+ "vendor": "RingCentral AI Receptionist",
+ "url": "https://www.ringcentral.com/ai-receptionist.html",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/ringcentral/2026-11-15.txt",
+ "published": false,
+ "plans": [],
+ "dropped_untraced": [],
+ "notes": "This snapshot doesn't list any prices, plans, included minutes/calls, overage rates, setup fees or free trials. The page only points elsewhere for pricing: 'See pricing' buttons (lines 53, 302) and line 284: 'RingCentral AI Receptionist is available as a standalone or add-on license for both new and existing RingCentral customers in the U.S. and Canada, and as an add-on in the U.K., Australia, and EU. Contact a RingCentral account representative to learn more or see plans and pricing here'. The prices are on a separate linked page that isn't in this snapshot. Sales contact: (800) 574 5290 (lines 7, 313, 595). Line 62 says 'Set up in minutes' and 'No IT support needed'. That describes how easy setup is, not a fee. A demo line is listed at line 71 (1-844-587-9247), but it isn't described as a trial.",
+ "setup_fee": null,
+ "free_trial": null
+}

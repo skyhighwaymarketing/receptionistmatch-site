@@ -1,0 +1,88 @@
+{
+ "vendor": "Upfirst",
+ "url": "https://www.upfirst.ai/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/upfirst/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter (monthly)",
+   "price": "$24.95 billed monthly",
+   "billing": "monthly",
+   "included": "30 calls",
+   "overage": "$1.50 per extra call",
+   "line": 125
+  },
+  {
+   "name": "Starter (annual)",
+   "price": "$20 billed annually",
+   "billing": "annual",
+   "included": "30 calls",
+   "overage": "$1.50 per extra call",
+   "line": 126
+  },
+  {
+   "name": "Premium (monthly)",
+   "price": "$59.95 billed monthly",
+   "billing": "monthly",
+   "included": "90 calls",
+   "overage": "$1 per extra call",
+   "line": 130
+  },
+  {
+   "name": "Premium (annual)",
+   "price": "$48 billed annually",
+   "billing": "annual",
+   "included": "90 calls",
+   "overage": "$1 per extra call",
+   "line": 131
+  },
+  {
+   "name": "Pro (monthly)",
+   "price": "$159.95 billed monthly",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "75\u00a2 per extra call",
+   "line": 135
+  },
+  {
+   "name": "Pro (annual)",
+   "price": "$128 billed annually",
+   "billing": "annual",
+   "included": "300 calls",
+   "overage": "75\u00a2 per extra call",
+   "line": 136
+  },
+  {
+   "name": "Scale (monthly)",
+   "price": "$299 billed monthly",
+   "billing": "monthly",
+   "included": "600 calls",
+   "overage": "70\u00a2 per extra call",
+   "line": 140
+  },
+  {
+   "name": "Scale (annual)",
+   "price": "$240 billed annually",
+   "billing": "annual",
+   "included": "600 calls",
+   "overage": "70\u00a2 per extra call",
+   "line": 141
+  },
+  {
+   "name": "Enterprise",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "1,000+ calls",
+   "overage": "",
+   "line": 145
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "All prices in USD (line 182). The page shows \"/mo\" after each price pair (lines 127, 132, 137, 142), so the annual figures are per-month rates billed annually. The page says annual billing saves 20% (lines 122, 269). The trial FAQ (line 267) says \"14 days or 100 calls, whichever comes first, plus 25 text messages\", with no credit card required. Spam, calls under 15 seconds, and calls where the caller never speaks are not billed (lines 182, 263). Each additional AI agent is $9.95 per month (line 277). Porting a number is at no extra charge (line 265). A free 30-minute onboarding call is offered (line 271). The page doesn't state a setup fee. White-glove onboarding and done-for-you integrations: Scale and Enterprise only (lines 170, 172). Inconsistencies on the page: line 273 says only the Scale plan gets integrations set up for you, but line 172 also includes Enterprise. Line 279 says Pro and Scale get a priority support queue, but line 177 lists priority support under Enterprise. Enterprise has volume discounts and BAAs (lines 176, 178).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start using Upfirst for free for 14 days \u2014 no card required. Pick a",
+  "line": 117
+ }
+}

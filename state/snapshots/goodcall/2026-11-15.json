@@ -1,0 +1,48 @@
+{
+ "vendor": "Goodcall",
+ "url": "https://www.goodcall.com/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/goodcall/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$79",
+   "billing": "monthly",
+   "included": "100 unique customers a month",
+   "overage": "then 79\u00a2 each",
+   "line": 13
+  },
+  {
+   "name": "Growth",
+   "price": "$129",
+   "billing": "monthly",
+   "included": "500 unique customers a month",
+   "overage": "then 26\u00a2 each",
+   "line": 28
+  },
+  {
+   "name": "Scale",
+   "price": "$299",
+   "billing": "monthly",
+   "included": "2,000 unique customers a month",
+   "overage": "then 15\u00a2 each",
+   "line": 42
+  },
+  {
+   "name": "Enterprise",
+   "price": "Contact sales",
+   "billing": "unknown",
+   "included": "More than 2,000 customers a month",
+   "overage": "",
+   "line": 56
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The bill is based on unique customers (unique phone numbers per month), not minutes (lines 10, 58-59). Prices are listed as \"a month\" (lines 14, 29, 43). Approximate calls: Starter about 150 calls/month (line 18), Growth about 750 (line 33), Scale about 3,000 (line 47). Going over is billed at the plan's own rate with no penalty rate (line 60). Enterprise has no listed price, only \"Volume pricing, onboarding and an SLA\" (line 55) and \"Contact sales\" (line 56). Every plan includes a local number (line 62). AI usage (test runs) can be topped up $5 at a time (line 66). Line 11 says \"Start free with a demo agent. Add a number when you're ready.\" The page does not mention a setup fee.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Is there a free trial? Better: a free demo agent. Build it, test it, hear it answer, and only pay when you connect a number. Nothing is locked while you're trying it out.",
+  "line": 67
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "vendor": "Dialzara",
+ "url": "https://www.dialzara.com/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/dialzara/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Business Lite",
+   "price": "$29/month",
+   "billing": "monthly",
+   "included": "Up to 60 minutes of talk time included",
+   "overage": "$0.48/min",
+   "line": 13
+  },
+  {
+   "name": "Business Pro",
+   "price": "$99/month",
+   "billing": "monthly",
+   "included": "Up to 220 minutes of talk time included",
+   "overage": "$0.45/min",
+   "line": 32
+  },
+  {
+   "name": "Business Plus",
+   "price": "$199/month",
+   "billing": "monthly",
+   "included": "Up to 500 minutes of talk time included",
+   "overage": "$0.40/min",
+   "line": 52
+  },
+  {
+   "name": "Business Elite",
+   "price": "$349/month",
+   "billing": "monthly",
+   "included": "Up to 1000 minutes of talk time included",
+   "overage": "$0.35/min",
+   "line": 71
+  },
+  {
+   "name": "Done for You!",
+   "price": "$1,500+ per month",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 90
+  },
+  {
+   "name": "Outbound Starter",
+   "price": "$750/month",
+   "billing": "monthly",
+   "included": "1,500 contacts included",
+   "overage": "",
+   "line": 236
+  },
+  {
+   "name": "Outbound Growth",
+   "price": "$1,000/month",
+   "billing": "monthly",
+   "included": "2,000 contacts included",
+   "overage": "",
+   "line": 251
+  },
+  {
+   "name": "Outbound Scale",
+   "price": "$1,500/month",
+   "billing": "monthly",
+   "included": "3,000 contacts included",
+   "overage": "",
+   "line": 265
+  },
+  {
+   "name": "AI SMS Agent",
+   "price": "$19/month + $0.05 per AI message",
+   "billing": "monthly",
+   "included": "",
+   "overage": "$0.05 per AI message; SMS carrier fees passed through at $0.0083 per segment",
+   "line": 284
+  },
+  {
+   "name": "AI Website Chatbot (standalone)",
+   "price": "$39/month standalone",
+   "billing": "monthly",
+   "included": "Standalone plan includes unlimited sessions",
+   "overage": "",
+   "line": 293
+  },
+  {
+   "name": "AI Website Chatbot (bundled with voice plan)",
+   "price": "Free with voice plans",
+   "billing": "usage",
+   "included": "100 sessions/month free",
+   "overage": "$0.15 per additional session",
+   "line": 294
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Prices on the page are listed as monthly. Line 328 says annual pricing is available, but the page gives no annual prices. Done for You! is a starting price ($1,500+). Its included minutes, overage and usage terms are not published ('Inquire'). Outbound plans are based on contacts, not minutes, are separate from the inbound plans, and have no published overage. Custom outbound plans are available on request (line 279). The Business Elite plan includes initial prompt setup. Done for You! includes ongoing prompt setup and engineering. White-label and partner pricing is custom per partner and has no published price (line 303). Phone number costs are not stated on the page. The FAQ answers are collapsed. Business Lite includes blind transfer but not warm transfer. The usage estimator example (line 135) shows Business Pro at $99.00 for 150 minutes.",
+ "setup_fee": {
+  "text": "No setup fees. No long-term contracts. Cancel anytime.",
+  "line": 329
+ },
+ "free_trial": {
+  "text": "Pricing as of 2026 \u00b7 7-day free trial",
+  "line": 11
+ }
+}

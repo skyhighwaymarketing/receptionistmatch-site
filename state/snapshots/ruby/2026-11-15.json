@@ -1,0 +1,96 @@
+{
+ "vendor": "Ruby",
+ "url": "https://www.ruby.com/pricing/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/ruby/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Virtual receptionist \u2013 50 minutes (Great for startups)",
+   "price": "$250/month",
+   "billing": "monthly",
+   "included": "50 minutes per month",
+   "overage": "",
+   "line": 167
+  },
+  {
+   "name": "Virtual receptionist \u2013 100 minutes (Great for one-person businesses)",
+   "price": "$395/month",
+   "billing": "monthly",
+   "included": "100 minutes per month",
+   "overage": "",
+   "line": 173
+  },
+  {
+   "name": "Virtual receptionist \u2013 200 minutes (Most popular; Great for small businesses of all kinds)",
+   "price": "$720/month",
+   "billing": "monthly",
+   "included": "200 minutes per month",
+   "overage": "",
+   "line": 180
+  },
+  {
+   "name": "Virtual receptionist \u2013 500 minutes (Great for larger and growing businesses)",
+   "price": "$1,725/month",
+   "billing": "monthly",
+   "included": "500 minutes per month",
+   "overage": "",
+   "line": 186
+  },
+  {
+   "name": "Live chat \u2013 10 chats (Great for startups)",
+   "price": "$143/month",
+   "billing": "monthly",
+   "included": "10 chats per month",
+   "overage": "",
+   "line": 250
+  },
+  {
+   "name": "Live chat \u2013 30 chats (Great for solo practices and one-person businesses)",
+   "price": "$335/month",
+   "billing": "monthly",
+   "included": "30 chats per month",
+   "overage": "",
+   "line": 256
+  },
+  {
+   "name": "Live chat \u2013 50 chats (Most popular; Great for organizations of all kinds)",
+   "price": "$520/month",
+   "billing": "monthly",
+   "included": "50 chats per month",
+   "overage": "",
+   "line": 263
+  },
+  {
+   "name": "Bundled \u2013 10 chats added to your virtual receptionist plan",
+   "price": "$115",
+   "billing": "unknown",
+   "included": "Up to 10 chats",
+   "overage": "",
+   "line": 91
+  },
+  {
+   "name": "Bundled \u2013 30 chats added to your virtual receptionist plan",
+   "price": "$268",
+   "billing": "unknown",
+   "included": "Up to 30 chats",
+   "overage": "",
+   "line": 98
+  },
+  {
+   "name": "Bundled \u2013 50 chats added to your virtual receptionist plan (Most popular)",
+   "price": "$416",
+   "billing": "unknown",
+   "included": "Up to 50 chats",
+   "overage": "",
+   "line": 106
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page shows each plan block twice (repeated at lines 110-130, 189-212 and 266-283). I gave the line of the first time each price appears. Bundled prices are chat add-ons on top of a virtual receptionist plan. The page calls them 'a 20% savings' (lines 92, 99, 107; see also lines 288-289). Those three prices don't say '/month', so I recorded their billing as unknown. The page lists no overage rates. It says larger plans are available if you contact sales (lines 133, 215, 286). It says optional AI enhancements are included in all plans at no extra cost (lines 217-218). The setup-fee statement is repeated at lines 221 and 292.",
+ "setup_fee": {
+  "text": "There are no additional or hidden fees for activation, onboarding, setup, customization, or coverage during certain periods.",
+  "line": 137
+ },
+ "free_trial": null
+}

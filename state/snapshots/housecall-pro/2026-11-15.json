@@ -1,0 +1,64 @@
+{
+ "vendor": "Housecall Pro (AI Team / CSR AI)",
+ "url": "https://www.housecallpro.com/pricing/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/housecall-pro/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Basic (annual)",
+   "price": "$59 /mo",
+   "billing": "annual",
+   "included": "1 user included",
+   "overage": "",
+   "line": 320
+  },
+  {
+   "name": "Basic (monthly)",
+   "price": "$79 /mo",
+   "billing": "monthly",
+   "included": "1 user included",
+   "overage": "",
+   "line": 321
+  },
+  {
+   "name": "Essentials (annual)",
+   "price": "$149 /mo",
+   "billing": "annual",
+   "included": "5 users included",
+   "overage": "",
+   "line": 357
+  },
+  {
+   "name": "Essentials (monthly)",
+   "price": "$189 /mo",
+   "billing": "monthly",
+   "included": "5 users included",
+   "overage": "",
+   "line": 358
+  },
+  {
+   "name": "Max (annual)",
+   "price": "$299 /mo",
+   "billing": "annual",
+   "included": "8 users included",
+   "overage": "*$35/mo per additional user",
+   "line": 394
+  },
+  {
+   "name": "Max (monthly)",
+   "price": "$329 /mo",
+   "billing": "monthly",
+   "included": "8 users included",
+   "overage": "*$35/mo per additional user",
+   "line": 395
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page does not give a separate price for CSR AI / AI Team. CSR AI is listed under \"Get more done with Housecall Pro\" (line 432) without a price. Line 426 lists \"AI team members to automate your work\" under \"Included in every Housecall Pro plan\". No call minutes or call allowances are stated. Sign-up promotions: Basic \"$26 /mo for 1 month\" / \"Save $53\" (lines 316, 318); Essentials \"$26 /mo for 1 month\" / \"Save $163\" (lines 353, 355); Max \"$99 /mo for 3 months\" / \"Save $690\" (lines 390, 392). Annual savings shown: Basic \"Saving $20/mo\" (line 319), Essentials \"Saving $40/mo\" (line 356), Max \"Saving $30/mo\" (line 393). The trial gives full access to the MAX plan for 14 days (line 503). Card processing fees start at 2.59%, and a 1% fee applies to bank payments (line 498). Prices are in USD and exclude sales tax (line 195). The page also shows \"$XX /mo\" placeholders for some options (lines 322-323, 359-360, 396-397).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Try 14 days free. No credit card required. Cancel anytime.",
+  "line": 135
+ }
+}

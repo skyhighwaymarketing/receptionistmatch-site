@@ -1,0 +1,264 @@
+{
+ "vendor": "PATLive",
+ "url": "https://www.patlive.com/pricing/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/patlive/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Live Call Answering - Pay as you go",
+   "price": "$49",
+   "billing": "monthly",
+   "included": "No included minutes",
+   "overage": "$2.99",
+   "line": 56
+  },
+  {
+   "name": "Live Call Answering - 50 minutes",
+   "price": "$99",
+   "billing": "monthly",
+   "included": "50 minutes",
+   "overage": "$2.29",
+   "line": 63
+  },
+  {
+   "name": "Live Call Answering - 100 minutes",
+   "price": "$189",
+   "billing": "monthly",
+   "included": "100 minutes",
+   "overage": "$2.09",
+   "line": 70
+  },
+  {
+   "name": "Live Call Answering - 200 minutes",
+   "price": "$349",
+   "billing": "monthly",
+   "included": "200 minutes",
+   "overage": "$1.99",
+   "line": 77
+  },
+  {
+   "name": "Live Call Answering - 300 minutes",
+   "price": "$479",
+   "billing": "monthly",
+   "included": "300 minutes",
+   "overage": "$1.89",
+   "line": 84
+  },
+  {
+   "name": "Live Call Answering - 500 minutes",
+   "price": "$759",
+   "billing": "monthly",
+   "included": "500 minutes",
+   "overage": "$1.79",
+   "line": 91
+  },
+  {
+   "name": "Live Call Answering - 1,000 minutes",
+   "price": "$1,499",
+   "billing": "monthly",
+   "included": "1,000 minutes",
+   "overage": "$1.69",
+   "line": 98
+  },
+  {
+   "name": "Live Call Answering - 2,000 minutes",
+   "price": "$2,899",
+   "billing": "monthly",
+   "included": "2,000 minutes",
+   "overage": "$1.64",
+   "line": 105
+  },
+  {
+   "name": "Live Call Answering - 3,000 minutes",
+   "price": "$4,299",
+   "billing": "monthly",
+   "included": "3,000 minutes",
+   "overage": "$1.59",
+   "line": 112
+  },
+  {
+   "name": "Live Call Answering - 4,000 minutes",
+   "price": "$5,599",
+   "billing": "monthly",
+   "included": "4,000 minutes",
+   "overage": "$1.54",
+   "line": 119
+  },
+  {
+   "name": "Live Call Answering - 5,000 minutes",
+   "price": "$6,899",
+   "billing": "monthly",
+   "included": "5,000 minutes",
+   "overage": "$1.49",
+   "line": 126
+  },
+  {
+   "name": "Live Outbound Calls - Pay as you go",
+   "price": "$19",
+   "billing": "monthly",
+   "included": "No included outreaches",
+   "overage": "$8.95",
+   "line": 140
+  },
+  {
+   "name": "Live Outbound Calls - 25 outreaches",
+   "price": "$199",
+   "billing": "monthly",
+   "included": "25 outreaches",
+   "overage": "$8.49",
+   "line": 146
+  },
+  {
+   "name": "Live Outbound Calls - 50 outreaches",
+   "price": "$309",
+   "billing": "monthly",
+   "included": "50 outreaches",
+   "overage": "$8.29",
+   "line": 152
+  },
+  {
+   "name": "Live Outbound Calls - 75 outreaches",
+   "price": "$459",
+   "billing": "monthly",
+   "included": "75 outreaches",
+   "overage": "$7.95",
+   "line": 158
+  },
+  {
+   "name": "Live Outbound Calls - 100 outreaches",
+   "price": "$599",
+   "billing": "monthly",
+   "included": "100 outreaches",
+   "overage": "$7.49",
+   "line": 164
+  },
+  {
+   "name": "Live Outbound Calls - 200 outreaches",
+   "price": "$1,199",
+   "billing": "monthly",
+   "included": "200 outreaches",
+   "overage": "$7.29",
+   "line": 170
+  },
+  {
+   "name": "Live Outbound Calls - 300 outreaches",
+   "price": "$1,799",
+   "billing": "monthly",
+   "included": "300 outreaches",
+   "overage": "$6.99",
+   "line": 176
+  },
+  {
+   "name": "Live Outbound Calls - 400 outreaches",
+   "price": "$2,299",
+   "billing": "monthly",
+   "included": "400 outreaches",
+   "overage": "$6.49",
+   "line": 182
+  },
+  {
+   "name": "Live Outbound Calls - 500 outreaches",
+   "price": "$2,799",
+   "billing": "monthly",
+   "included": "500 outreaches",
+   "overage": "$5.99",
+   "line": 188
+  },
+  {
+   "name": "Live Outbound Calls - 1,000 outreaches",
+   "price": "$5,399",
+   "billing": "monthly",
+   "included": "1,000 outreaches",
+   "overage": "$5.49",
+   "line": 194
+  },
+  {
+   "name": "Live Chat - Pay as you go",
+   "price": "$19",
+   "billing": "monthly",
+   "included": "No included chats",
+   "overage": "$9.95",
+   "line": 207
+  },
+  {
+   "name": "Live Chat - 25 chats",
+   "price": "$149",
+   "billing": "monthly",
+   "included": "25 chats",
+   "overage": "$8.95",
+   "line": 213
+  },
+  {
+   "name": "Live Chat - 50 chats",
+   "price": "$279",
+   "billing": "monthly",
+   "included": "50 chats",
+   "overage": "$8.49",
+   "line": 219
+  },
+  {
+   "name": "Live Chat - 75 chats",
+   "price": "$399",
+   "billing": "monthly",
+   "included": "75 chats",
+   "overage": "$8.29",
+   "line": 225
+  },
+  {
+   "name": "Live Chat - 100 chats",
+   "price": "$499",
+   "billing": "monthly",
+   "included": "100 chats",
+   "overage": "$7.95",
+   "line": 231
+  },
+  {
+   "name": "Live Chat - 200 chats",
+   "price": "$999",
+   "billing": "monthly",
+   "included": "200 chats",
+   "overage": "$7.49",
+   "line": 237
+  },
+  {
+   "name": "Live Chat - 300 chats",
+   "price": "$1,499",
+   "billing": "monthly",
+   "included": "300 chats",
+   "overage": "$7.29",
+   "line": 243
+  },
+  {
+   "name": "Live Chat - 400 chats",
+   "price": "$1,999",
+   "billing": "monthly",
+   "included": "400 chats",
+   "overage": "$6.99",
+   "line": 249
+  },
+  {
+   "name": "Live Chat - 500 chats",
+   "price": "$2,499",
+   "billing": "monthly",
+   "included": "500 chats",
+   "overage": "$6.49",
+   "line": 255
+  },
+  {
+   "name": "Live Chat - 1,000 chats",
+   "price": "$4,999",
+   "billing": "monthly",
+   "included": "1,000 chats",
+   "overage": "$5.99",
+   "line": 261
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Overage values are per 'Additional min' (call answering), 'Additional outreach' (outbound), or 'Additional chat' (chat). Call answering plans also list approximate calls (e.g. '50 minutes' = 'About 20 calls', line 61). Each table has a 'Show larger plans' link whose plans are not in the snapshot (lines 130, 198, 265). Taxes are extra: 'Plus government taxes and fees. No PATLive fees.' (lines 131-132) and 'Plus federal, state, and local taxes and fees. No PATLive fees.' (lines 199, 266). No contracts (line 44). No plan setup fee is stated. The optional free phone system has a one-time $50 fee to activate business text messaging (line 435). It also charges $0.02 per additional automated minute or text beyond 1,000 automated min/100 texts per month (line 433), and $5/mo for each additional phone number (line 434). Enterprise options are referenced but not priced (line 23).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Try any plan completely free for 14 days.",
+  "line": 43
+ }
+}

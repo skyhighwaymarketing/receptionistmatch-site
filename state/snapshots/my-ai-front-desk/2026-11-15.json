@@ -1,0 +1,40 @@
+{
+ "vendor": "My AI Front Desk",
+ "url": "https://www.myaifrontdesk.com/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/my-ai-front-desk/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Business-in-a-Box (monthly)",
+   "price": "$99/mo",
+   "billing": "monthly",
+   "included": "200 voice minutes / month; 100 chatbot convos \u00b7 400 SMS; 1,000 monthly overage credits + auto-reload",
+   "overage": "Voice (per minute): 25 credits (1 credit = $0.01); SMS 4 credits; Chatbot 5 credits; Form Submission 4 credits; Auto-reload: $10 for 1,000 credits",
+   "line": 24
+  },
+  {
+   "name": "Business-in-a-Box (annual)",
+   "price": "$79/mo billed annually",
+   "billing": "annual",
+   "included": "200 voice minutes / month; 100 chatbot convos \u00b7 400 SMS; 1,000 monthly overage credits + auto-reload",
+   "overage": "Voice (per minute): 25 credits (1 credit = $0.01); SMS 4 credits; Chatbot 5 credits; Form Submission 4 credits; Auto-reload: $10 for 1,000 credits",
+   "line": 26
+  },
+  {
+   "name": "Partner / Enterprise",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "Custom",
+   "overage": "Volume pricing (voice from 7 credits/min)",
+   "line": 40
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page doesn't mention a setup fee. It says \"No contracts, no hidden fees\" (line 15). Annual billing is described as \"Annually Save 20%\" (line 20). The FAQ says the $79/mo annual price is \"billed upfront\" (line 382). Credits: \"1 credit = $0.01\" (line 171). Business-in-a-Box comes with a monthly pool of 1,000 overage credits. Unused pool credits expire each month, but purchased auto-reload credits never expire (lines 112, 116). Trial disclaimer: \"Trial included usage and any usage charges depend on your chosen plan or agreed written offer\" (line 29). \"No credit card required\" (line 418). There is no permanently free plan (line 388).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start 7-day free trial",
+  "line": 28
+ }
+}

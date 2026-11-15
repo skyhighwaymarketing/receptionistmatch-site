@@ -1,0 +1,72 @@
+{
+ "vendor": "Posh",
+ "url": "https://www.posh.com/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/posh/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Ch\u00efc",
+   "price": "$65.00/ month",
+   "billing": "monthly",
+   "included": "0 Receptionist minutes included",
+   "overage": "$2.30/minute",
+   "line": 122
+  },
+  {
+   "name": "Vogue",
+   "price": "$130.00/ month",
+   "billing": "monthly",
+   "included": "50 Receptionist minutes included",
+   "overage": "$2.20/additional minute",
+   "line": 131
+  },
+  {
+   "name": "Elegant",
+   "price": "$215.00/ month",
+   "billing": "monthly",
+   "included": "100 Receptionist minutes included",
+   "overage": "$2.15/additional minute",
+   "line": 141
+  },
+  {
+   "name": "Luxurious",
+   "price": "$420.00/ month",
+   "billing": "monthly",
+   "included": "200 Receptionist minutes included",
+   "overage": "$2.10/additional minute",
+   "line": 152
+  },
+  {
+   "name": "Prestigious",
+   "price": "$700.00/ month",
+   "billing": "monthly",
+   "included": "350 Receptionist minutes included",
+   "overage": "$2.00/additional minute",
+   "line": 163
+  },
+  {
+   "name": "Lavish",
+   "price": "$975.00/ month",
+   "billing": "monthly",
+   "included": "500 Receptionist minutes included",
+   "overage": "$1.95/additional minute",
+   "line": 173
+  },
+  {
+   "name": "Exclusive",
+   "price": "$1,900.00/ month",
+   "billing": "monthly",
+   "included": "1000 Receptionist minutes included",
+   "overage": "$1.90/additional minute",
+   "line": 183
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The prices are marked \"*Effective 1/1/26\" (lines 189, 233). Elegant is labeled \"Most popular\" (line 202). The plan list appears 3 times (lines 68-109, 118-188, 190-232) with the same prices. The other two lists say \"from $X month\" (e.g. line 190), so the listed prices may be starting prices. Ch\u00efc includes no minutes, and every minute is billed at $2.30. FAQ example: (15 minutes x $2.30) + $65 = $99.50 before taxes (lines 280-281). The page never mentions a setup fee. It does say \"Are there any other fees? Nope... All our plans include all features at no additional cost\" (lines 286-288). Account setup takes 24-48 hours (line 294). Billing is on a true monthly cycle (line 290), and contracts are month-to-month (line 292). Posh's AI-enabled receptionist plans are mentioned (line 234), but no prices are shown on this page. The plans charge by receptionist time, not number of users, and users are unlimited (line 265).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "The free trial period is good for seven days or 250 receptionist minutes, whichever comes first. This is an excellent opportunity to experience Posh with no obligations and zero strings attached. We don't even require any credit card info.",
+  "line": 296
+ }
+}

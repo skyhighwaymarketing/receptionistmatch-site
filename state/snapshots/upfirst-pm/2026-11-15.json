@@ -1,0 +1,21 @@
+{
+ "vendor": "Upfirst for property management",
+ "url": "https://upfirst.ai/industries/property-management",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/upfirst-pm/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starting plan (unnamed)",
+   "price": "$24.95",
+   "billing": "unknown",
+   "included": "30 calls",
+   "overage": "",
+   "line": 218
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "This is an industry landing page, not a full pricing table. The only price is in an FAQ on line 218: \"Our service starts at just $24.95 for 30 calls ... No hidden fees, no long-term contracts.\" The page doesn't name the plan, give a billing period or list overage charges. It doesn't mention a setup fee. Line 218 says \"No hidden fees,\" but that doesn't specifically mention a setup fee. \"Try for free\" also appears on lines 62 and 245, and \"No credit card required\" is on lines 121 and 246. The page doesn't give the length of the trial. The navigation links to a separate Pricing page on lines 59 and 113, but that page isn't part of this snapshot.",
+ "setup_fee": null,
+ "free_trial": null
+}

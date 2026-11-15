@@ -1,0 +1,59 @@
+{
+ "vendor": "Abby Connect",
+ "url": "https://www.abby.com/pricing/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/abby-connect/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$164",
+   "billing": "monthly",
+   "included": "50 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 89
+  },
+  {
+   "name": "Essential",
+   "price": "$329",
+   "billing": "monthly",
+   "included": "100 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 97
+  },
+  {
+   "name": "Professional",
+   "price": "$599",
+   "billing": "monthly",
+   "included": "200 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 105
+  },
+  {
+   "name": "Growth",
+   "price": "$1,380",
+   "billing": "monthly",
+   "included": "500 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 114
+  },
+  {
+   "name": "Enterprise",
+   "price": "Contact Us",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 124
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page shows each price followed by \"per month\" (lines 90, 98, 106, 115). Each plan says \"Double your Abby minutes when you choose AI\": 1 Abby Minute = 1 minute of human answering or 2 minutes of AI answering (lines 162-164). On calls that use both, each portion is billed at its own rate (line 168). Overage is billed at \"your plan's Abby Minute rate\" (lines 125, 160, 252), but the page doesn't give a per-minute rate in dollars. The page marks one plan \"Most Popular\" (line 110). It's not clear whether that label belongs to Professional or Growth. Billing is month to month with no long-term contract (lines 140, 257). Enterprise is a custom plan \"for higher call volumes ... beyond Growth\" (lines 120-123). The Essential plan name appears in lowercase on the page as \"essential\" (line 94).",
+ "setup_fee": {
+  "text": "No Setup Fee",
+  "line": 126
+ },
+ "free_trial": {
+  "text": "Free Trial On Every Plan",
+  "line": 128
+ }
+}

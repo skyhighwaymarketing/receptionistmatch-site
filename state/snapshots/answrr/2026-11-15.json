@@ -1,0 +1,59 @@
+{
+ "vendor": "Answrr",
+ "url": "https://tryanswrr.com/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/answrr/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Solo",
+   "price": "$ 49",
+   "billing": "monthly",
+   "included": "250 minutes included",
+   "overage": "top-ups at $ 0.25 /min",
+   "line": 14
+  },
+  {
+   "name": "Growth",
+   "price": "$ 99",
+   "billing": "monthly",
+   "included": "700 minutes included",
+   "overage": "top-ups at $ 0.20 /min",
+   "line": 24
+  },
+  {
+   "name": "Pro",
+   "price": "$ 199",
+   "billing": "monthly",
+   "included": "1,600 minutes included",
+   "overage": "top-ups at $ 0.15 /min",
+   "line": 33
+  },
+  {
+   "name": "Agency Reseller",
+   "price": "$ 247",
+   "billing": "monthly",
+   "included": "2,000 pooled minutes",
+   "overage": "top-ups at $ 0.10 /min",
+   "line": 44
+  },
+  {
+   "name": "Agency White-Label",
+   "price": "$ 497",
+   "billing": "monthly",
+   "included": "6,000 pooled minutes",
+   "overage": "top-ups at $ 0.08 /min",
+   "line": 53
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "All prices are shown per month (\"/month\" on lines 15, 25, 34, 45, 54). The compare table repeats the same numbers on lines 69-85. Receptionist limits: Solo up to 3, Growth up to 10, Pro up to 25, and both agency plans up to 100. The page doesn't name a setup fee amount. It only says \"Setup on us.\" (line 11) and every plan includes a \"Free setup call\" (line 12). It mentions a free trial (\"Start free trial\", line 8, and others) but doesn't give the trial length or terms. FAQ answers about rollover, cancellation and credit cards are not shown (lines 97-103 are questions only). Both agency plans say \"Talk to us about agency\" instead of offering a trial. No annual pricing is shown.",
+ "setup_fee": {
+  "text": "Setup on us.",
+  "line": 11
+ },
+ "free_trial": {
+  "text": "Try it free. We'll set it up with you.",
+  "line": 104
+ }
+}

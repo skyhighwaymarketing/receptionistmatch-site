@@ -1,0 +1,69 @@
+{
+ "vendor": "Smith.ai AI Receptionist",
+ "url": "https://smith.ai/pricing/ai-receptionist",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/smith-ai-ai/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Free",
+   "price": "$0/mo",
+   "billing": "monthly",
+   "included": "25 calls/mo",
+   "overage": "$3.00/call after that",
+   "line": 37
+  },
+  {
+   "name": "Pro (75 calls/month)",
+   "price": "$150/mo",
+   "billing": "monthly",
+   "included": "75",
+   "overage": "$2.50",
+   "line": 53
+  },
+  {
+   "name": "Pro (150 calls/month)",
+   "price": "$270/mo",
+   "billing": "monthly",
+   "included": "150",
+   "overage": "$2.30",
+   "line": 99
+  },
+  {
+   "name": "Pro (300 calls/month)",
+   "price": "$500/mo",
+   "billing": "monthly",
+   "included": "300",
+   "overage": "$2.17",
+   "line": 100
+  },
+  {
+   "name": "Enterprise (300 calls/month)",
+   "price": "$500/mo",
+   "billing": "monthly",
+   "included": "300",
+   "overage": "$2.17",
+   "line": 69
+  },
+  {
+   "name": "Enterprise (500 calls/month)",
+   "price": "$800/mo",
+   "billing": "monthly",
+   "included": "500",
+   "overage": "$2.10",
+   "line": 102
+  },
+  {
+   "name": "Enterprise (1000+ calls/month)",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "1000+",
+   "overage": "Custom",
+   "line": 103
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page doesn't mention a setup fee or a time-limited free trial. Instead, it offers a $0/mo Free plan with 25 calls/mo (\"Try it and trust it first\", line 36). A blog title calls it \"Free, Forever\" (line 452). Per-call rates for included calls: Pro $2.00 / $1.80 / $1.67, and Enterprise $1.67 / $1.60 / Custom (lines 132-140). Prices for the higher-volume tiers come from the feature guide table (lines 97-103). AI Receptionist is month-to-month with no long-term contract, and cancelling needs 30 days' notice (line 255). Plan changes take effect the next month (line 258). A 6-month plan with rollover calls and a lower per-call rate is mentioned, but no price is given (line 86). Customers can remove up to 10% of calls each billing cycle as spam, and known spam calls don't count toward the quota (line 250). The page conflicts on the Enterprise 500-call discount: it says -4% on lines 75 and 139 but -10% on line 176. Volume discounts and custom plans are available through a consultation (line 264).",
+ "setup_fee": null,
+ "free_trial": null
+}

@@ -1,0 +1,45 @@
+{
+ "vendor": "Vapi",
+ "url": "https://vapi.ai/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/vapi/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "No Success Package",
+   "price": "$0",
+   "billing": "per-minute",
+   "included": "",
+   "overage": "Pre-paid, $0.05/min Vapi hosting.",
+   "line": 184
+  },
+  {
+   "name": "Core",
+   "price": "$29",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 50
+  },
+  {
+   "name": "Pro",
+   "price": "$999",
+   "billing": "monthly",
+   "included": "",
+   "overage": "10% of Vapi hosting fee",
+   "line": 61
+  },
+  {
+   "name": "Premier",
+   "price": "Contact Sales",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 74
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page does not mention a free trial. It offers \"$5 free credits to get you started\" on the No Success Package (lines 38, 189). The $0 price comes from line 184 (\"$0 to start\"), and the $0.05/min Vapi hosting fee is on line 186. Core is \"$29 / month\" (lines 50-51, also lines 204-206 \"Pre-paid, auto-renew\"). The Pro tile on line 61 shows \"$999\", and lines 62-63 say \"10% of Vapi hosting fee\" and \"$999/mo minimum\" (also lines 223-225). Premier is \"Contact Sales\" (line 74) and is also listed as \"Custom\" / \"Direct sales only\" (lines 244-245). All tiers say \"Models pass-through at cost\". Add-ons: HIPAA compliance \"$2,000 / month\" (line 106), Additional concurrency \"$10 / line / month\" (line 110), Additional organizations \"$20 / organization / month\" (line 114). Transport fees are charged by the provider, not Vapi (lines 85-101): Vapi Telephony/SIP, Vapi WebSockets and Daily WebRTC are Free, Twilio Inbound is $0.008 / min, Twilio Outbound is $0.014 / min, Vonage is $0.00814 / min and Telnyx is $0.0055 / min. The calculator shows provider per-minute ranges for Deepgram, OpenAI and ElevenLabs (lines 27, 30, 33). Plan limits: No Success Package has 4 concurrent calls and 2 organizations, Core has 10 concurrent calls and 2 organizations, and Pro has 30 concurrent calls and 10 organizations.",
+ "setup_fee": null,
+ "free_trial": null
+}

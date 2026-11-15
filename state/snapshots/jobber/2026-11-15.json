@@ -1,0 +1,24 @@
+{
+ "vendor": "Jobber (AI Receptionist add-on)",
+ "url": "https://www.getjobber.com/pricing/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/jobber/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Jobber AI Receptionist (add-on)",
+   "price": "$29/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 702
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Receptionist is listed as an add-on at $29/mo (lines 701-703). The page doesn't state included minutes or calls, overage rates, or whether the price is per user or per account. In the feature comparison table (line 470), Receptionist shows 'Add-on' in three columns (lines 473-475), and the Plus plan lists 'Never leave a lead with an AI-powered Receptionist' (lines 160, 430), so it appears to be included in Plus and an add-on on Grow/Connect/Core. Receptionist needs a base Jobber plan. Lowest base plan prices (1 user, or 5 users for Plus) are: Core $49/mo with no commitment (line 314), $39/mo with a 1-year commitment (line 318), $29/mo billed annually (line 322); Connect $139/mo (line 241), $119/mo (line 245), $99/mo (line 249); Grow $199/mo (line 168), $169/mo (line 172), $149/mo (line 176); Plus $499/mo (line 106), $439/mo (line 110), $399/mo (line 114). Extra users are $29/mo each (line 103). All prices are in USD and exclude sales tax (line 440). The page does not mention a setup fee. Onboarding and data import are shown as included 'Value' items (lines 674, 687), not as fees.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "For 14 days you get full access to all of Jobber's features on the Grow plan\u2014no credit card required.",
+  "line": 726
+ }
+}

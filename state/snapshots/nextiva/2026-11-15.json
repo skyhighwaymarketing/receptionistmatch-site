@@ -1,0 +1,69 @@
+{
+ "vendor": "Nextiva",
+ "url": "https://www.nextiva.com/pricing",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/nextiva/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "NEXT Core",
+   "price": "$15/user/mo",
+   "billing": "annual",
+   "included": "100 Business Text Messages per user; 50 AI Transcriptions; 50 AI Summarizations; 50 AI Answer Assist Conversations",
+   "overage": "XBert AI: $1.50 per conversation",
+   "line": 520
+  },
+  {
+   "name": "NEXT Engage",
+   "price": "$25/user/mo",
+   "billing": "annual",
+   "included": "500 Business Text Messages per user; 2,000 Toll-Free Inbound Minutes; 200 AI Transcriptions; 200 AI Summarizations; 200 AI Answer Assist Conversations",
+   "overage": "XBert AI: $1.50 per conversation",
+   "line": 524
+  },
+  {
+   "name": "NEXT Scale",
+   "price": "$75/user/mo",
+   "billing": "unknown",
+   "included": "Unlimited Business Text Messages; 10,000 Toll-Free Inbound Minutes; Unlimited AI Transcriptions; Unlimited AI Summarizations; Unlimited AI Answer Assist Conversations",
+   "overage": "XBert AI: $1.50 per conversation",
+   "line": 527
+  },
+  {
+   "name": "Essential (Contact Center)",
+   "price": "From $75/agent/mo",
+   "billing": "unknown",
+   "included": "",
+   "overage": "AI Transcription & Summarization: Usage-Based",
+   "line": 604
+  },
+  {
+   "name": "Professional (Contact Center)",
+   "price": "Contact Sales",
+   "billing": "unknown",
+   "included": "",
+   "overage": "AI Transcription & Summarization: Usage-Based",
+   "line": 396
+  },
+  {
+   "name": "Premium (Contact Center)",
+   "price": "Contact Sales",
+   "billing": "unknown",
+   "included": "",
+   "overage": "AI Transcription & Summarization: Usage-Based",
+   "line": 413
+  },
+  {
+   "name": "XBert AI Employee",
+   "price": "$99 per month",
+   "billing": "monthly",
+   "included": "XBert AI: Packages starting at 100 conversations/month.",
+   "overage": "",
+   "line": 432
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page has a Monthly / \"Annually Save up to 50%\" toggle (lines 287-288). Each Small Business price is followed by a second figure and a savings label: Core $15 then \"$23\", \"Save 35%\" (lines 292-295); Engage $25 then \"$50\", \"Save 50%\" (lines 324-327). The page does not label these. The higher figures look like monthly-billing prices, but that is not stated. Line 594: \"Annual Small Business pricing applies to new customers with 1\u2013100 employees signing a paid 12-month or longer minimum term agreement.\" NEXT Scale shows no second price or savings label, so its billing basis is unclear. The XBert AI Employee $99 price is split across lines 431-433 (\"$\" / \"99\" / \"per month\"); \"$99 per month\" combines those lines. No plan setup fee is stated. Line 595 says Add-on features \"may involve setup, licensing, or usage fees\". Line 698 says Add-on or Usage-Based features are billed separately. No free trial is stated. There is a promotion: \"Switch to Nextiva today and get up to 12 months free*\" (line 1), also \"Get 12 months free when you switch today.\" (line 509). Line 452: \"No credit card required for demo \u2022 Cancel anytime\". Desk phones are bought separately (line 596).",
+ "setup_fee": null,
+ "free_trial": null
+}

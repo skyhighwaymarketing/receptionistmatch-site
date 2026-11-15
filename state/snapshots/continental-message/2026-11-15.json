@@ -1,0 +1,56 @@
+{
+ "vendor": "Continental Message Solution",
+ "url": "https://www.continentalmessage.com/pricing/",
+ "checked": "2026-11-15",
+ "source": "state/snapshots/continental-message/2026-11-15.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Pay As You Go",
+   "price": "$50 /28-day",
+   "billing": "unknown",
+   "included": "No included minutes",
+   "overage": "You're simply billed at your plan's Additional Minute rate (rate not stated)",
+   "line": 65
+  },
+  {
+   "name": "Starter Plan",
+   "price": "$150 /28-day",
+   "billing": "unknown",
+   "included": "100 minutes included",
+   "overage": "You're simply billed at your plan's Additional Minute rate (rate not stated)",
+   "line": 70
+  },
+  {
+   "name": "Small Biz Plan",
+   "price": "$300 /28-day",
+   "billing": "unknown",
+   "included": "250 minutes included",
+   "overage": "You're simply billed at your plan's Additional Minute rate (rate not stated)",
+   "line": 75
+  },
+  {
+   "name": "Standard Plan",
+   "price": "$575 /28-day",
+   "billing": "unknown",
+   "included": "500 minutes included",
+   "overage": "You're simply billed at your plan's Additional Minute rate (rate not stated)",
+   "line": 80
+  },
+  {
+   "name": "Custom Program (Enterprise)",
+   "price": "Personalized Quote",
+   "billing": "unknown",
+   "included": "For 1,000+ minute plans and multi-location accounts",
+   "overage": "",
+   "line": 85
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "I set billing to 'unknown' because prices are charged per 28 days ('/28-day'), not per month. However, line 60 says 'Plans start as low as $50/month'. That conflicts with the 28-day pricing. Overage: line 132 says extra minutes are billed at the plan's 'Additional Minute rate', but it doesn't give the rate ('Ask your rep for the exact rate on your plan'). Line 136 says plans are month-to-month with a 28-day cancellation policy and no lock-in contract. Line 87 says every plan and price can be customised and negotiated. Line 120 says you can change plans with no penalty. Lines 102/110 claim 'Zero hidden platform fees'. The page does not mention a free trial.",
+ "setup_fee": {
+  "text": "Setup fees vary depending on account complexity. Your rep will walk you through this when you get your quote.",
+  "line": 128
+ },
+ "free_trial": null
+}
