@@ -47,7 +47,7 @@ Call-based vendors (Upfirst, Smith.ai) and caller-based ones (Goodcall) don't fi
 
 ## AI receptionist vs live answering service cost
 
-Live receptionists charge for a person's time, so the gap is large.
+Live receptionists charge for a person's time, so the gap is large. If you still want a person on the line, here are the [cheapest live answering service plans](/cheap-answering-service/) for low call volume.
 
 | Service | Type | Starting price | Included |
 |---|---|---|---|

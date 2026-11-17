@@ -50,11 +50,12 @@
    "slug": "cheap-answering-service",
    "keyword": "cheap answering service",
    "type": "pricing",
-   "status": "ready",
+   "status": "published",
    "gate": "passed",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 140 KD5 + 'pay per call answering service' 50 (absorbs the killed pay-as-you-go item); Bing below floor. Top 10 = reddit r/smallbusiness, receptionhq, answeringservice.com, specialtyansweringservice, helplama, fitsmallbusiness. Must not restate answering-service-cost: rank by lowest real entry price + pay-per-use options.",
    "angle": "Cheapest real options ranked by lowest monthly entry price, then pay-per-call / per-minute / no-minimum plans for businesses under ~20 calls a month. Show what the cheap tier leaves out (transfers, after-hours, overage rate). Link to answering-service-cost and ai-receptionist-cost for full plans.",
-   "vendors": []
+   "vendors": [],
+   "published": "2026-11-17"
   },
   {
    "slug": "bilingual-answering-service",

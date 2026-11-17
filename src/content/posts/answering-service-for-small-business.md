@@ -38,7 +38,7 @@ Live people cost about **$2 to $5 a minute** at entry level. AI receptionists co
 
 ## Step 2: size your plan from your call log
 
-Look at last month's calls before you shop. That same call log is how you judge a trial in a week, as shown in our [AI receptionist free trial guide](/ai-receptionist-free-trial/). PATLive's pricing page estimates 50 minutes as "about 20 calls", so a typical call runs about 2.5 minutes.
+Look at last month's calls before you shop. If it's under about 20 calls, start with our list of the [cheapest answering services for low volume](/cheap-answering-service/). That same call log is how you judge a trial in a week, as shown in our [AI receptionist free trial guide](/ai-receptionist-free-trial/). PATLive's pricing page estimates 50 minutes as "about 20 calls", so a typical call runs about 2.5 minutes.
 
 | Calls a month | Minutes to plan for | Live service cost | AI receptionist cost |
 |---|---|---|---|

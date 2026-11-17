@@ -33,7 +33,7 @@ An AI receptionist is software that answers your phone. An answering service is 
 
 ## How after-hours-only use is billed
 
-If you only forward nights and weekends, your volume is small. That makes plan minimums and pay-as-you-go plans matter more than per-minute rates.
+If you only forward nights and weekends, your volume is small. That makes plan minimums and pay-as-you-go plans matter more than per-minute rates. Our [cheap answering service guide](/cheap-answering-service/) ranks every no-minimum plan by monthly entry price and shows what each one leaves out.
 
 - **Smith.ai** says its per-call pricing is the same whether it answers 24/7 or two hours a day. Calls outside your set hours can go to a number you choose or to voicemail.
 - **PATLive** bills only for time a receptionist is on your call, not after-call notes. It also supports ring-no-answer forwarding, so calls ring you first.
