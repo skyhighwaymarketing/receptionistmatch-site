@@ -61,7 +61,7 @@
    "slug": "bilingual-answering-service",
    "keyword": "bilingual answering service",
    "type": "pricing",
-   "status": "ready",
+   "status": "published",
    "gate": "passed",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 480 KD0 (CPC $193) + 'spanish answering service' 170; Bing below floor. Top 10 = vendor blogs (ruby, posh, answermti, getnextphone, nexa, answerforce...) + LinkedIn; no neutral table. Facts: PATLive no bilingual fees, Smith.ai dedicated Spanish line $1.00/call, Dialzara 10 languages, Upfirst 35+ languages, VoiceNation/Ruby/Posh/Abby bilingual.",
    "angle": "Spanish and other-language call answering: which services answer in Spanish with a live person vs AI, the extra cost (none, per call, plan tier), how many languages each AI supports, and whether the transcript comes back in English. Lookup table first.",
@@ -78,7 +78,8 @@
     "rosie",
     "my-ai-front-desk",
     "ringcentral"
-   ]
+   ],
+   "published": "2026-11-20"
   },
   {
    "slug": "answering-service-for-property-management",

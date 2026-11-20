@@ -53,7 +53,7 @@ Bigger plans generally cost less per minute. See the full price table in [answer
 - **Overage rate.** PATLive charges $2.29 a minute past its 50-minute plan, VoiceNation $2.85. Ruby's page doesn't state one.
 - **Billing cycle.** [Continental Message Solution](https://www.continentalmessage.com/pricing/) bills every 28 days, so 13 bills a year.
 - **Contract.** PATLive and VoiceNation say no contract. Continental Message Solution is month to month with a 28-day cancellation policy.
-- **Setup fee.** Abby Connect and Ruby say none.
+- **Setup fee.** Abby Connect and Ruby say none. If you get Spanish-speaking callers, compare the [bilingual answering service](/bilingual-answering-service/) terms as well, since one service charges per call for a Spanish line.
 
 ## Who each type is NOT for
 

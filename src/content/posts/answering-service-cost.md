@@ -52,7 +52,7 @@ At about 20 minutes a month or more, PATLive's 50-minute plan becomes cheaper th
 - **Minutes vs calls.** PATLive estimates 50 minutes as "about 20 calls", which is 2.5 minutes a call. If your calls run longer, you need a bigger plan. If your calls spike every summer, our [HVAC answering service guide](/hvac-answering-service/) works out a July bill by minute, call and unique caller.
 - **Overage you can't see.** Abby Connect bills overage at your plan's minute rate, and Ruby's page doesn't state one. Ask before you sign.
 - **Paying live rates for AI work.** Abby Connect counts a minute of AI answering as half an Abby Minute, so AI-first plans stretch further. Compare [AI phone answering services with live backup](/ai-phone-answering-service/).
-- **Setup fees.** Abby Connect and Ruby say there is no setup fee. Abby, PATLive and Posh offer free trials.
+- **Setup fees.** Abby Connect and Ruby say there is no setup fee. Abby, PATLive and Posh offer free trials. If some of your callers speak Spanish, our [bilingual answering service guide](/bilingual-answering-service/) shows which services include it and which charge per call.
 
 ## Which plan size fits you
 

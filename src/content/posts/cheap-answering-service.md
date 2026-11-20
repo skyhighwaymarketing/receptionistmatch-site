@@ -28,7 +28,7 @@ An answering service means live people answer your phone. An AI receptionist is 
 | 9 | [VoiceNation](https://www.voicenation.com/pricing/) 50 minutes | $165 | 50 | $2.85 | Warm transfer included | 24/7 |
 | 10 | [Ruby](https://www.ruby.com/pricing/) 50 minutes | $250 | 50 | Not stated | The pricing page doesn't say | No fees for "coverage during certain periods" |
 
-[Smith.ai](https://smith.ai/pricing) bills live answering by the call: $300 a month for 30 calls, then $11.50 a call. That isn't cheap at low volume.
+[Smith.ai](https://smith.ai/pricing) bills live answering by the call: $300 a month for 30 calls, then $11.50 a call. That isn't cheap at low volume. Smith.ai also charges per call for a dedicated Spanish line, while our [bilingual answering service guide](/bilingual-answering-service/) lists the services that include Spanish at no extra cost.
 
 ## Under 20 calls a month: what you actually pay
 
