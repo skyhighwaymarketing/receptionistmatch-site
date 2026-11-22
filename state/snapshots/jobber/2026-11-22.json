@@ -1,0 +1,64 @@
+{
+ "vendor": "Jobber (AI Receptionist add-on)",
+ "url": "https://www.getjobber.com/pricing/",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/jobber/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Jobber AI Receptionist (add-on)",
+   "price": "$99/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 701
+  },
+  {
+   "name": "Plus (includes AI-powered Receptionist; 5 users, no commitment)",
+   "price": "$499/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 106
+  },
+  {
+   "name": "Plus (includes AI-powered Receptionist; 5 users, billed annually)",
+   "price": "$399/mo",
+   "billing": "annual",
+   "included": "",
+   "overage": "",
+   "line": 114
+  },
+  {
+   "name": "Grow (1 user, no commitment; Receptionist is an add-on)",
+   "price": "$199/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 167
+  },
+  {
+   "name": "Connect (1 user, no commitment; Receptionist is an add-on)",
+   "price": "$139/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 240
+  },
+  {
+   "name": "Core (1 user, no commitment; Receptionist is an add-on)",
+   "price": "$49/mo",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 313
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The Receptionist add-on costs $99/mo (lines 699-702). The page gives no included minutes or calls and no overage rates for Receptionist. Receptionist is included in Plus (line 159: \"Never miss a lead with an AI-powered Receptionist\"). In the comparison table it is marked \"Add-on\" for the other three plans (lines 472-474). Base plans also come with a 1-year commitment billed monthly (for example, Plus 5 users $439/mo, line 110; Grow 1 user $169/mo, line 171; Connect $119/mo, line 244; Core $39/mo, line 317). Plus comes in 10-user and 15-user tiers ($599/mo and $699/mo with no commitment, lines 121 and 136). Grow and Connect come in 5-, 10- and 15-user tiers. Extra users are $29/mo each (line 103). All prices are in USD and exclude sales tax (line 439). The page lists onboarding \"values\" (such as the $499 Value for Data Import, line 686), but it does not state any setup fee.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "For 14 days you get full access to all of Jobber\u2019s features on the Grow plan\u2014no credit card required.",
+  "line": 725
+ }
+}

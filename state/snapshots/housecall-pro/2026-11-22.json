@@ -1,0 +1,64 @@
+{
+ "vendor": "Housecall Pro (AI Team / CSR AI)",
+ "url": "https://www.housecallpro.com/pricing/",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/housecall-pro/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Basic",
+   "price": "$59 /mo",
+   "billing": "annual",
+   "included": "1 user included",
+   "overage": "",
+   "line": 319
+  },
+  {
+   "name": "Basic",
+   "price": "$79 /mo",
+   "billing": "monthly",
+   "included": "1 user included",
+   "overage": "",
+   "line": 320
+  },
+  {
+   "name": "Essentials",
+   "price": "$149 /mo",
+   "billing": "annual",
+   "included": "5 users included",
+   "overage": "",
+   "line": 356
+  },
+  {
+   "name": "Essentials",
+   "price": "$189 /mo",
+   "billing": "monthly",
+   "included": "5 users included",
+   "overage": "",
+   "line": 357
+  },
+  {
+   "name": "Max",
+   "price": "$299 /mo",
+   "billing": "annual",
+   "included": "8 users included",
+   "overage": "*$35/mo per additional user",
+   "line": 393
+  },
+  {
+   "name": "Max",
+   "price": "$329 /mo",
+   "billing": "monthly",
+   "included": "8 users included",
+   "overage": "*$35/mo per additional user",
+   "line": 394
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page doesn't show a price for CSR AI or AI Team. CSR AI appears only as an add-on (line 431), and lines 425 and 418 say 'AI team members to automate your work' are 'Included in every Housecall Pro plan'. The page has no per-minute or per-call pricing. Annual vs. monthly is inferred from the page's order and its 'Saving $X/mo' labels. Basic is also shown as '$59 /mo (Billed annually)' with 'Save $20/mo' (lines 191-194). Black Friday promo: '50% off your first 3 months' (line 2), shown on monthly prices as Basic $39.50 /mo (line 317), Essentials $94.50 /mo (line 354) and Max $164.50 /mo (line 391). The Teams/Individual prices are shown as '$XX /mo' placeholders (lines 321-322, 358-359, 395-396). Max lists 'Sales proposal tool ($40/mo value)' (line 404). Max is sold through 'Book Demo'. The FAQ says the trial gives full access to the MAX plan (line 502). Card processing starts at 2.59%, with a 1% fee on bank payments (line 497). All prices are in USD and exclude sales tax (line 197). No contracts are required.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Try 14 days free. No credit card required. Cancel anytime.",
+  "line": 137
+ }
+}

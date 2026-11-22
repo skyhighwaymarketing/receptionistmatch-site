@@ -1,0 +1,59 @@
+{
+ "vendor": "Abby Connect",
+ "url": "https://www.abby.com/pricing/",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/abby-connect/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$164",
+   "billing": "monthly",
+   "included": "50 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 89
+  },
+  {
+   "name": "Essential",
+   "price": "$329",
+   "billing": "monthly",
+   "included": "100 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 97
+  },
+  {
+   "name": "Professional",
+   "price": "$599",
+   "billing": "monthly",
+   "included": "200 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 105
+  },
+  {
+   "name": "Growth",
+   "price": "$1,380",
+   "billing": "monthly",
+   "included": "500 Abby Minutes",
+   "overage": "Overage is billed at your plan's Abby Minute rate.",
+   "line": 114
+  },
+  {
+   "name": "Enterprise",
+   "price": "Contact Us",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 124
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Each price is followed by 'per month' on the next line (lines 90, 98, 106, 115). Every tier says 'Double your Abby minutes when you choose AI'. 1 Abby Minute = 1 human minute or 2 AI minutes (lines 162-164). The overage line (125, repeated on 160) gives no dollar per-minute rate; it only says 'billed at your plan's Abby Minute rate'. The 'Most Popular' label (line 110) sits between the Professional and Growth blocks, so it's unclear which plan it belongs to. Enterprise is a custom plan, described as 'Need more than the Growth Plan?' with 'Contact Us'. Service is month-to-month (lines 140, 257).",
+ "setup_fee": {
+  "text": "No Setup Fee",
+  "line": 126
+ },
+ "free_trial": {
+  "text": "Free Trial On Every Plan",
+  "line": 128
+ }
+}

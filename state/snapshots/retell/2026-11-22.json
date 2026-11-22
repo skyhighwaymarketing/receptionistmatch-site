@@ -1,0 +1,48 @@
+{
+ "vendor": "Retell AI",
+ "url": "https://www.retellai.com/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/retell/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Pay as you go (AI Voice Agents)",
+   "price": "$0.07-$0.31",
+   "billing": "per-minute",
+   "included": "20 Free Concurrent Calls",
+   "overage": "$8.00/Concurrency/month",
+   "line": 106
+  },
+  {
+   "name": "Pay as you go (AI Chat Agents)",
+   "price": "$0.002+",
+   "billing": "usage",
+   "included": "",
+   "overage": "",
+   "line": 108
+  },
+  {
+   "name": "Enterprise Plan (AI Voice Agents)",
+   "price": "Custom Pricing",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 121
+  },
+  {
+   "name": "Enterprise Plan (AI Chat Agents)",
+   "price": "Custom Pricing",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 123
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The voice price is per minute (\"/ min for AI Voice Agents\", line 107) and the chat price is per message (\"/ msg for AI Chat Agents\", line 109). The page says \"Retell starts at $0\" with no annual contracts (line 100) and \"No platform fees\" (line 732). The total voice rate is built from separate parts: Retell Voice Infra $0.055/minute (line 267), text-to-speech from $0.015/minute (line 272), LLM rates that vary by model (lines 295-420), and Retell Twilio/Telnyx telephony at $0.015/min in the default view (line 438). There is \"No Charge for Sip Trunking/Custom Telephony\" (line 434). Add-ons are priced separately (lines 440-462). Monthly items: Retell Phone Numbers $2.00/month (line 573), Retell SMS $20.00/month (line 576), Verified Phone Number $10.00/Phone number/month (line 584). A second copy of the Verified Phone Number entry adds \"One-time $10 fee\" (line 727). That is a fee per verified number, not a platform setup fee, so it is not recorded as one. Things that don't match on the page: (1) Enterprise concurrency is \"High Cap on Concurrent Calls\" (line 132), \"No Cap on Concurrent Calls\" (line 231), and \"custom concurrency starting at 50+ calls\" (line 752). (2) Chat is listed as \"$0.002+\" per message (line 108), but the model table has cheaper rates, e.g. GPT 5 nano $0.0005/AI msg (line 516). (3) The Knowledge Base subscription appears twice: \"$80/month free value (10 KBs)\" / \"$8.00/Knowledge Base/month (prorated)\" (lines 581-582) and \"$8.00/Knowledge Base/month\" / \"Free for first 10 knowledge bases\" (lines 723-724). (4) The cost estimator's model list (lines 141-159) doesn't match the component pricing table, and its default total shows $0.11 (line 213) labeled \"per month\" (line 211), though it is a per-minute cost. LLM billing rule: calls under 10 seconds with a dynamic greeting are billed as 10 seconds (line 424), and prompts over 4,000 tokens increase billed time proportionally (line 427).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Go live in minutes with $10 in free credits. Full platform access, no commitments.",
+  "line": 105
+ }
+}

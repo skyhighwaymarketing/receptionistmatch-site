@@ -1,0 +1,69 @@
+{
+ "vendor": "Smith.ai AI Receptionist",
+ "url": "https://smith.ai/pricing/ai-receptionist",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/smith-ai-ai/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Free",
+   "price": "$0/mo",
+   "billing": "monthly",
+   "included": "25",
+   "overage": "",
+   "line": 97
+  },
+  {
+   "name": "Pro ($150 tier)",
+   "price": "$150/mo",
+   "billing": "monthly",
+   "included": "75",
+   "overage": "$3.00",
+   "line": 98
+  },
+  {
+   "name": "Pro ($270 tier)",
+   "price": "$270/mo",
+   "billing": "monthly",
+   "included": "150",
+   "overage": "$2.30",
+   "line": 99
+  },
+  {
+   "name": "Pro ($500 tier)",
+   "price": "$500/mo",
+   "billing": "monthly",
+   "included": "300",
+   "overage": "$2.17",
+   "line": 100
+  },
+  {
+   "name": "Enterprise ($500 tier)",
+   "price": "$500/mo",
+   "billing": "monthly",
+   "included": "300",
+   "overage": "$2.17",
+   "line": 101
+  },
+  {
+   "name": "Enterprise ($800 tier)",
+   "price": "$800/mo",
+   "billing": "monthly",
+   "included": "500",
+   "overage": "$2.10",
+   "line": 102
+  },
+  {
+   "name": "Enterprise (custom tier)",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "1000+",
+   "overage": "Custom",
+   "line": 103
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Pricing is per call. The included call counts come from the feature guide, lines 107-113. Per-call rates are on lines 131-140: Free, $2.00, $1.80 (-10%), $1.67 (-17%), $1.67, $1.60 (-4%), Custom. Overage (\"Extra per real call rate\") is on lines 142-151. The Free row has no overage entry, so its overage is left blank. The page has no trial. Instead, \"Free\" is a permanent plan (\"Free forever\", line 40; \"Then go live for free\", line 34). No setup fee is stated. \"Dedicated onboarding setup\" (Pro) and \"Full-service setup & ongoing optimization\" (Enterprise) are listed as features, not fees. The plan cards show the top Enterprise price as \"$1,000+\" (line 76), while the table shows \"Custom\" (line 103). Discount labels conflict: the $800 Enterprise tier is marked \"-4%\" on lines 75 and 139 but \"-10%\" on line 176. A 6-month plan with rollover calls and a lower per-call rate is mentioned (lines 85-86), but no price is given. Volume and custom plans are offered through sales (line 264). The service is month-to-month with no long-term contract, and cancelling requires 30 days' notice (line 255). Plan changes start billing the next month (line 258). Up to 10% of calls per billing cycle can be removed as spam (line 250).",
+ "setup_fee": null,
+ "free_trial": null
+}

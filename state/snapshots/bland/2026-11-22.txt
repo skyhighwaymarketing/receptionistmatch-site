@@ -1,0 +1,266 @@
+# Bland AI | https://www.bland.ai/pricing | fetched 2026-11-22 | HTTP 200 | 19 price mentions
+Skip to content
+Product
+Solutions
+Pricing
+Customers
+Resources
+Blog
+Enterprise AI voice agents
+Voice AI for government
+No-code AI agents
+SMB answering service
+AI IVR
+Conversational AI
+Compare platforms
+Compare TTS
+Documentation
+Changelog
+Integrations
+Careers
+Log in
+Try for free
+Book a call
+Product
+Solutions
+Pricing
+Customers
+Resources
+Blog
+Enterprise AI voice agents
+Voice AI for government
+No-code AI agents
+SMB answering service
+AI IVR
+Conversational AI
+Compare platforms
+Compare TTS
+Documentation
+Changelog
+Integrations
+Careers
+Book a call
+Sign up
+Log in
+Pricing
+Clear pricing across every call
+No token charges. No model-provider pass-throughs. No surprise bills.
+FOR SMALL TEAMS
+Start
+2 credits + an inbound number ($15/mo value).
+$0.14
+/min
+$0 platform fee. No card required.
+Start building
+$0.05/transfer min
+10 concurrent calls
+100 calls/day
+10 knowledge bases
+FOR TEAMS
+Build
+Lower per-minute rates. Higher rate limits.
+$0.12
+/min
+$299/month platform fee
+Start building
+$0.04/transfer min
+50 concurrent calls
+2,000 calls/day
+50 knowledge bases
+FOR ORGANIZATIONS
+Enterprise
+Dedicated infrastructure with the controls regulated teams require.
+Custom
+Contracted to your volume.
+Talk to our team
+Concurrency sized to your volume
+Isolated infrastructure, run by Bland
+Forward deployed engineer available
+BAA, SSO, data residency
+Included in your per-minute rate
+LLM
+No token charges
+STT
+Real-time transcription
+TTS
+Premium voices
+Compare plans
+Start
+Build
+Enterprise
+Usage + scale
+Talk Time Rate
+$0.14/min
+$0.12/min
+Custom
+Transfer Time Rate
+$0.05/min
+$0.04/min
+Custom
+Daily Cap
+100 calls
+2,000 calls
+Unlimited
+Hourly Cap
+100 calls
+1,000 calls
+Unlimited
+Concurrent calls
+10 calls
+50 calls
+Custom
+Voice Limit
+1
+5
+Unlimited
+Knowledge Bases
+10
+50
+Unlimited
+Infrastructure & reliability
+Version Lock
+Uptime SLA
+99.9%
+Dedicated Orchestration Server
+—
+—
+Priority Call Queue
+—
+—
+Isolated Infrastructure, Run by Bland
+—
+—
+Dedicated GPUs Run by Bland
+—
+—
+Available
+Custom Voice Actor
+—
+—
+Available
+Core features
+Integrations
+Conversational Pathways
+Automations
+SMS & Web Chat
+—
+—
+Appointment Scheduling Node
+—
+—
+SMS Node (in-call texts)
+—
+—
+iMessage
+—
+—
+Advanced features
+Warm Transfers
+—
+—
+Live Transfers
+—
+—
+Guardrails (Protected Calls)
+—
+—
+Alarm & Monitoring
+—
+—
+Knowledge Base Gaps
+—
+—
+Citations
+—
+—
+Outcomes
+—
+—
+Custom Dialing
+—
+—
+Custom Code Extraction
+—
+—
+Compliance & security
+BAA
+—
+—
+SSO
+—
+—
+JWT Signatures
+—
+—
+Data Residency
+—
+—
+Support
+Account & Billing Support
+Slack channel with Bland team
+—
+—
+Forward deployed engineers
+—
+—
+Frequently asked questions
+How do I get started?
+Sign up on the Start plan and you get two credits plus an inbound number valued at $15/month, with no card required.
+How does Bland's pricing compare to platforms like Vapi or Retell?
+Vapi lists $0.05 a minute for hosting and Retell lists $0.055 a minute for voice infrastructure, as of November 2026, and each bills its language model, transcription, and speech on top. Bland's per-minute rate covers its language model, speech-to-text, and text-to-speech in one number, with no token charges and no model-provider pass-throughs. Phone is billed separately, on a customer's own carrier or Bland's at pass-through cost.
+Can we bring our own telephony provider?
+Yes. Bland integrates with your existing Twilio account, with SIP trunks from any contact-center or telephony provider, or you can use Bland's built-in Twilio at pass-through cost. BYOT customers do not pay transfer fees. You handle carrier costs directly and Bland charges only the per-minute AI rate.
+What does Bland cost in total?
+Bland's per-minute rate covers its language model, speech-to-text, and text-to-speech: $0.14 a minute on Start, a self-serve plan with no platform fee, or $0.12 a minute on Build, a self-serve plan with a $299 monthly platform fee. Transfer time is $0.05 a minute on Start and $0.04 on Build. Phone is billed separately, on a customer's own carrier or Bland's at pass-through cost. There are no token charges. Enterprise pricing is custom, set with Bland's sales team.
+Is Bland HIPAA, SOC 2, GDPR, and PCI compliant?
+Yes. SOC 2 Type II (independently audited), HIPAA compliant with a signed BAA, GDPR compliant with a DPA, and PCI DSS v4.0.1 self-attested. Bland's FedRAMP status: FedRAMP 20x Class C (Moderate), certified 17 November 2026, FedRAMP Marketplace FR2628647242. Compliance documentation is available under NDA on Enterprise.
+Who runs the implementation?
+Our forward-deployed engineering team works directly with yours to build, optimize, and scale the deployment. Enterprise plans include FDE support.
+Email address Subscribe
+Product
+Overview
+Pricing
+Agent Phone Plan
+Speech
+Integrations
+Norm
+Changelog
+Solutions
+AI receptionist
+Customer service
+Outbound sales
+Lead qualification
+Industries
+Solutions by need
+Enterprise call centers
+Government
+SMB answering service
+IVR replacement
+No-code AI agents
+Conversational AI
+Compare
+Compare platforms
+Compare TTS
+Resources
+Blog
+Documentation
+Customers
+Glossary
+Alternatives
+HIPAA voice AI
+ElevenLabs alternative
+Company
+About
+Enterprise
+Partners
+Careers
+Contact
+Legal
+Terms of service
+Privacy policy
+Cookie policy
+Your Privacy Choices
+DPA
+Subprocessors
+Trust & security
+© 2026 Bland. All rights reserved.

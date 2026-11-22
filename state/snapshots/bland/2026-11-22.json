@@ -1,0 +1,37 @@
+{
+ "vendor": "Bland AI",
+ "url": "https://www.bland.ai/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/bland/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Start",
+   "price": "$0.14/min",
+   "billing": "per-minute",
+   "included": "2 credits + an inbound number ($15/mo value).",
+   "overage": "",
+   "line": 50
+  },
+  {
+   "name": "Build",
+   "price": "$0.12/min",
+   "billing": "per-minute",
+   "included": "",
+   "overage": "",
+   "line": 61
+  },
+  {
+   "name": "Enterprise",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 72
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Start: \"$0 platform fee. No card required.\" (line 52); transfer \"$0.05/transfer min\" (line 54); 10 concurrent calls, 100 calls/day, 10 knowledge bases. Build: \"$299/month platform fee\" (line 63); transfer \"$0.04/transfer min\" (line 65); 50 concurrent calls, 2,000 calls/day, 50 knowledge bases. Enterprise: \"Contracted to your volume.\" (line 73). The per-minute rate includes LLM, STT and TTS with no token charges (lines 79-85, 213). Phone is billed separately, on the customer's own carrier or Bland's at pass-through cost (line 213). BYOT customers do not pay transfer fees (line 211). The page doesn't name a free trial. It has a 'Try for free' nav button (line 21), and the Start plan gives 2 credits with no card required (lines 49, 207). No setup fee is mentioned.",
+ "setup_fee": null,
+ "free_trial": null
+}

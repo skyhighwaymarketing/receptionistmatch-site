@@ -1,0 +1,88 @@
+{
+ "vendor": "Upfirst",
+ "url": "https://www.upfirst.ai/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/upfirst/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter (monthly)",
+   "price": "$24.95 billed monthly",
+   "billing": "monthly",
+   "included": "30 calls",
+   "overage": "$1.50 per extra call",
+   "line": 102
+  },
+  {
+   "name": "Starter (annual)",
+   "price": "$20 billed annually /mo",
+   "billing": "annual",
+   "included": "30 calls",
+   "overage": "$1.50 per extra call",
+   "line": 103
+  },
+  {
+   "name": "Premium (monthly)",
+   "price": "$59.95 billed monthly",
+   "billing": "monthly",
+   "included": "90 calls",
+   "overage": "$1 per extra call",
+   "line": 107
+  },
+  {
+   "name": "Premium (annual)",
+   "price": "$48 billed annually /mo",
+   "billing": "annual",
+   "included": "90 calls",
+   "overage": "$1 per extra call",
+   "line": 108
+  },
+  {
+   "name": "Pro (monthly)",
+   "price": "$159.95 billed monthly",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "75\u00a2 per extra call",
+   "line": 112
+  },
+  {
+   "name": "Pro (annual)",
+   "price": "$128 billed annually /mo",
+   "billing": "annual",
+   "included": "300 calls",
+   "overage": "75\u00a2 per extra call",
+   "line": 113
+  },
+  {
+   "name": "Scale (monthly)",
+   "price": "$299 billed monthly",
+   "billing": "monthly",
+   "included": "600 calls",
+   "overage": "70\u00a2 per extra call",
+   "line": 117
+  },
+  {
+   "name": "Scale (annual)",
+   "price": "$240 billed annually /mo",
+   "billing": "annual",
+   "included": "600 calls",
+   "overage": "70\u00a2 per extra call",
+   "line": 118
+  },
+  {
+   "name": "Enterprise",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "1,000+ calls",
+   "overage": "",
+   "line": 122
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Annual prices are shown per month (line 104/109/114/119 '/mo'); annual billing saves 20% (lines 99, 246). Trial details (line 244): full access for 14 days or 100 calls, whichever comes first, plus 25 text messages; no credit card. Each additional AI agent is $9.95 per month (line 254). All prices in USD; spam never counts toward call volume (line 159); calls under 15 seconds or where caller never speaks are not billed (line 240). Number porting at no extra charge (line 242); free 30-minute onboarding call (line 248). White-glove onboarding and done-for-you integrations only on Scale and Enterprise (lines 146-149). No contract; cancel anytime (line 246). Enterprise offers volume discounts and BAAs (lines 153-155).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start using Upfirst for free for 14 days \u2014 no card required. Pick a plan when your trial is up.",
+  "line": 94
+ }
+}

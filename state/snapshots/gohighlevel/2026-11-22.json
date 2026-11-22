@@ -1,0 +1,80 @@
+{
+ "vendor": "GoHighLevel AI Employee",
+ "url": "https://www.gohighlevel.com/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/gohighlevel/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter (monthly)",
+   "price": "$97 /Month",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 42
+  },
+  {
+   "name": "Starter (annual)",
+   "price": "$970 /Year",
+   "billing": "annual",
+   "included": "",
+   "overage": "",
+   "line": 43
+  },
+  {
+   "name": "Unlimited (monthly)",
+   "price": "$297 /Month",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 70
+  },
+  {
+   "name": "Unlimited (annual)",
+   "price": "$4970 /Year",
+   "billing": "annual",
+   "included": "",
+   "overage": "",
+   "line": 71
+  },
+  {
+   "name": "Founder (monthly)",
+   "price": "$497 /Month",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 56
+  },
+  {
+   "name": "Founder (annual)",
+   "price": "$2970 /Year",
+   "billing": "annual",
+   "included": "",
+   "overage": "",
+   "line": 57
+  },
+  {
+   "name": "AI Employee Growth Plan (add-on)",
+   "price": "$50/month per sub-account",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 119
+  },
+  {
+   "name": "AI Employee Unlimited Plan (add-on)",
+   "price": "$97/month per sub-account",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 121
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page gives no included minutes, call allowances, or per-minute rates for the AI Employee add-ons or any plan. Voice AI and Conversation AI are marked \"*Usage based charges apply\" (lines 85-86, 110-112), but the AI usage rates are on a separate linked page that is not in this snapshot. Possible inconsistencies: (1) The annual prices look swapped or wrong. Founder ($497/mo) lists $2970/Year (line 57), and Unlimited ($297/mo) lists $4970/Year (line 71). (2) The $497 card is called \"Founder\" (line 55), but the FAQ calls it the \"Pro Plan ($497/mo)\" (line 176). (3) Line 117 mentions an \"Agency Pro plan\" that is not shown as a card. Sub-accounts: the FAQ says Starter includes 3 Sub-Accounts and Unlimited includes unlimited Sub-Accounts (line 175). Enterprise plan has no published price (\"Speak with Our Enterprise Team\", line 80). Billing is month-to-month with no long-term contract (line 167). Billing starts automatically when the trial ends, and usage fees may apply during the trial (line 188). Other add-ons are listed at lines 122-143 (e.g., HIPAA $297/month, Premium support $500/month, White label mobile app $497/month).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start with a FREE 14-day trial on any plan below!",
+  "line": 37
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "vendor": "AnswerHero",
+ "url": "https://answerhero.com/pricing-plans/",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/answerhero/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Human Only - STARTER",
+   "price": "$79",
+   "billing": "monthly",
+   "included": "50 MINUTES",
+   "overage": "$1.89 add minutes",
+   "line": 234
+  },
+  {
+   "name": "Human Only - POPULAR",
+   "price": "$149",
+   "billing": "monthly",
+   "included": "100 MINUTES",
+   "overage": "$1.59 add minutes",
+   "line": 246
+  },
+  {
+   "name": "Human Only - PRO",
+   "price": "$279",
+   "billing": "monthly",
+   "included": "250 MINUTE",
+   "overage": "$1.35 add minutes",
+   "line": 259
+  },
+  {
+   "name": "Human Only - BUSINESS",
+   "price": "$499",
+   "billing": "monthly",
+   "included": "500 MINUTES",
+   "overage": "$1.25 add minutes",
+   "line": 271
+  },
+  {
+   "name": "Human Only - EXECUTIVE",
+   "price": "$949",
+   "billing": "monthly",
+   "included": "1000 MINUTES",
+   "overage": "$1.19 add minutes",
+   "line": 283
+  },
+  {
+   "name": "Human Only - PREMIER",
+   "price": "$1395",
+   "billing": "monthly",
+   "included": "1500 MINUTES",
+   "overage": "$1.16 add minutes",
+   "line": 295
+  },
+  {
+   "name": "Human Only - ENTERPRISE",
+   "price": "$1,795",
+   "billing": "monthly",
+   "included": "2000 MINUTES",
+   "overage": "$1.12 add minutes",
+   "line": 307
+  },
+  {
+   "name": "Human Only - ENTERPRISE +",
+   "price": "CUSTOM",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 319
+  },
+  {
+   "name": "Human Only - ECONOMY",
+   "price": "$39",
+   "billing": "monthly",
+   "included": "10 MINUTES",
+   "overage": "$1.99 add minutes",
+   "line": 324
+  },
+  {
+   "name": "AI Only - AI ANSWERING SERVICE",
+   "price": "$19",
+   "billing": "monthly",
+   "included": "",
+   "overage": "$0.79 add minutes",
+   "line": 337
+  },
+  {
+   "name": "Hybrid - STARTER",
+   "price": "$90",
+   "billing": "monthly",
+   "included": "50 MINUTES",
+   "overage": "$1.89 per AI minute; $1.89 human add minutes",
+   "line": 351
+  },
+  {
+   "name": "Hybrid - POPULAR",
+   "price": "$160",
+   "billing": "monthly",
+   "included": "100 MINUTES",
+   "overage": "$0.79 per AI minute; $1.59 add human minutes",
+   "line": 365
+  },
+  {
+   "name": "Hybrid - PRO",
+   "price": "$290",
+   "billing": "monthly",
+   "included": "250 MINUTE",
+   "overage": "$0.79 per AI minute; $1.35 add human minutes",
+   "line": 380
+  },
+  {
+   "name": "Hybrid - BUSINESS",
+   "price": "$510",
+   "billing": "monthly",
+   "included": "500 MINUTES",
+   "overage": "$0.79 per AI minute; $1.35 add human minutes",
+   "line": 394
+  },
+  {
+   "name": "Hybrid - EXECUTIVE",
+   "price": "$960",
+   "billing": "monthly",
+   "included": "1000 MINUTES",
+   "overage": "$0.79 per AI minute; $1.19 add human minutes",
+   "line": 408
+  },
+  {
+   "name": "Hybrid - PREMIER",
+   "price": "$1,406",
+   "billing": "monthly",
+   "included": "1500 MINUTES",
+   "overage": "$0.79 per AI minute; $1.16 add human minutes",
+   "line": 422
+  },
+  {
+   "name": "Hybrid - ENTERPRISE",
+   "price": "$1,806",
+   "billing": "monthly",
+   "included": "2000 MINUTES",
+   "overage": "$0.79 per AI minute; $1.12 add human minutes",
+   "line": 436
+  },
+  {
+   "name": "Hybrid - ENTERPRISE +",
+   "price": "CUSTOM",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 450
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Listed in the order the page shows them. The POPULAR plans have no separate plan name on the page; \"POPULAR\" is the badge text (lines 245, 364). The AI Only plan (line 339) shows the word \"MINUTES\" with no number, so its included minutes aren't stated. Hybrid STARTER lists \"$1.89 per AI minute\" (line 355), while the other Hybrid plans list $0.79. Hybrid BUSINESS shows $1.35 for extra human minutes (line 399), but Human Only BUSINESS shows $1.25 (line 275). The ENTERPRISE + plans say \"CUSTOM\" pricing with \"Need a Larger Plan? Let's Talk\". Other charges: transferring calls costs $0.06 per minute (line 510). Billing is per minute, rounded up to the nearest 1/4 minute (line 518). There are no contracts, but you must give 30 days' notice before the end of the billing cycle to cancel (line 512). There are no weekend or holiday fees (lines 478, 508). The page doesn't mention a free trial.",
+ "setup_fee": {
+  "text": "No. We do not charge any setup fees.",
+  "line": 506
+ },
+ "free_trial": null
+}

@@ -1,0 +1,40 @@
+{
+ "vendor": "My AI Front Desk",
+ "url": "https://www.myaifrontdesk.com/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/my-ai-front-desk/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Business-in-a-Box (monthly)",
+   "price": "$99 /mo",
+   "billing": "monthly",
+   "included": "200 voice minutes / month; 100 chatbot convos \u00b7 400 SMS; 500 drafts/mo emails; 300 subs/mo website forms; 20 / day outbound calls; 1,000 monthly overage credits",
+   "overage": "Voice 25 credits per minute (1 credit = $0.01); SMS 4 credits; Chatbot 5 credits; Form 4 credits; Auto-reload: $10 for 1,000 credits",
+   "line": 62
+  },
+  {
+   "name": "Business-in-a-Box (annual)",
+   "price": "$79/mo",
+   "billing": "annual",
+   "included": "200 min/mo",
+   "overage": "Voice 25 credits per minute (1 credit = $0.01); Auto-reload: $10 for 1,000 credits",
+   "line": 63
+  },
+  {
+   "name": "Partner / Enterprise",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "Custom",
+   "overage": "Volume pricing (voice from 7 credits/min)",
+   "line": 40
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page doesn't mention a setup fee. It does say \"No contracts, no hidden fees.\" (line 15). Paying annually saves 20% (line 20). Each month, Business-in-a-Box includes a pool of 1,000 overage credits (line 113). Unused pool credits expire at the end of the month. Purchased credits never expire (line 116). The page says there is no permanently free plan (line 388). Another line says \"No credit card required\" (line 418). The trial's included usage and any usage charges depend on the chosen plan or agreed written offer (line 29).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start 7-day free trial",
+  "line": 28
+ }
+}

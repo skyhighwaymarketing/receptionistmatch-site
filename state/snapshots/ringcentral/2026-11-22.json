@@ -1,0 +1,32 @@
+{
+ "vendor": "RingCentral AI Receptionist",
+ "url": "https://www.ringcentral.com/ai-receptionist.html",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/ringcentral/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "AI Receptionist (starting price)",
+   "price": "$39/month",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 50
+  },
+  {
+   "name": "AI Receptionist monthly license (range)",
+   "price": "$39 to $49 monthly",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 296
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The snapshot doesn't name any plan tiers or list included minutes or calls, overage rates, or annual pricing. Line 50 says \"Plans start at $39/month.\" Line 296 says \"a $39 to $49 monthly license\" and that it's \"available standalone or as an add-on in the U.S. and Canada, and as an add-on in the U.K., Australia, and EU.\" The trial is mentioned, but its length and whether it's free aren't stated. The full plan details are on a separate pricing page (\"See RingCentral AI Receptionist plans and pricing\", line 296), which isn't in this snapshot.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "You can start with a trial",
+  "line": 296
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "vendor": "VoiceNation",
+ "url": "https://www.voicenation.com/pricing/",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/voicenation/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "People Answering \u2013 50 minutes (Great for startups)",
+   "price": "$165/mo",
+   "billing": "monthly",
+   "included": "50 minutes",
+   "overage": "Extra minutes $2.85",
+   "line": 79
+  },
+  {
+   "name": "People Answering \u2013 100 minutes (Great for sole traders)",
+   "price": "$265/mo",
+   "billing": "monthly",
+   "included": "100 minutes",
+   "overage": "Extra minutes $2.65",
+   "line": 90
+  },
+  {
+   "name": "People Answering \u2013 200 minutes (Great for small businesses, Most popular)",
+   "price": "$422/mo",
+   "billing": "monthly",
+   "included": "200 minutes",
+   "overage": "Extra minutes $2.39",
+   "line": 102
+  },
+  {
+   "name": "People Answering \u2013 500 minutes (Great for growing teams)",
+   "price": "$985/mo",
+   "billing": "monthly",
+   "included": "500 minutes",
+   "overage": "Extra minutes $2.09",
+   "line": 113
+  },
+  {
+   "name": "AI Answering \u2013 50 calls",
+   "price": "$99/mo",
+   "billing": "monthly",
+   "included": "50 calls",
+   "overage": "Extra calls $2.39",
+   "line": 123
+  },
+  {
+   "name": "AI Answering \u2013 100 calls (Most Popular)",
+   "price": "$199/mo",
+   "billing": "monthly",
+   "included": "100 calls",
+   "overage": "Extra calls $2.19",
+   "line": 133
+  },
+  {
+   "name": "AI Answering \u2013 250 calls",
+   "price": "$435/mo",
+   "billing": "monthly",
+   "included": "250 calls",
+   "overage": "Extra calls $1.89",
+   "line": 142
+  },
+  {
+   "name": "AI Answering \u2013 500 calls",
+   "price": "$775/mo",
+   "billing": "monthly",
+   "included": "500 calls",
+   "overage": "Extra calls $1.69",
+   "line": 151
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page is a VoiceNation snapshot, but its text uses Moneypenny branding throughout. Each price has the label 'Original price:' above it (e.g. line 78), which suggests a discounted price may exist that the snapshot doesn't show. Only the listed prices are recorded here. The page says 'No contract' (lines 81 etc.) and requires 30 days' notice to cancel, taking effect from the next billing date (line 184). The FAQ says there are no feature tiers or upsells (line 180). The page lists different phone numbers: 866-202-0005 (lines 6, 73) and (877) 305-4386 for sales (line 193).",
+ "setup_fee": null,
+ "free_trial": null
+}

@@ -1,0 +1,56 @@
+{
+ "vendor": "Continental Message Solution",
+ "url": "https://www.continentalmessage.com/pricing/",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/continental-message/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Pay As You Go",
+   "price": "$50 /28-day",
+   "billing": "unknown",
+   "included": "No included minutes",
+   "overage": "",
+   "line": 65
+  },
+  {
+   "name": "Starter Plan",
+   "price": "$150 /28-day",
+   "billing": "unknown",
+   "included": "100 minutes included",
+   "overage": "",
+   "line": 70
+  },
+  {
+   "name": "Small Biz Plan",
+   "price": "$300 /28-day",
+   "billing": "unknown",
+   "included": "250 minutes included",
+   "overage": "",
+   "line": 75
+  },
+  {
+   "name": "Standard Plan",
+   "price": "$575 /28-day",
+   "billing": "unknown",
+   "included": "500 minutes included",
+   "overage": "",
+   "line": 80
+  },
+  {
+   "name": "Custom Program (Enterprise)",
+   "price": "Personalized Quote",
+   "billing": "unknown",
+   "included": "For 1,000+ minute plans and multi-location accounts",
+   "overage": "",
+   "line": 85
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Prices are billed per 28-day cycle, not per calendar month, so billing is set to 'unknown' because none of the allowed values fit. Line 60 says \"Plans start as low as $50/month\" even though the plan cards show \"/28-day\". Overage (line 132): \"You're simply billed at your plan's Additional Minute rate, with no penalty and no interruption. Ask your rep for the exact rate on your plan.\" The page gives no overage rate. Line 87: every plan and price \"can be customised and negotiated.\" Line 136: plans are month-to-month with a 28-day cancellation policy. Line 120: you can change plans with no penalty. Lines 102/110: \"Zero hidden platform fees.\" The page doesn't mention a free trial. The Enterprise card has no dollar price. Line 124 has an unfilled \"[PHONE NUMBER]\" placeholder.",
+ "setup_fee": {
+  "text": "Setup fees vary depending on account complexity. Your rep will walk you through this when you get your quote.",
+  "line": 128
+ },
+ "free_trial": null
+}

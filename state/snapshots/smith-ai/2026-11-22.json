@@ -1,0 +1,48 @@
+{
+ "vendor": "Smith.ai",
+ "url": "https://smith.ai/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/smith-ai/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Starter",
+   "price": "$300 / month",
+   "billing": "monthly",
+   "included": "30 calls",
+   "overage": "$11.50/call over 30",
+   "line": 37
+  },
+  {
+   "name": "Basic",
+   "price": "$810 / month",
+   "billing": "monthly",
+   "included": "90 calls",
+   "overage": "$10.50/call over 90",
+   "line": 44
+  },
+  {
+   "name": "Pro",
+   "price": "$2,100 / month",
+   "billing": "monthly",
+   "included": "300 calls",
+   "overage": "$8.50/call over 300",
+   "line": 51
+  },
+  {
+   "name": "Enterprise",
+   "price": "Custom",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 57
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The plans shown are under the \"Human-first\" / \"Your Virtual Front Desk\" view (live receptionists, lines 32-33). The page also has \"AI-first\" and \"Hybrid\" toggles (lines 29-30), but no prices are shown for them. The same plans appear again at lines 358-372.\n\nTransfer destinations included: Starter 1, Basic 2, Pro 10, Enterprise custom (lines 39-40, 46-47, 53-54, 60).\n\nNo free trial is stated. Instead, every plan has a \"30-day money-back guarantee\" (line 61). The FAQ is inconsistent about it: it says \"30-day\" and \"within 30 days\" but also \"in the first two weeks\" (lines 197-198). Refunds are capped at $1,000, and overage is not refundable (line 199). A blog title mentions a \"Smith.ai Free Plan\" (line 341), but the pricing page lists no such plan.\n\nDiscount: \"10% discount for subscribing for 12 months\" (line 216). Service is month-to-month with no long-term contracts (line 201). Spam calls are not charged (lines 68, 206).\n\nAdd-ons are listed per call (lines 92-149, e.g., Book appointments $1.50, Call recording & transcription $0.25) and per month (lines 150-162: Business caller ID $10.00, Additional transfer destinations $15.00, Inbound call tracking numbers $5.00). Each additional CRM is $0.50/call (line 75).",
+ "setup_fee": {
+  "text": "No setup fees",
+  "line": 65
+ },
+ "free_trial": null
+}

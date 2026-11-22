@@ -1,0 +1,32 @@
+{
+ "vendor": "My AI Front Desk for property management",
+ "url": "https://www.myaifrontdesk.com/property-management",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/my-ai-front-desk-pm/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Plans that answer phone calls (starting price, monthly)",
+   "price": "$99 per month",
+   "billing": "monthly",
+   "included": "200 voice minutes included",
+   "overage": "",
+   "line": 500
+  },
+  {
+   "name": "Plans that answer phone calls (starting price, annual)",
+   "price": "$79 per month billed annually",
+   "billing": "annual",
+   "included": "200 voice minutes included",
+   "overage": "",
+   "line": 500
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The only pricing on the page is in the FAQ answer on line 500. Prices are given as starting prices (\"start at\"). The page doesn't say whether \"Plans that answer phone calls\" is the same plan as Business-in-a-Box. No overage rate is stated. Line 500 also mentions an Enterprise plan for portfolios and multi-property operators that \"adds volume pricing, custom integrations, and a dedicated account manager\", but gives no price, so it is not recorded as a priced plan. Lines 44, 53 and 55 have \"Start for Free\", \"Try for free\" and \"No credit card required\" buttons and text. Line 506 says setup takes less than 5 minutes; no setup fee is mentioned.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Business-in-a-Box starts with a 7-day free trial and has no contract.",
+  "line": 500
+ }
+}

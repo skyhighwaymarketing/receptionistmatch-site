@@ -1,0 +1,56 @@
+{
+ "vendor": "Rosie",
+ "url": "https://heyrosie.com/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/rosie/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Professional",
+   "price": "$49",
+   "billing": "monthly",
+   "included": "250 minutes per month",
+   "overage": "",
+   "line": 20
+  },
+  {
+   "name": "Scale",
+   "price": "$149",
+   "billing": "monthly",
+   "included": "1,000 minutes per month",
+   "overage": "",
+   "line": 31
+  },
+  {
+   "name": "Growth",
+   "price": "$299",
+   "billing": "monthly",
+   "included": "2,000 minutes per month",
+   "overage": "",
+   "line": 44
+  },
+  {
+   "name": "Website Texting (Add-On)",
+   "price": "$50",
+   "billing": "monthly",
+   "included": "25 conversations included per month",
+   "overage": "$1 per additional conversation",
+   "line": 93
+  },
+  {
+   "name": "Website Chat (Add-On)",
+   "price": "Free with all plans",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 81
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "Each plan price is followed by 'per month' on the next line (lines 21, 32, 45, 94). There is a 'Pay Monthly' / 'Pay Annually' toggle with '2 months free' (lines 16-18), but the page gives no annual prices. The FAQ asks 'What happens if I go over my minutes?' (line 252) but the snapshot has no answer, so overage for call minutes is not stated. The pricing block appears twice (lines 97-175 repeat lines 16-96). Line 302 says '7-day free trial. Cancel anytime.' Growth includes white-glove onboarding (line 52), and no setup fee is mentioned.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Start your 7-day free trial.",
+  "line": 13
+ }
+}

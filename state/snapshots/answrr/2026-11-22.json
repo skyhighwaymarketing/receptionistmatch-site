@@ -1,0 +1,59 @@
+{
+ "vendor": "Answrr",
+ "url": "https://tryanswrr.com/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/answrr/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Solo",
+   "price": "$ 49 /month",
+   "billing": "monthly",
+   "included": "250 minutes included",
+   "overage": "top-ups at $ 0.25 /min",
+   "line": 14
+  },
+  {
+   "name": "Growth",
+   "price": "$ 99 /month",
+   "billing": "monthly",
+   "included": "700 minutes included",
+   "overage": "top-ups at $ 0.20 /min",
+   "line": 24
+  },
+  {
+   "name": "Pro",
+   "price": "$ 199 /month",
+   "billing": "monthly",
+   "included": "1,600 minutes included",
+   "overage": "top-ups at $ 0.15 /min",
+   "line": 33
+  },
+  {
+   "name": "Agency Reseller",
+   "price": "$ 247 /month",
+   "billing": "monthly",
+   "included": "2,000 pooled minutes",
+   "overage": "top-ups at $ 0.10 /min",
+   "line": 44
+  },
+  {
+   "name": "Agency White-Label",
+   "price": "$ 497 /month",
+   "billing": "monthly",
+   "included": "6,000 pooled minutes",
+   "overage": "top-ups at $ 0.08 /min",
+   "line": 53
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The price amount is on the listed line, and \"/month\" is on the next line (15, 25, 34, 45, 54). The page doesn't charge a setup fee. Line 11 says \"Setup on us,\" and every plan includes a \"Free setup call\" (lines 19, 29, 38). The page doesn't give a trial length or terms. \"Start free trial\" buttons appear on lines 8, 21, 31, 40 and 105. Receptionist limits: Solo up to 3, Growth up to 10, Pro up to 25, and both Agency plans up to 100. Only the Agency plans include client portals and white-label. Agency minutes are one shared pool split between clients. The FAQ questions about rollover, plan changes, what counts as a minute, credit cards and cancellation have no answers in the snapshot. Annual billing isn't mentioned.",
+ "setup_fee": {
+  "text": "Setup on us.",
+  "line": 11
+ },
+ "free_trial": {
+  "text": "Try it free. We'll set it up with you.",
+  "line": 104
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "vendor": "Vapi",
+ "url": "https://vapi.ai/pricing",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/vapi/2026-11-22.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "No Success Package",
+   "price": "$0",
+   "billing": "per-minute",
+   "included": "4 concurrent calls",
+   "overage": "",
+   "line": 184
+  },
+  {
+   "name": "Core",
+   "price": "$29",
+   "billing": "monthly",
+   "included": "10 concurrent calls",
+   "overage": "",
+   "line": 50
+  },
+  {
+   "name": "Pro",
+   "price": "$999",
+   "billing": "usage",
+   "included": "30 concurrent calls",
+   "overage": "",
+   "line": 61
+  },
+  {
+   "name": "Premier",
+   "price": "Contact Sales",
+   "billing": "unknown",
+   "included": "",
+   "overage": "",
+   "line": 74
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page does not mention a free trial or setup fee. No plan lists included minutes or an overage rate. No Success Package: '$0' 'to start' (line 184\u2013185); 'Pre-paid, $0.05/min Vapi hosting.' (line 186); 'Models pass-through at cost' (line 187); '$5 free credits to get you started' (lines 38, 189). Core: '$29' '/ month' (lines 50\u201351, 204\u2013205), 'Pre-paid, auto-renew' (line 206). Pro: '$999' (line 61) shown with '10% of Vapi hosting fee' (line 62) and '$999/mo minimum' (line 63, 225). Premier: 'Contact Sales' (line 74); 'Custom' / 'Direct sales only' (lines 244\u2013245). Add-ons: HIPAA compliance '$2,000 / month' (lines 106\u2013107); Additional concurrency '$10 / line / month' (lines 110\u2013111); Additional organizations '$20 / organization / month' (lines 114\u2013115). Transport fees (charged by provider, not Vapi): Vapi Telephony/SIP, Vapi WebSockets, Daily WebRTC 'Free' (lines 89, 91, 93); Twilio Inbound '$0.008 / min' (95); Twilio Outbound '$0.014 / min' (97); Vonage '$0.00814 / min' (99); Telnyx '$0.0055 / min' (101). Provider ranges in the calculator: Deepgram '$0.0095 - $0.0099/min' (27), OpenAI '$0.0077 - $0.0452/min' (30), ElevenLabs '$0.0146 - $0.0238/min' (33). Example estimate for 1,000 minutes: '$82 \u2013 $129 /mo' (lines 149\u2013154).",
+ "setup_fee": null,
+ "free_trial": null
+}

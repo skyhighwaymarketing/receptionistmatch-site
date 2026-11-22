@@ -1,0 +1,85 @@
+{
+ "vendor": "LEX Reception",
+ "url": "https://www.lexreception.com/plans",
+ "checked": "2026-11-22",
+ "source": "state/snapshots/lex-reception/2026-11-22.txt",
+ "published": false,
+ "plans": [],
+ "dropped_untraced": [
+  {
+   "name": "Initio",
+   "price": "",
+   "billing": "monthly",
+   "included": "150 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Utilitas",
+   "price": "",
+   "billing": "monthly",
+   "included": "300 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Pactum",
+   "price": "",
+   "billing": "monthly",
+   "included": "500 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Amplio",
+   "price": "",
+   "billing": "monthly",
+   "included": "750 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Ordo",
+   "price": "",
+   "billing": "monthly",
+   "included": "950 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Validus",
+   "price": "",
+   "billing": "monthly",
+   "included": "1,250 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Magnus",
+   "price": "",
+   "billing": "monthly",
+   "included": "1,500 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Consilium",
+   "price": "",
+   "billing": "monthly",
+   "included": "2,000 minutes",
+   "overage": "",
+   "line": 0
+  },
+  {
+   "name": "Universum",
+   "price": "",
+   "billing": "monthly",
+   "included": "2,500 minutes",
+   "overage": "",
+   "line": 0
+  }
+ ],
+ "notes": "The snapshot shows no dollar prices, setup fee amounts or overage rates for any plan, so price and overage are blank and line is 0. Plan names and included minutes are on these lines: Initio 12-13 (0\u20133 calls per day), Utilitas 17-19 ('Best value', 3\u20137 calls per day), Pactum 23-24 (7\u201310), Amplio 28-29 (11\u201315), Ordo 33-34 (15\u201319), Validus 38-39 (19\u201324), Magnus 43-44 (24\u201331), Consilium 48-49 (31\u201339), Universum 53-54 (39\u201347). Billing is listed as monthly because line 187 says 'Plans are billed monthly'. Line 185 says each plan shows its monthly price, any setup fee and its per-minute rate for additional minutes, but none of these values appear in the snapshot. They may load dynamically. Line 58 says calls are rounded up and billed in 1-minute increments. Add-ons: line 140 says call transcription is 'Only $30 per month'. Line 138 says international transfers have tiered pricing, but no amount is given. Line 136 says 'Additional fees apply' to add-ons such as IVR. Line 127 says the first 30 calls under 30 seconds each month are screened for spam for free. Lines 178 and 187 say you can change plans at no charge. No free trial is mentioned.",
+ "setup_fee": null,
+ "free_trial": null
+}
