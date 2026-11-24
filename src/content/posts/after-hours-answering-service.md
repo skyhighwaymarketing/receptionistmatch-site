@@ -74,7 +74,7 @@ AnswerHero has the lowest live entry prices and lists call dispatching on all pl
 
 Upfirst fits a shop that gets a few calls a night and has an on-call phone that gets answered. Smith.ai's free AI plan covers 25 calls a month, and hard calls can go to a Smith.ai live receptionist. VoiceNation's AI plans, from $99 for 50 calls, include "human escalation," but the page doesn't say whose staff takes the call.
 
-**Not for you if** a wrong call at night costs real money and nobody on your team will answer a transfer. A transfer to a sleeping tech is voicemail with extra steps. To see which AI plans hand calls to a person, read [AI phone answering services with live backup](/ai-phone-answering-service/).
+**Not for you if** a wrong call at night costs real money and nobody on your team will answer a transfer. A transfer to a sleeping tech is voicemail with extra steps. Property managers who need night maintenance triage and work orders in their property software can compare options in our [property management answering service guide](/answering-service-for-property-management/). To see which AI plans hand calls to a person, read [AI phone answering services with live backup](/ai-phone-answering-service/).
 
 ## How to pick
 

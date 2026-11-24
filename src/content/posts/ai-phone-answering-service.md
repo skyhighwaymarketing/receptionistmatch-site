@@ -25,7 +25,7 @@ Prices and features come from each vendor's own pricing page, checked November 1
 | [Answrr](https://tryanswrr.com/pricing) | $49 for 250 minutes | Minutes | Pricing page doesn't say |
 | [PATLive](https://www.patlive.com/pricing/) | No AI answering | | Live people only, by choice |
 
-A transfer to your phone only helps if someone answers it. If you're on a roof or under a sink, that call goes to voicemail, the same as before you paid for anything.
+A transfer to your phone only helps if someone answers it. If you're on a roof or under a sink, that call goes to voicemail, the same as before you paid for anything. Property managers can see which AI tools also open work orders in Yardi or AppFolio in our [property management answering service guide](/answering-service-for-property-management/).
 
 ## The two that keep a person on standby
 

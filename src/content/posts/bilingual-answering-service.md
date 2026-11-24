@@ -29,7 +29,7 @@ An answering service means live people answer. An AI receptionist is software. B
 | [My AI Front Desk](https://www.myaifrontdesk.com/pricing) | AI | 20+ | The pricing page doesn't list one | $99 for 200 min | The pricing page doesn't say |
 | [RingCentral AI Receptionist](https://www.ringcentral.com/ai-receptionist.html) | AI | English, Spanish, French, Italian, German, Portuguese | No price shown | No price shown | Transcripts included, language not stated |
 
-Two pages don't list languages at all: [Smith.ai's AI Receptionist](https://smith.ai/pricing/ai-receptionist) ($0 for 25 calls) and VoiceNation's AI plans (from $99 for 50 calls). Ask before you count on Spanish there.
+Two pages don't list languages at all: [Smith.ai's AI Receptionist](https://smith.ai/pricing/ai-receptionist) ($0 for 25 calls) and VoiceNation's AI plans (from $99 for 50 calls). Ask before you count on Spanish there. If you manage rentals, our [property management answering service guide](/answering-service-for-property-management/) shows which tools can send Spanish-speaking tenants to a bilingual person.
 
 ## Live Spanish speakers: what each one charges
 

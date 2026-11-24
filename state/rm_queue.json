@@ -85,7 +85,7 @@
    "slug": "answering-service-for-property-management",
    "keyword": "answering service for property management",
    "type": "trade",
-   "status": "ready",
+   "status": "published",
    "gate": "passed",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 880 KD0. HOLD 0b.3: snapshot mentions are nav menus only. Unlock: snapshot property-management pages (upfirst, my-ai-front-desk, answerhero, mapcommunications). | 2026-11-13 BF53: GATE PASSED (0b.3 met): PM pages snapshotted 11/13 (rcm-site#12): Upfirst PM (24/7 tenant calls, after-hours maintenance hotline), My AI Front Desk PM (Yardi Voyager/RentCafe work orders + leasing), AnswerHero PM (EN/ES).",
    "angle": "Answering services for property managers: after-hours maintenance lines and emergency calls, tenant calls in Spanish, leasing and showing calls, and which AI tools open or update work orders inside property software (My AI Front Desk syncs with Yardi Voyager and RentCafe). Price table only from published pricing pages. Who it is NOT for: a landlord with a handful of units who can take the maintenance calls.",
@@ -98,7 +98,8 @@
     "answerhero",
     "ruby",
     "smith-ai"
-   ]
+   ],
+   "published": "2026-11-24"
   },
   {
    "slug": "legal-answering-service",
