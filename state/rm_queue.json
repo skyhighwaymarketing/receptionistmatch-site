@@ -102,6 +102,47 @@
    "published": "2026-11-24"
   },
   {
+   "slug": "best-ai-receptionist",
+   "keyword": "best ai receptionist",
+   "type": "comparison",
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 320 KD29. HOLD: top 10 = vendor 'best of' blogs; overlaps ai-receptionist-cost. Revisit as a use-case picker once 8+ pages are live. | 2026-11-24 BF57: GATE PASSED. Hold condition met (11 pages live, 8+ needed). Google 590 KD29 + 'ai receptionist for small business' 3,600 KD31 (Bing 20 / 120); top 10 = small AI-vendor and agency blogs (stammer, lumay, voksha, velocityaipartners, promptmaxxing, leadresponse, cura), no neutral source. Distinct from ai-receptionist-cost (price) and answering-service-for-small-business (live vs AI): this is AI-only, picked by job. Data: ~/blog-analytics/state/rm_topic_fill_2026-11-24/.",
+   "angle": "Best AI receptionist for a small business, picked by the job it has to do, not by price alone: booking into your calendar, qualifying leads, answering FAQs after hours, handing a caller to a real person, texting back missed calls, bilingual callers, working inside a field-service or CRM tool. One short 'pick this if' answer per job, then a comparison table (starting price, what counts as usage, live handoff, calendar/CRM integrations, trial) from each vendor's own pricing page. Say plainly which jobs no AI receptionist does well yet. Developer platforms (Vapi, Retell, Bland, Synthflow) are out of scope: name them once as build-your-own options.",
+   "vendors": [
+    "my-ai-front-desk",
+    "answrr",
+    "gohighlevel",
+    "smith-ai-ai",
+    "rosie",
+    "goodcall",
+    "upfirst",
+    "dialzara",
+    "ringcentral",
+    "nextiva",
+    "jobber",
+    "housecall-pro"
+   ]
+  },
+  {
+   "slug": "smith-ai-pricing",
+   "keyword": "smith.ai pricing",
+   "type": "pricing",
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-24 BF57: Google 140 KD12 (+ 'smith ai cost' 30, 'smith.ai alternatives' 30), Bing 10; top 10 = review/affiliate sites and competitor comparison pages (appscribed, allisonvoice, myaifrontdesk blog, trtc, aurionx, peakaiagency, ody, pulseai); no page that works the bill out from Smith.ai's own plans. Distinct from ai-receptionist-cost (one row there). Data: ~/blog-analytics/state/rm_topic_fill_2026-11-24/.",
+   "angle": "What Smith.ai actually costs, from its own pricing pages: every AI Receptionist and Virtual Receptionist (live) plan, what counts as a call, what is included, the per-call overage, and setup or add-on fees. Work the monthly bill at 25, 75 and 200 calls for both products. Then who Smith.ai fits (needs live backup, legal or high-value calls) and where a cheaper option does the same job: compare 2-3 AI and live alternatives at the same call counts from their own pages. No ranking by payout.",
+   "vendors": [
+    "smith-ai",
+    "smith-ai-ai",
+    "ruby",
+    "upfirst",
+    "goodcall",
+    "my-ai-front-desk",
+    "answrr"
+   ]
+  },
+  {
    "slug": "legal-answering-service",
    "keyword": "legal answering service",
    "type": "trade",
@@ -149,16 +190,6 @@
    "status": "hold",
    "gate": "pending",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 140 KD0. HOLD: overlaps property management; decide one page after both have facts.",
-   "angle": "",
-   "vendors": []
-  },
-  {
-   "slug": "best-ai-receptionist",
-   "keyword": "best ai receptionist",
-   "type": "pricing",
-   "status": "hold",
-   "gate": "pending",
-   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 320 KD29. HOLD: top 10 = vendor 'best of' blogs; overlaps ai-receptionist-cost. Revisit as a use-case picker once 8+ pages are live.",
    "angle": "",
    "vendors": []
   },

@@ -45,3 +45,19 @@ jobs:
           git diff --cached --quiet && { echo "no changes"; exit 0; }
           git commit -m "Vendor price snapshot $(date -u +%F)"
           git push
+      # BF57 2026-11-24 (Michael "Yes, do both"): PRICE-DRIFT ALARM. Nextiva repriced XBert between
+      # 11/15 and 11/22 and two live pages kept quoting $99 for two days; nothing noticed until the
+      # writer aborted on a page it was linking into. The deploy gate runs this same check, but the
+      # robot's own snapshot commit (GITHUB_TOKEN) never triggers a deploy. So: re-check every live
+      # post against the snapshot just taken; a vendor price change turns THIS run red and names the
+      # stale pages. Fix = update those pages (the writer also refuses to link into them until then).
+      - name: Price drift check (live posts vs this snapshot)
+        run: |
+          if python3 robots/honesty.py src/content/posts/*.md > drift.txt; then
+            echo "no price drift: every live post matches the vendor pages"; exit 0
+          fi
+          cat drift.txt
+          { echo "## Price drift: live pages quote prices no longer on the vendor's page"; echo '```';
+            grep -v '^ok ' drift.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          grep '^FAIL' drift.txt | while read -r _ f; do echo "::error file=$f::price no longer on the vendor's pricing page (see run summary)"; done
+          exit 1
