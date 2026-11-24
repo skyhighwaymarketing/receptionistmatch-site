@@ -1,0 +1,112 @@
+{
+ "vendor": "Nextiva",
+ "url": "https://www.nextiva.com/pricing",
+ "checked": "2026-11-24",
+ "source": "state/snapshots/nextiva/2026-11-24.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Go",
+   "price": "$ 10 /mo/user",
+   "billing": "annual",
+   "included": "Business SMS / MMS 50 per user per month; AI transcription 10 conversations per user per month; XBert, 10 free interactions",
+   "overage": "",
+   "line": 307
+  },
+  {
+   "name": "Business",
+   "price": "$ 25 /mo/user",
+   "billing": "annual",
+   "included": "Toll-free 1 + 2,000 min; Business SMS / MMS 500 per user per month; AI transcription 200 conversations per user per month; XBert, 10 free interactions",
+   "overage": "",
+   "line": 330
+  },
+  {
+   "name": "CX",
+   "price": "$ 75 /mo/user",
+   "billing": "annual",
+   "included": "Toll-free 3 + 10,000 min; Business SMS / MMS Unlimited; AI transcription Unlimited; XBert, 10 free interactions",
+   "overage": "",
+   "line": 354
+  },
+  {
+   "name": "AI Front Office",
+   "price": "$500 /month",
+   "billing": "monthly",
+   "included": "Up to 1,000 conversations a month; Team access Up to 5; AI Agents interactions 100 included",
+   "overage": "",
+   "line": 394
+  },
+  {
+   "name": "AI Growth",
+   "price": "$3,500 /month",
+   "billing": "monthly",
+   "included": "Over 1,000 conversations a month; Team access Up to 30 employees; AI Agents interactions 1000 included",
+   "overage": "Additional employees are $100 per user per month.",
+   "line": 414
+  },
+  {
+   "name": "AI Super Pack (add-on)",
+   "price": "$10 per user / month",
+   "billing": "annual",
+   "included": "",
+   "overage": "",
+   "line": 450
+  },
+  {
+   "name": "AI Super Pack (add-on)",
+   "price": "$15",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 452
+  },
+  {
+   "name": "Messaging Super Pack (add-on)",
+   "price": "$20 per user / month",
+   "billing": "annual",
+   "included": "",
+   "overage": "",
+   "line": 487
+  },
+  {
+   "name": "Messaging Super Pack (add-on)",
+   "price": "$25",
+   "billing": "monthly",
+   "included": "",
+   "overage": "",
+   "line": 489
+  },
+  {
+   "name": "XBert Pay as you go",
+   "price": "$1.50 per interaction",
+   "billing": "usage",
+   "included": "10 free interactions to start",
+   "overage": "",
+   "line": 529
+  },
+  {
+   "name": "XBert Premium",
+   "price": "$100 per month",
+   "billing": "monthly",
+   "included": "100 interactions included",
+   "overage": "then $0.99",
+   "line": 535
+  },
+  {
+   "name": "XBert Premium+",
+   "price": "$2,500 per month",
+   "billing": "monthly",
+   "included": "1,000 interactions included",
+   "overage": "",
+   "line": 541
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The Go, Business and CX prices are annual-billing rates. Line 908 says: \"Annual pricing reflects per-user, per-month rates with annual billing. Monthly billing rates are higher.\" The page doesn't list monthly-billing prices for these plans. The Super Pack prices come in pairs: the lower price is the annual rate and the higher one is marked \"Billed monthly\" (AI Super Pack $15, \"Save 33%\"; Messaging Super Pack $25, \"Save 20%\"). The CX Super Pack has no listed price (\"Contact us\"), only works with CX plans, and isn't recorded as a plan. Line 1 has a Black Friday promo: \"3 months FREE on every call, text, chat, and the AI that runs them.\" The page mentions no setup fee. Professional services are listed as an \"Add-on\" with no price. International calling is charged at \"Per-minute rates\" with no figures given. Line 646 says XBert overage is $0.99 per interaction with Premium or Premium+.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Try XBert free with every plan.",
+  "line": 523
+ }
+}
