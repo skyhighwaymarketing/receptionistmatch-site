@@ -30,7 +30,7 @@ An AI receptionist is software that answers your phone. An answering service is 
 ## The ones with no trial
 
 - **[Synthflow](https://synthflow.ai/pricing)** says it plainly: "no free plan or trial." It sells annual enterprise contracts.
-- **[Nextiva XBert](https://www.nextiva.com/pricing)** starts at $99 a month for 100 conversations. The page offers a demo with no card, not a trial.
+- **[Nextiva XBert](https://www.nextiva.com/pricing)** starts with 10 free interactions, then $1.50 per interaction pay as you go, or $100 a month for 100 interactions on Premium (checked November 22). That is a free allowance, not a timed trial.
 - **[RingCentral AI Receptionist](https://www.ringcentral.com/ai-receptionist.html)** shows no price and no trial in the page text. You can call a demo line to hear it.
 - **[VoiceNation's AI plans](https://www.voicenation.com/pricing/)** start at $99 for 50 calls. A trial isn't mentioned.
 - **[Housecall Pro](https://www.housecallpro.com/pricing/)** offers 14 days free with no card on its software, but its CSR AI receptionist has no published price.

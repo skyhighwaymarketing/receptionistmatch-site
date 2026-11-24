@@ -9,7 +9,7 @@ draft: false
 ---
 **Short answer:** most AI receptionists for a small business cost **$25 to $100 a month** for the starting plan. The cheapest we found is [Upfirst at $24.95 a month for 30 calls](https://www.upfirst.ai/pricing). [Answrr](https://tryanswrr.com/pricing) and [Rosie](https://heyrosie.com/pricing) both start at $49 a month for 250 minutes. A live answering service costs far more: [Ruby](https://www.ruby.com/pricing/) starts at $250 a month for 50 minutes.
 
-The price that matters is what you pay at *your* call volume, because every vendor counts differently: minutes, calls, or unique callers. The tables below use each vendor's own pricing page, checked November 11, 2026.
+The price that matters is what you pay at *your* call volume, because every vendor counts differently: minutes, calls, or unique callers. The tables below use each vendor's own pricing page, checked November 11, 2026 (Nextiva rechecked November 22, after it changed its XBert plans).
 
 ## AI receptionist starting prices
 
@@ -21,7 +21,7 @@ The price that matters is what you pay at *your* call volume, because every vend
 | [Rosie](https://heyrosie.com/pricing) | $49/mo | 250 minutes | Not stated | 7 days |
 | [Goodcall](https://www.goodcall.com/pricing) | $79/mo | 100 unique callers | $0.79 per extra caller | Free demo agent |
 | [My AI Front Desk](https://www.myaifrontdesk.com/pricing) | $99/mo ($79/mo billed yearly) | 200 minutes | $0.25/min | 7 days |
-| [Nextiva XBert](https://www.nextiva.com/pricing) | $99/mo | 100 conversations | Not stated | Not mentioned |
+| [Nextiva XBert](https://www.nextiva.com/pricing) | $100/mo (Premium) | 100 interactions | $0.99 per interaction | 10 free interactions |
 | [Smith.ai AI Receptionist](https://smith.ai/pricing/ai-receptionist) | $0 (Free), then $150/mo | 25 calls free, 75 calls on Pro | $3.00 per call (Free), $2.50 (Pro) | Free plan instead |
 
 Add-ons that need a software plan first:
