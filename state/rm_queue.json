@@ -104,7 +104,7 @@
   {
    "slug": "best-ai-receptionist",
    "keyword": "best ai receptionist",
-   "type": "comparison",
+   "type": "pillar",
    "status": "ready",
    "gate": "passed",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 320 KD29. HOLD: top 10 = vendor 'best of' blogs; overlaps ai-receptionist-cost. Revisit as a use-case picker once 8+ pages are live. | 2026-11-24 BF57: GATE PASSED. Hold condition met (11 pages live, 8+ needed). Google 590 KD29 + 'ai receptionist for small business' 3,600 KD31 (Bing 20 / 120); top 10 = small AI-vendor and agency blogs (stammer, lumay, voksha, velocityaipartners, promptmaxxing, leadresponse, cura), no neutral source. Distinct from ai-receptionist-cost (price) and answering-service-for-small-business (live vs AI): this is AI-only, picked by job. Data: ~/blog-analytics/state/rm_topic_fill_2026-11-24/.",
