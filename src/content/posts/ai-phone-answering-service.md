@@ -44,7 +44,7 @@ These are the cheapest way to get every call answered, with your own phone as th
 - **Rosie** starts at $49 for 250 minutes, but call transfers start on the $149 Scale plan (1,000 minutes). The $299 Growth plan tries several numbers until someone answers.
 - **Goodcall** starts at $79 for 100 unique callers a month and lets you choose who receives transfers.
 
-**Not for you if** nobody can reliably pick up a transferred call during your work day. Look at Smith.ai or Abby instead, or a live answering service.
+**Not for you if** nobody can reliably pick up a transferred call during your work day. Look at Smith.ai or Abby instead, or a live answering service. To pick by the job it has to do, from calendar booking to bilingual callers, see the [best AI receptionist for each job](/best-ai-receptionist/).
 
 ## How to pick
 

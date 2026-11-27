@@ -105,7 +105,7 @@
    "slug": "best-ai-receptionist",
    "keyword": "best ai receptionist",
    "type": "pillar",
-   "status": "ready",
+   "status": "published",
    "gate": "passed",
    "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 320 KD29. HOLD: top 10 = vendor 'best of' blogs; overlaps ai-receptionist-cost. Revisit as a use-case picker once 8+ pages are live. | 2026-11-24 BF57: GATE PASSED. Hold condition met (11 pages live, 8+ needed). Google 590 KD29 + 'ai receptionist for small business' 3,600 KD31 (Bing 20 / 120); top 10 = small AI-vendor and agency blogs (stammer, lumay, voksha, velocityaipartners, promptmaxxing, leadresponse, cura), no neutral source. Distinct from ai-receptionist-cost (price) and answering-service-for-small-business (live vs AI): this is AI-only, picked by job. Data: ~/blog-analytics/state/rm_topic_fill_2026-11-24/.",
    "angle": "Best AI receptionist for a small business, picked by the job it has to do, not by price alone: booking into your calendar, qualifying leads, answering FAQs after hours, handing a caller to a real person, texting back missed calls, bilingual callers, working inside a field-service or CRM tool. One short 'pick this if' answer per job, then a comparison table (starting price, what counts as usage, live handoff, calendar/CRM integrations, trial) from each vendor's own pricing page. Say plainly which jobs no AI receptionist does well yet. Developer platforms (Vapi, Retell, Bland, Synthflow) are out of scope: name them once as build-your-own options.",
@@ -122,7 +122,8 @@
     "nextiva",
     "jobber",
     "housecall-pro"
-   ]
+   ],
+   "published": "2026-11-27"
   },
   {
    "slug": "smith-ai-pricing",

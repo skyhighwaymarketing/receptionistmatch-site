@@ -61,7 +61,7 @@ At the entry level, a live service costs about **five to ten times more per minu
 
 [Retell](https://www.retellai.com/pricing) ($0.07 to $0.31 a minute), [Vapi](https://vapi.ai/pricing) ($0.05 a minute for hosting, with voice, model and phone costs billed on top) and [Bland](https://www.bland.ai/pricing) ($0.14 a minute on its Start plan) sell the parts to build your own voice agent. The per-minute price looks low, but someone has to set up the prompts, phone numbers and integrations.
 
-**Not for:** an owner who wants calls answered this week without hiring a developer. Pick one of the ready-made receptionists above instead.
+**Not for:** an owner who wants calls answered this week without hiring a developer. Pick one of the ready-made receptionists above instead. To match a ready-made receptionist to the job you need, see our [best AI receptionist guide](/best-ai-receptionist/).
 
 ## Prices these vendors don't publish
 
