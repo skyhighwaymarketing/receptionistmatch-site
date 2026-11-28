@@ -1,0 +1,384 @@
+# My AI Front Desk for home services | https://www.myaifrontdesk.com/use-cases/for/home-services | fetched 2026-11-28 | HTTP 200 | 0 price mentions
+New
+Take a 60 second quiz to get a free AI lead audit. Are you losing leads to competitors?
+Scan my Website
+Product
+Pricing
+Resources
+Customer Stories
+Company
+Book a Demo
+Start for Free
+Login
+Home Services use cases
+Calls answered from the truck, estimates followed up, jobs confirmed, and emergencies triaged at 2am. Browse 38 workflows home services teams run on Frontdesk.
+Every workflow is assembled from the same blocks: fields on tickets and contacts, sequences that react when they change, and an AI that talks on every channel. Pick one to see how it runs.
+Build your workflow
+Explore customer journeys
+All industries
+Multifamily
+Retail & Ecommerce
+Therapy
+Clinics
+Real Estate
+Home Services
+Auto Shops
+Salons & Spas
+Fitness
+Law Firms
+Accounting
+Veterinary
+Field service operations
+Dispatch, ETAs, parts, and emergencies coordinated over phone and text.
+1
+Job status update texts
+En route, started, wrapped up: each stage texts itself and update calls disappear.
+See the workflow →
+2
+Parts arrival scheduling
+The part lands, one field flips, and the install books the same morning.
+See the workflow →
+3
+Running-late notices
+A long morning job texts the rest of the day their new windows.
+See the workflow →
+4
+Work order intake by phone
+Intake calls capture symptoms, access, and photos so trucks roll with the right parts.
+See the workflow →
+Missed calls and after-hours coverage
+Answer what rings, rescue what does not, and keep nights, weekends, and holidays covered.
+1
+Missed-call text back
+Calls missed from the crawlspace become booked estimates by text instead of competitor revenue.
+See the workflow →
+2
+Voicemail to ticket
+The word leak in a voicemail routes the ticket urgent before anyone checks a mailbox.
+See the workflow →
+3
+After-hours emergency triage
+The 2am burst pipe wakes the on-call tech; the dripping faucet books for 9am.
+See the workflow →
+4
+Overflow call answering
+Storm-day call surges get absorbed with every job captured and queued by severity.
+See the workflow →
+5
+Holiday and weekend coverage
+Long weekends keep booking the following week instead of filling a voicemail box.
+See the workflow →
+6
+Spam and solicitor screening
+Supplier pitches and robocalls vanish while homeowners always reach help.
+See the workflow →
+Scheduling and reminders
+Fill the calendar, confirm it, and recover the slots that fall through.
+1
+Reminder cascade
+Job reminders run email, text, and a morning call, so crews arrive to open doors.
+See the workflow →
+2
+Waitlist backfill calls
+A cancelled morning slot calls the standby list and the truck stays busy.
+See the workflow →
+3
+Recurring service reminders
+Seasonal tune-ups book themselves from last year’s customer list.
+See the workflow →
+4
+Same-day confirmation calls
+Morning sweeps confirm today’s jobs before dispatch finalizes routes.
+See the workflow →
+5
+Reschedule by text
+Homeowners move appointments by text and the dispatch board stays true.
+See the workflow →
+Speed to lead
+Reach new leads while they are still on your website, and follow up like your best rep every time.
+1
+Instant form callback
+Estimate requests become scheduled site visits in the same browsing session.
+See the workflow →
+2
+Web chat to booked appointment
+Pricing and service-area questions resolve in chat and end in a booked estimate.
+See the workflow →
+3
+New lead welcome sequence
+Every lead gets the same disciplined first 48 hours, even mid-season.
+See the workflow →
+4
+Quote follow-up sequence
+Open estimates get a timed cadence of texts and calls until the homeowner decides.
+See the workflow →
+5
+Ad lead qualification
+Campaign leads get qualified on ownership, scope, and budget before a truck rolls.
+See the workflow →
+6
+Referral intake automation
+Referred homeowners get same-day contact, and the referrer gets thanked toward the next discount.
+See the workflow →
+Billing and collections
+Polite, persistent money conversations that run themselves until a human needs to decide.
+1
+Payment reminder outreach
+Invoice reminders run politely on schedule, and only disputes reach the office.
+See the workflow →
+2
+Failed payment recovery
+Failed service-plan charges get a fix-it text before they become cancellations.
+See the workflow →
+3
+Invoice question hotline
+Balance and charge questions get answered mid-call from your books.
+See the workflow →
+4
+Collections escalation ladder
+Aging invoices climb a consistent ladder with promises recorded and followed.
+See the workflow →
+Ticket buttons and field automations
+Add a field to any ticket and let flipping it run the work. Your team makes the decision, Frontdesk does the follow-through.
+1
+Escalation button
+A job gone sideways flips one field, and the owner gets the full history while the customer hears help is coming.
+See the workflow →
+2
+Callback request button
+Every promised callback actually happens, with retries on a schedule and transcripts on the ticket.
+See the workflow →
+3
+Approval status automation
+Financing or permit approval flips a field, and the customer gets the news, the documents, and a start date.
+See the workflow →
+4
+Cancellation approval workflow
+Cancelled service plans confirm cleanly, capture the reason, and seed a seasonal win-back.
+See the workflow →
+5
+Resolution follow-up
+Completed jobs verify the fix held, and satisfied customers flow into review requests.
+See the workflow →
+6
+VIP flag routing
+Property managers and repeat clients jump the queue with the owner pinged instantly.
+See the workflow →
+Reviews and feedback
+Ask at the right moment, and intercept problems before they go public.
+1
+Post-service review requests
+Review requests fire per completed job, so the map listing grows with the schedule.
+See the workflow →
+2
+Negative feedback intercept
+A bad job score calls the owner before it posts publicly.
+See the workflow →
+3
+CSAT surveys by text
+Post-job scores by text, rolled up by crew and week.
+See the workflow →
+4
+Testimonial collection calls
+Happy customers tell the story of the save, recorded with permission for the website.
+See the workflow →
+Front office and reception
+Every caller greeted, understood, and routed, in any language, with their history loaded.
+1
+Call triage and transfer
+Office calls route between dispatch, billing, and sales while the AI answers the rest.
+See the workflow →
+2
+Phone intake forms
+New-job intake completes by phone as structured fields, never a sticky note.
+See the workflow →
+3
+FAQ answering from your website
+Service areas, pricing ranges, and warranty terms answered from your own site.
+See the workflow →
+Ready to go live
+Create your account for free.
+Launch Frontdesk in minutes, capture more leads, and automate repetitive front-office workflows from day one.
+Start for Free
+Book a Demo ↗
+Trial included usage and any usage charges depend on your chosen plan or agreed written offer. Review trial and cancellation terms
+.
+No credit card required
+·
+Go live in under 5 minutes
+·
+Cancel anytime
+Product
+Lead capture
+AI Phone Receptionist
+AI Web Chatbot
+AI Email Agent
+SMS Texting Agent
+AI Website Builder and SEO Autoblogger
+Website Forms
+PBX Call Capture
+In-Person Meeting Capture
+AI Avatar
+Intelligence
+AI CRM
+Smart Tickets
+AI Calendar
+Smart Notifications
+Dashboards & Reporting
+Automations
+Automated Outbound Calls
+Automated Outbound SMS
+Automation Sequences
+Email Drip Campaigns
+AI and Code Automations
+Show all 19
+Property management
+AI for Multifamily
+Resident Journey Automation
+Property Management Use Cases
+AI Leasing Agent
+AI Tour No-Show Recovery
+AI Maintenance Intake
+AI Rent Delinquency
+AI Lease Renewal
+Yardi AI Integration
+AppFolio AI Integration
+Entrata AI Integration
+Buildium AI Integration
+EliseAI Alternative
+Funnel Leasing Alternative
+Knock CRM Alternative
+LeaseHawk Alternative
+AppFolio Leasing AI
+Yardi AI Leasing Agent
+AI for Property Managers
+AI for Property Management Companies
+AI Receptionist for Property Management
+Multifamily AI Tools
+Multifamily ROI Calculator
+Multifamily AI Prompt Library
+Multifamily AI Reports
+Show all 25
+Industries
+AI for Multifamily
+AI for Retail & Ecommerce
+AI for Therapy Practices
+AI for Property Management
+Real Estate Brokerage AI
+Accounting & Finance AI
+Legal AI
+Automotive AI
+Retail & ecommerce
+AI for Retail & Ecommerce
+AI Store Receptionist
+AI Order Status Lookup
+AI Abandoned Cart Recovery
+AI Returns Management
+AI for Amazon Sellers
+Shopify AI Integration
+WooCommerce AI Integration
+Klaviyo AI Integration
+Retail AI Tools
+Retail ROI Calculator
+Retail AI Prompt Library
+Retail AI Reports
+Show all 21
+Therapy practices
+AI for Therapy Practices
+AI for ABA Therapy
+AI for Speech Therapy
+AI for Mental Health
+AI No-Show Recovery
+AI Insurance Verification
+Therapy AI Tools
+Therapy ROI Calculator
+Therapy AI Prompt Library
+Therapy AI Reports
+Resources
+Virtual Receptionist
+CRM Reimagined for the AI Age
+Free Lead Leak Audit
+(opens in new tab)
+Free Mystery Shop
+Help Center
+Compare Alternatives
+Resources
+Features
+Customer Journeys
+Use Case Library
+Blog
+Insights
+Sitemap
+Articles
+(opens in new tab)
+2026 Centralization Report
+Integrations
+(opens in new tab)
+Show all 16
+Free AI tools
+AI Receptionist
+AI Phone Receptionist
+Free AI SMS Texting Agent
+Free AI Chatbot
+Free AI Voicebot
+Free AI Forms
+Free AI CRM
+Free AI Ticketing System
+Free AI Calendar Tool
+Free AI Notifications
+Free AI Data Dashboards
+Free AI Outbound Calls
+Free AI Outbound SMS
+PBX Call Capture
+In-Person Meeting Capture
+Show all 15
+CRM
+CRM Glossary
+What Is a CRM?
+What Is an AI CRM?
+Sales Pipeline
+Lead Scoring
+Lead Enrichment
+Speed to Lead
+Pipeline Velocity
+Sales Cadence
+System of Record
+CRM Migration
+Conversation Intelligence
+Call Summary
+Software & alternatives
+AI CRM
+Best CRM For Your Business
+HubSpot Alternative
+Salesforce Alternative
+Pipedrive Alternative
+Zoho CRM Alternative
+monday CRM Alternative
+GoHighLevel Alternative
+Keap Alternative
+Close CRM Alternative
+ActiveCampaign Alternative
+Copper CRM Alternative
+Freshsales Alternative
+Attio Alternative
+Show all 27
+Company
+Start for Free
+(opens in new tab)
+Pricing
+Book a Demo
+(opens in new tab)
+Notable press
+As Featured On Business Insider
+(opens in new tab)
+HubSpot
+(opens in new tab)
+Pipedrive
+(opens in new tab)
+Zapier
+(opens in new tab)
+© 2026 AI Front Desk, Inc. All rights reserved.
+Terms & Conditions
+Privacy Policy
+Audit
+Acceptable Use Policy

@@ -1,0 +1,15 @@
+{
+ "vendor": "My AI Front Desk for law firms",
+ "url": "https://www.myaifrontdesk.com/industries-we-serve/legal",
+ "checked": "2026-11-28",
+ "source": "state/snapshots/my-ai-front-desk-legal/2026-11-28.txt",
+ "published": false,
+ "plans": [],
+ "dropped_untraced": [],
+ "notes": "The snapshot is the law-firm landing page, not a pricing page. It lists no plan names, prices, included minutes or overage rates. The only dollar figures are marketing claims, not prices: $8,500 avg case value (line 31), $102,000 lost to no-shows (lines 36/39) and a $95,000 settlement example (lines 65/80). Lines about free use: 'Try Frontdesk free' (line 102), 'Create your account for free.' (line 107), 'No credit card required' (lines 103/113) and 'Cancel anytime' (lines 105/117). Line 111 says trial usage and charges depend on the chosen plan or a written offer. No setup fee is mentioned. 'Pricing' appears only as a nav link (lines 5, 275).",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Trial included usage and any usage charges depend on your chosen plan or agreed written offer. Review trial and cancellation terms",
+  "line": 111
+ }
+}

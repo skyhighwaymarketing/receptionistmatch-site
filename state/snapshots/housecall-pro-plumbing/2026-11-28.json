@@ -1,0 +1,56 @@
+{
+ "vendor": "Housecall Pro for plumbers",
+ "url": "https://www.housecallpro.com/industries/plumbing-software/",
+ "checked": "2026-11-28",
+ "source": "state/snapshots/housecall-pro-plumbing/2026-11-28.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Basic (Individual)",
+   "price": "$79 /mo",
+   "billing": "unknown",
+   "included": "1 user",
+   "overage": "",
+   "line": 317
+  },
+  {
+   "name": "Essentials (Individual)",
+   "price": "$229 /mo",
+   "billing": "unknown",
+   "included": "1 user",
+   "overage": "",
+   "line": 356
+  },
+  {
+   "name": "Essentials (Teams)",
+   "price": "$299 /mo",
+   "billing": "unknown",
+   "included": "5 users included",
+   "overage": "*$100/mo per additional user",
+   "line": 357
+  },
+  {
+   "name": "Max (Individual)",
+   "price": "$349 /mo",
+   "billing": "unknown",
+   "included": "1 user",
+   "overage": "",
+   "line": 397
+  },
+  {
+   "name": "Max (Teams)",
+   "price": "$649 /mo",
+   "billing": "unknown",
+   "included": "8 users included",
+   "overage": "*$75/mo per additional user",
+   "line": 398
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "The page has an Annual/Monthly billing toggle (lines 296-299, \"Save with annual\"), but the snapshot doesn't show which cycle the listed prices are for. Only one set of prices appears, so billing is marked unknown. Prices are listed per month. The Individual/Teams toggle (lines 301-302) gives the two price columns. Basic shows $79 /mo in both columns (lines 317-318) and includes only 1 user (line 323). Black Friday offer: \"50% off your first 3 months\" (line 3). Discounted prices: Basic $39.50 /mo (lines 314, 316), Essentials $114.50 /mo individual (line 353) and $149.50 /mo teams (line 355), Max $174.50 /mo individual (line 394) and $324.50 /mo teams (line 396). Max uses \"Book Demo\" instead of \"Get Started\" and includes a dedicated onboarding specialist (line 416); no fee is stated for it. \"No credit card required.\" (line 137). No setup fee is mentioned. Price placeholders \"$XX /mo\" also appear on the page. No call-answering or per-minute pricing is listed, even though CSR AI and call answering are mentioned.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "We also provide a 14-day free trial so you can explore our features before committing.",
+  "line": 453
+ }
+}

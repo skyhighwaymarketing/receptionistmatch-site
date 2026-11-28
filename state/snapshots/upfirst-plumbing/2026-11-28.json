@@ -1,0 +1,24 @@
+{
+ "vendor": "Upfirst for plumbers",
+ "url": "https://upfirst.ai/industries/plumbing",
+ "checked": "2026-11-28",
+ "source": "state/snapshots/upfirst-plumbing/2026-11-28.txt",
+ "published": true,
+ "plans": [
+  {
+   "name": "Entry-level option (name not stated)",
+   "price": "$24.95 per month",
+   "billing": "monthly",
+   "included": "30 handled calls every billing cycle",
+   "overage": "$1.50 per additional call",
+   "line": 187
+  }
+ ],
+ "dropped_untraced": [],
+ "notes": "This is the plumbing industry page, not a full pricing page. The only pricing is in an FAQ answer on line 187: \"Our plans start at just $24.95 per month,\" so higher tiers exist but aren't listed. Line 187 also says \"No hidden fees, and you can change your plan anytime,\" and that you can upgrade instead of paying for extra calls. The page does not mention a setup fee. The 14-day free trial also appears on line 166 (\"it's free to try for 14 days\"), and lines 98 and 205 say \"No credit card required.\" Line 187 says \"per month\" but doesn't say whether annual billing is offered.",
+ "setup_fee": null,
+ "free_trial": {
+  "text": "Try Upfirst for free for 14 days.",
+  "line": 203
+ }
+}
