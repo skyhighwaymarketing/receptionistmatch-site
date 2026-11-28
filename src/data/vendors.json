@@ -306,6 +306,66 @@
    "affiliate": "none",
    "payout": null,
    "industry": "property-management"
+  },
+  {
+   "slug": "my-ai-front-desk-legal",
+   "name": "My AI Front Desk for law firms",
+   "host": "myaifrontdesk.com",
+   "pricingUrl": "https://www.myaifrontdesk.com/industries-we-serve/legal",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "legal"
+  },
+  {
+   "slug": "my-ai-front-desk-home",
+   "name": "My AI Front Desk for home services",
+   "host": "myaifrontdesk.com",
+   "pricingUrl": "https://www.myaifrontdesk.com/use-cases/for/home-services",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "home-services"
+  },
+  {
+   "slug": "my-ai-front-desk-emergency",
+   "name": "My AI Front Desk after-hours emergency triage",
+   "host": "myaifrontdesk.com",
+   "pricingUrl": "https://www.myaifrontdesk.com/use-cases/for/home-services/after-hours-emergency-triage",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "home-services"
+  },
+  {
+   "slug": "upfirst-plumbing",
+   "name": "Upfirst for plumbers",
+   "host": "upfirst.ai",
+   "pricingUrl": "https://upfirst.ai/industries/plumbing",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "plumbing"
+  },
+  {
+   "slug": "housecall-pro-plumbing",
+   "name": "Housecall Pro for plumbers",
+   "host": "housecallpro.com",
+   "pricingUrl": "https://www.housecallpro.com/industries/plumbing-software/",
+   "kind": "ai",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "plumbing"
+  },
+  {
+   "slug": "voicenation-plumbing",
+   "name": "VoiceNation for plumbers",
+   "host": "voicenation.com",
+   "pricingUrl": "https://www.voicenation.com/industries/plumbing/",
+   "kind": "live",
+   "affiliate": "none",
+   "payout": null,
+   "industry": "plumbing"
   }
  ]
 }
