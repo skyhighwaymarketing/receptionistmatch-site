@@ -147,10 +147,10 @@
    "slug": "legal-answering-service",
    "keyword": "legal answering service",
    "type": "trade",
-   "status": "hold",
-   "gate": "pending",
-   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 720 KD13 + 'answering service for law firm' 390 KD17 (CPC $214-294, best money topic). HOLD 0b.3: facts thin (Smith.ai Clio + intake, Ruby legal, Upfirst intake). Unlock: snapshot legal pages (answeringlegal.com, lexreception.com, smith.ai legal, ruby.com/industries/legal). | 2026-11-13 BF53: GATE PASSED (0b.3 met): legal pages snapshotted 11/13 (rcm-site#12): Smith.ai legal (screening, books consults, 24/7), Ruby legal (intake, scheduling, bilingual), LEX + LEX intake (human intake, EN/ES, per-minute round-up), AnswerHero legal (24/7, bilingual); Answering Legal + LEX publish no prices. | 2026-11-13 BF53: back on HOLD by the MONEY GATE (Michael 'Yes, do all three'): none of its vendors (Smith.ai, Ruby, LEX, AnswerHero, Answering Legal) has an affiliate program with us. Facts are ready (angle + vendors kept); release when a legal vendor's partner program is approved or pending, and add it to vendors.json affiliate.",
-   "angle": "Legal answering services and intake for law firms, AI and live. What real legal intake means (screening callers against the firm's own qualifying questions, gathering case details, booking consultations), 24/7 and after-hours coverage, English and Spanish intake, and how billing works where the page says so (LEX rounds each call up to the minute). Say plainly which legal specialists publish no prices (Answering Legal, LEX Reception: plans on request). Price table only from vendors with published pricing pages. Who it is NOT for: firms that only need a voicemail-to-email line.",
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 720 KD13 + 'answering service for law firm' 390 KD17 (CPC $214-294, best money topic). HOLD 0b.3: facts thin (Smith.ai Clio + intake, Ruby legal, Upfirst intake). Unlock: snapshot legal pages (answeringlegal.com, lexreception.com, smith.ai legal, ruby.com/industries/legal). | 2026-11-13 BF53: GATE PASSED (0b.3 met): legal pages snapshotted 11/13 (rcm-site#12): Smith.ai legal (screening, books consults, 24/7), Ruby legal (intake, scheduling, bilingual), LEX + LEX intake (human intake, EN/ES, per-minute round-up), AnswerHero legal (24/7, bilingual); Answering Legal + LEX publish no prices. | 2026-11-13 BF53: back on HOLD by the MONEY GATE (Michael 'Yes, do all three'): none of its vendors (Smith.ai, Ruby, LEX, AnswerHero, Answering Legal) has an affiliate program with us. Facts are ready (angle + vendors kept); release when a legal vendor's partner program is approved or pending, and add it to vendors.json affiliate. | 2026-11-27 BF58: MONEY GATE MET, released (Michael 'Yes, refill it'): My AI Front Desk (affiliate pending) has a legal industry page (Clio integration, intake), snapshotted 11/28 (rcm-site#20). 'ai receptionist for law firms' Google 260 KD3 folded in; top 10 = small AI vendors + appscribed/technology.org listicles. Log ~/blog-analytics/state/rm_top10_owners_2026-11-27.md.",
+   "angle": "Legal answering services and intake for law firms, AI and live. What real legal intake means (screening callers against the firm's own qualifying questions, gathering case details, booking consultations), 24/7 and after-hours coverage, English and Spanish intake, and how billing works where the page says so (LEX rounds each call up to the minute). Say plainly which legal specialists publish no prices (Answering Legal, LEX Reception: plans on request). Price table only from vendors with published pricing pages. Who it is NOT for: firms that only need a voicemail-to-email line. Include AI receptionists built for law firms: My AI Front Desk's legal page (Clio integration, intake questions) alongside Smith.ai's AI Receptionist, with the price from each vendor's own pricing page. Fold in 'ai receptionist for law firms'.",
    "vendors": [
     "smith-ai-legal",
     "ruby-legal",
@@ -161,18 +161,32 @@
     "smith-ai",
     "smith-ai-ai",
     "ruby",
-    "answerhero"
+    "answerhero",
+    "my-ai-front-desk-legal",
+    "my-ai-front-desk"
    ]
   },
   {
    "slug": "answering-service-for-plumbers",
    "keyword": "answering service for plumbers",
    "type": "trade",
-   "status": "hold",
-   "gate": "pending",
-   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 480 KD0. HOLD 0b.2/0b.3: same Jobber/Housecall Pro vendor set as HVAC = trade-name swap. Revisit with plumbing-specific facts after HVAC indexes.",
-   "angle": "",
-   "vendors": []
+   "status": "ready",
+   "gate": "passed",
+   "gate_note": "2026-11-12 BF52 (DataForSEO Google US + Bing 13wk; owners in ~/blog-analytics/state/rm_topic_fill_2026-11-12/): Google 480 KD0. HOLD 0b.2/0b.3: same Jobber/Housecall Pro vendor set as HVAC = trade-name swap. Revisit with plumbing-specific facts after HVAC indexes. | 2026-11-27 BF58: GATE PASSED (Michael 'Yes, refill it'): Google 590 KD0 + 'plumbing answering service' 590 KD0, Bing 0. Top 10 = small AI vendors (vantaweb, theaisavvy city pages, leadfriendly, usehailey, ringassist, tryvoicepro), no neutral comparison. 0b.3 met with plumbing-specific pages snapshotted 11/28 (rcm-site#20): Upfirst plumbing (from $24.95/mo, 30 calls), Housecall Pro plumbing, VoiceNation plumbing, My AI Front Desk home services + after-hours emergency triage. HVAC page crawled by Bing 11/23. Log ~/blog-analytics/state/rm_top10_owners_2026-11-27.md.",
+   "angle": "Answering services for plumbers, AI and live. Built around the calls a plumbing shop actually gets: burst pipe or sewer backup at 2 a.m. (who triages a real emergency and pages the on-call tech, and who just takes a message), routine quote and booking calls during jobs, and callers price-shopping. Compare AI receptionists (Upfirst's plumbing plan, My AI Front Desk's after-hours emergency triage, Housecall Pro if you already run it for dispatch) with live answering services (VoiceNation's plumbing service, PATLive). Price table only from each vendor's own pricing page, with the bill worked out at a slow month and a busy freeze or storm week by the vendor's billing unit. Link to /hvac-answering-service/ for heating and cooling; do not repeat its peak-season section. Who it is NOT for: a one-truck plumber who can return every call within the hour.",
+   "vendors": [
+    "upfirst-plumbing",
+    "housecall-pro-plumbing",
+    "voicenation-plumbing",
+    "my-ai-front-desk-emergency",
+    "my-ai-front-desk-home",
+    "upfirst",
+    "housecall-pro",
+    "my-ai-front-desk",
+    "answrr",
+    "patlive",
+    "voicenation"
+   ]
   },
   {
    "slug": "dental-answering-service",
